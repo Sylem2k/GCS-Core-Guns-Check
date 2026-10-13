@@ -17,7 +17,7 @@ GenericEntity : "{3AF4E16DCBE521C7}Prefabs/Weapons/Rifles/Fleet/Thillium_Longlas
  coords 122.043 1 122.485
 }
 GenericEntity : "{49D04BC0B08E2D08}Prefabs/Weapons/Rifles/Kantrael/Kantrael_SMG.et" {
- coords 120.073 1 115.296
+ coords 120.073 1 115.196
 }
 GenericEntity : "{4E770AF84C275C64}Prefabs/Weapons/Rifles/Kantrael/Kantrael_Carbine.et" {
  coords 118.691 1 119.772

@@ -20,6 +20,17 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
   }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
+    AttachmentSlotComponent "{69F025C7B97B2772}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Offset 0 0.1333 0.3612
+      InspectionWidgetOffset 0 0.1241 0.3847
+     }
+    }
+    AttachmentSlotComponent "{69F025C7B97B7433}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Offset 0 0.0419 0.1517
+     }
+    }
     SCR_2DPIPSightsComponent "{5C1A77E3B0A90120}" {
      SightsPosition PointInfo "{5C1A77E3B0A90121}" {
       PivotID "eye"
@@ -120,5 +131,15 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
     Icon ""
    }
   }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{69F025C7B97AB91E}" {
+      Offset 0 0.0267 0.0898
+     }
+    }
+   }
+  }
  }
+ coords 120.073 1 115.196
 }
