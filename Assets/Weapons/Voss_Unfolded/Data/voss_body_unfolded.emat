@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{22A9B036EF995399}Assets/Weapons/Voss_Unfolded/Data/voss_body_unfolded_BCR.edds"
+ NMOMap "{1A710BA436EE0107}Assets/Weapons/Voss_Unfolded/Data/voss_body_unfolded_NMO.edds"
+}

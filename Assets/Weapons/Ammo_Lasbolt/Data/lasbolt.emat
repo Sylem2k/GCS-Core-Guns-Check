@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 255 70 50 255
+ Emissive 8 2 1.2 1
+ ApplyAlbedoToEmissive 1
+}

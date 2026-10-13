@@ -1,0 +1,80 @@
+GameEntity : "{35D7F1189BE00E94}Prefabs/Items/Equipment/BallisticTable/BallisticTable_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "50mm Revolver Mortar Range Card"
+     Description "Firing table for the 50mm five-round revolver mortar. Single charge: HE, Smoke, Shrapnel Airburst, Illumination and HEAT share one trajectory."
+    }
+   }
+  }
+  MeshObject "{60CA7A7326F832F8}" {
+   Materials {
+    MaterialAssignClass "{5C1A77E3B0A9567A}" {
+     SourceMaterial "RangeTable_01"
+     AssignedMaterial "{798B20DC6F50AD7F}Assets/Items/Misc/BallisticTable/Data/RangeTable_01_M252.emat"
+    }
+    MaterialAssignClass "{5C1A77E3B0A9567B}" {
+     SourceMaterial "RangeTable_01_2B14_MLOD"
+     AssignedMaterial "{F1AD919094330676}Assets/Items/Misc/BallisticTable/Data/RangeTable_01_M252_MLOD.emat"
+    }
+   }
+  }
+  SCR_BallisticTableComponent "{60CAB3ECC903C006}" {
+   m_aPages {
+    SCR_VisualisedBallisticConfig "{5C1A77E3B0A9567C}" : "{E1696BC29326D876}Prefabs/Items/Equipment/BallisticTable/Configs/ExtendedBallisticConfig_M821_HE.conf" {
+     m_sProjectilePrefab "{5C1A77E3B0A95605}Prefabs/Weapons/Ammo/Ammo_Mortar50_HE.et"
+     m_sDisplayedText "50mm Revolver Mortar - HE (single charge)"
+     m_iRangeStep 50
+     m_fStandardDispersion 10
+     m_fMinFireAngle 45
+     m_fMaxFireAngle 87.5
+     m_iMinRange 100
+     m_iMaxRange 1100
+    }
+    SCR_VisualisedBallisticConfig "{5C1A77E3B0A9567D}" : "{1D982F4B52115CBF}Prefabs/Items/Equipment/BallisticTable/Configs/ExtendedBallisticConfig_M819_Smoke.conf" {
+     m_sProjectilePrefab "{5C1A77E3B0A95606}Prefabs/Weapons/Ammo/Ammo_Mortar50_Smoke.et"
+     m_sDisplayedText "50mm Revolver Mortar - Smoke (single charge)"
+     m_iRangeStep 50
+     m_fStandardDispersion 10
+     m_fMinFireAngle 45
+     m_fMaxFireAngle 87.5
+     m_iMinRange 100
+     m_iMaxRange 1100
+    }
+    SCR_VisualisedBallisticConfig "{5C1A77E3B0A9567E}" : "{E1696BC29326D876}Prefabs/Items/Equipment/BallisticTable/Configs/ExtendedBallisticConfig_M821_HE.conf" {
+     m_sProjectilePrefab "{5C1A77E3B0A95608}Prefabs/Weapons/Ammo/Ammo_Mortar50_Airburst.et"
+     m_sDisplayedText "50mm Revolver Mortar - Shrapnel Airburst (single charge)"
+     m_iRangeStep 50
+     m_fStandardDispersion 10
+     m_fMinFireAngle 45
+     m_fMaxFireAngle 87.5
+     m_sAmmoTypeQuadName "ammotype-frag"
+     m_iMinRange 100
+     m_iMaxRange 1100
+    }
+    SCR_VisualisedBallisticConfig "{5C1A77E3B0A95811}" : "{3F76D09973E3AC91}Prefabs/Items/Equipment/BallisticTable/Configs/ExtendedBallisticConfig_M853A1_Illumination.conf" {
+     m_sProjectilePrefab "{5C1A77E3B0A95800}Prefabs/Weapons/Ammo/Ammo_Mortar50_Illum.et"
+     m_sDisplayedText "50mm Revolver Mortar - Illumination (single charge)"
+     m_iRangeStep 50
+     m_fStandardDispersion 10
+     m_fMinFireAngle 45
+     m_fMaxFireAngle 87.5
+     m_iMinRange 100
+     m_iMaxRange 1100
+    }
+    SCR_VisualisedBallisticConfig "{5C1A77E3B0A95689}" : "{E1696BC29326D876}Prefabs/Items/Equipment/BallisticTable/Configs/ExtendedBallisticConfig_M821_HE.conf" {
+     m_sProjectilePrefab "{5C1A77E3B0A95680}Prefabs/Weapons/Ammo/Ammo_Mortar50_HEAT.et"
+     m_sDisplayedText "50mm Revolver Mortar - HEAT (single charge)"
+     m_iRangeStep 50
+     m_fStandardDispersion 10
+     m_fMinFireAngle 45
+     m_fMaxFireAngle 87.5
+     m_iMinRange 100
+     m_iMaxRange 1100
+    }
+   }
+  }
+ }
+}

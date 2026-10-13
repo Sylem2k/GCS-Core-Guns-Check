@@ -1,0 +1,23 @@
+MatPBRBasicGlass : "{2C952C8D17CA881E}Assets/_BaseMaterials/Weapons_MatPBRBasicGlass.emat" {
+ Color 0.09 0.13 0.2 1
+ CastShadow 0
+ NoDecals 1
+ SurfaceProperties "{B0C981E5CF07719D}Common/Materials/Physics/glass.physmat"
+ AlphaTest 0.05
+ AlphaMul 1.036
+ BlendMode AlphaBlend
+ BCRMap "{2D619511F2A7FF78}Assets/_SharedData/Glass/ST_Glass_Optics_01_BCR.edds"
+ OpacityMap "{7B1EE68EC55A68A8}Assets/_SharedData/Glass/ST_Glass_Optics_01_A.edds"
+ GlobalMapsUVTransform MatUVTransform "{5C1A77E3B0A95216}" {
+  TilingU 0.97
+  TilingV 0.97
+  OffsetU 0.015
+  OffsetV 0.012
+ }
+ DetailNormalPower 0.011
+ DetailNormalMap "{7E9A15F454E44987}Assets/_SharedData/Metal/ST_Scratches_03_N.edds"
+ DetailNormalMapUVTransform MatUVTransform "{5C1A77E3B0A95217}" {
+  TilingU 4
+  TilingV 4
+ }
+}

@@ -1,0 +1,14 @@
+Projectile : "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  InventoryItemComponent "{52627A12350994B6}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51888D453FDEC72A}" {
+   Enabled 0
+  }
+  RplComponent "{5188CD84136622B4}" {
+   Enabled 0
+  }
+ }
+}

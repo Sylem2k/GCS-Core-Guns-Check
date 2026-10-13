@@ -1,0 +1,86 @@
+GameEntity {
+ ID "6A7C370F0E8BD1E2"
+ components {
+  ParametricMaterialInstanceComponent "{6A7C370F0E8BD1F0}" {
+   UserParamTwo 0
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  Persistence "{6A7C370F0E8BD205}" {
+  }
+  MeshObject "{6A7C370F0E8BD203}" {
+   Object "{912628C9D857D734}Assets/Characters/HeadGear/AirHelmet/Models/Attachments/CATEARS_UWU_9009.xob"
+   InheritVisibility 1
+  }
+  RigidBody "{6A7C370F0E8BD201}" {
+   SimState Collision
+   ModelGeometry 1
+  }
+  SCR_SoundDataComponent "{6A7C370F0E8BD200}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6A7C370F0E8BD21B}" {
+     m_sSoundProject "{C1AC31AEF1665302}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6A7C370F0E8BD21A}" {
+     m_sSoundProject "{C1AC31AEF1665302}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6A7C370F0E8BD217}" {
+     m_sSoundProject "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6A7C370F0E8BD214}" {
+   Attributes SCR_ItemAttributeCollection "{6A7C370F0E8BD212}" {
+    ItemDisplayName UIInfo "{6A7C370F0E8BD211}" {
+     Name "#AR-Uniform_Name"
+     Description "#AR-Uniform_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A7C370F0E8BD22C}" {
+     Weight 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A7C370F0E8BD22A}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.8
+      FOV 60
+      AspectRatio 1
+      IsDynamicObject 1
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
+  }
+  BaseLoadoutClothComponent "{6A7C370F0E8BD23E}" {
+   WornModel "{8C2EE8D88D5C1027}Assets/Characters/HeadGear/AirHelmet/Models/Attachments/cat ears_w_LODs.xob"
+   ItemModel "{8C2EE8D88D5C1027}Assets/Characters/HeadGear/AirHelmet/Models/Attachments/cat ears_w_LODs.xob"
+   DepthFront 0.015
+  }
+  ActionsManagerComponent "{6A7C370F0E8BD23C}" {
+   ActionContexts {
+    UserActionContext "{6A7C370F0E8BD23A}" {
+     ContextName "default"
+     Position PointInfo "{6A7C370F0E8BD239}" {
+     }
+     Radius 0.5
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{52E6EC76FD9968D7}" : "{F39A4E9B190C1846}Prefabs/Characters/Core/Actions/PickUpItemAction.conf" {
+    }
+    SCR_EquipClothAction "{52E6EC76FC5A5DF1}" : "{83B98F1A96591AC6}Prefabs/Characters/Core/Actions/EquipClothAction.conf" {
+     "Sort Priority" -10
+    }
+   }
+  }
+  RplComponent "{6A7C370F0E8BD235}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6A7C370F0E8BD233}" {
+  }
+ }
+}

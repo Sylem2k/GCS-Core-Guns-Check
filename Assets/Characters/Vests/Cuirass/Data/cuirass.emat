@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A94F03}Assets/Characters/Vests/Cuirass/Data/cuirass_BCR.edds"
+ NMOMap "{5C1A77E3B0A94F04}Assets/Characters/Vests/Cuirass/Data/cuirass_NMO.edds"
+}

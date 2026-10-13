@@ -1,0 +1,65 @@
+AnimSrcGraph {
+ AnimSetTemplate "{5E69310B47528E10}Assets/Weapons/Mortars/workspaces/M252.ast"
+ ControlTemplate AnimSrcGCT "{614ED5D28199EBB5}" {
+  Variables {
+   AnimSrcGCTVarFloat AimY {
+    DefaultValue 45
+    MinValue 45
+    MaxValue 87.5
+   }
+   AnimSrcGCTVarBool Firing {
+   }
+   AnimSrcGCTVarBool InCompartment {
+   }
+   AnimSrcGCTVarFloat Recoil {
+    DefaultValue 1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat AimX {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarBool IsLeftSide {
+   }
+  }
+  Commands {
+   AnimSrcGCTCmd CMD_Item_Action {
+   }
+  }
+  IkChains {
+   AnimSrcGCTIkChain LeftArm {
+    Joints {
+     "leftarm"
+     "leftarmtwist"
+     "leftforearm"
+     "leftforearmtwist"
+     "lefthand"
+    }
+    MiddleJoint "leftforearm"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightArm {
+    Joints {
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
+    }
+    MiddleJoint "rightforearm"
+    ChainAxis "-y"
+   }
+  }
+  GlobalTags {
+   "TURRET"
+   "MORTAR"
+   "M252"
+  }
+ }
+ Debug AnimSrcGD "{614ED5D28199EB89}" {
+ }
+ GraphFilesResourceNames {
+  "{5C1A77E3B0A956D1}Assets/Weapons/Mortar50/Anims/mortar50.agf"
+ }
+ DefaultRunNode "IK 17974"
+}

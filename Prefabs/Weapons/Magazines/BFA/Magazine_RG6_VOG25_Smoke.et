@@ -1,0 +1,22 @@
+GenericEntity : "{5C1A77E3B0A95401}Prefabs/Weapons/Magazines/BFA/Magazine_RG6_VOG25.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "RG-6 Cylinder (6x VOG-25 White Smoke)"
+     Description "Six-round revolving cylinder for the RG-6, loaded with 40 mm white screening smoke. Bursts into a smoke screen on impact."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "RG-6 Smoke Cylinder"
+    m_sAmmoType "Smoke"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags SMOKE
+   }
+   AmmoConfig "{5C1A77E3B0A95406}Configs/Weapons/Ammo/Ammo_RG6_VOG25_Smoke.conf"
+  }
+ }
+}

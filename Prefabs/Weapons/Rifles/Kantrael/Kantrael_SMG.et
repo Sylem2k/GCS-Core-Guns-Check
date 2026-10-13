@@ -1,0 +1,124 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{D19B684F7AF8A7C0}Assets/Weapons/Kantrael_SMG/kantrael_SMG_w_LODs_Drizzt.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Kantrael SMG"
+     Description "Battle Group Arrow compact las-SMG. Full auto only, iron sights."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F025C7B97B7408}" {
+     Weight 2.6
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{7424A6F2135807B2}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_ik.anm"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_2DPIPSightsComponent "{5C1A77E3B0A90120}" {
+     SightsPosition PointInfo "{5C1A77E3B0A90121}" {
+      PivotID "eye"
+      Offset 0 -0.0006 0
+     }
+     SightsRanges {
+      SightRangeInfo "{5C1A77E3B0A90122}" {
+       Range 0 100
+      }
+      SightRangeInfo "{5C1A77E3B0A90123}" {
+       Range 0.005 300
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5C1A77E3B0A90124}" {
+      m_fBaseZoom 1
+      m_fZoomMax 1
+      m_fInterpolationSpeed 50
+     }
+     SightsPointFront PointInfo "{5C1A77E3B0A90125}" {
+      PivotID "barrel_muzzel"
+      Offset 0 0.0382 0
+     }
+     SightsPointRear PointInfo "{5C1A77E3B0A90126}" {
+      PivotID "eye"
+      Offset 0 -0.0006 0.12
+     }
+     ADSTime 0.35
+     m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_bHasIllumination 1
+     m_ReticleColor 1 0.1 0.05 1
+     m_cReticleTextureIllumination 1 0.1 0.05 1
+     m_eZeroingType EPZ_RETICLE_OFFSET
+     m_vCameraOffset 0 0 0.047
+     m_iCameraIndex 9
+     m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
+     m_fObjectiveFov 24
+     m_fReticleAngularSize 18.06
+     m_fReticlePortion 1
+     m_fReticleBaseZoom 0
+     m_fMagnification 1
+     m_fScopeRadius 0.015
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "barrel_muzzel"
+       Angles 0 90 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "barrel_muzzel"
+       Angles 0 90 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 1200
+      }
+     }
+     MagazineWell STC_MagazineWellLasPack_Small "{5DC8FFAF918E6012}" {
+     }
+     DispersionDiameter 0.5
+     DispersionRange 250
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "snap_hand_left"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
+      Offset 0 0 0
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "slot_magazine"
+      Offset 0 0.0268 -0.0088
+      Angles 0 0 0
+     }
+     MagazineTemplate "{03E56CA820077EBB}Prefabs/Weapons/Magazines/BFA/Magazine_LuciusHellgun.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{FCFB17E1E1C4E817}Assets/Weapons/Kantrael_SMG/Anims/kantraelsmg.agr"
+     AnimInstance "{49C5BD3D14FD0AFF}Assets/Weapons/Kantrael_SMG/Anims/kantraelsmg_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{69F025C7B97AB919}" {
+      AnimGraph "{FCFB17E1E1C4E817}Assets/Weapons/Kantrael_SMG/Anims/kantraelsmg.agr"
+      AnimInstance "{3075AB77AF697E81}Assets/Weapons/Kantrael_SMG/Anims/kantraelsmg_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Kantrael SMG"
+    Description "Battle Group Arrow compact las-SMG. Full auto only, iron sights."
+    Icon ""
+   }
+  }
+ }
+}

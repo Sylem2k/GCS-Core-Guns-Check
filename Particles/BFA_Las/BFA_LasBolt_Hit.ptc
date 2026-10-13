@@ -1,0 +1,119 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef flash {
+   ShapeType Sphere
+   ShapeSize 3 3 3
+   MaxNum 3
+   BirthRate 1000
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{77ED367ABC13B69F}Particles/_Materials/Fire/FireBurn_anim_01_Strong_Blurred.emat"
+   SizeMultiplier 0.01
+   RandomRotDir 0
+   RandomAngle 1
+   Velocity 0
+   AnimOnce 0
+   AnimFPS 80
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 0.4
+   LifetimeRND 0
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.045 0.5 0.703 0.321 1 0
+   }
+   Size {
+    0.0009 0.1925 0.9964 0.1481
+   }
+   EmittingTime 0.08
+   Repeat 0
+   EnableLight 1
+   MaxLV 5
+   RelativeLV 1
+   LightColorMast {
+    0 1 0.12 0.06
+   }
+   LightIntensityMast {
+    0 0 0.2 1 0.55 0.8 1 0
+   }
+   LightIntensityResponse 10
+  }
+  EmitterDef burst {
+   ShapeType Point
+   ShapeSize 1 1 1
+   ConeAngle 360 0 180
+   MaxNum 1
+   BirthRate 100
+   Material "{FF4E3F08B66536D5}Particles/_Materials/Fire/FireBurn_anim_04.emat"
+   SizeMultiplier 0.4
+   SizeRND 0.4
+   RandomRotDir 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   AnimOnce 0
+   AnimFPS 350
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 0.05
+   LifetimeRND 0.04
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.258 0.585 0.888 0.933 1 0
+   }
+   Size {
+    0 0 0.9678 0.163
+   }
+   EmittingTime 0.05
+   Repeat 0
+  }
+  EmitterDef scatter {
+   ConeAngle 360 0 180
+   MaxNum 3
+   BirthRate 500
+   LodMin 0
+   LodMax 1
+   Material "{2DF4058A4066E031}Particles/_Materials/Fire/Base_Sparks_07.emat"
+   StretchMultiplier 1.007
+   SizeMultiplier 0.026
+   SizeRND 0
+   ScaleX 0.25
+   ScaleY 0.5
+   CenterY 0
+   BillboardingType Full
+   VelAngle 1
+   RandomAngle 0
+   Velocity 32
+   VelocityRND 30
+   AirResistance 12
+   AirResistanceRND 8
+   WindInfluence 0.1
+   GravityMultiply 0.3
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   RandomFrame 1
+   Lifetime 0.5
+   LifetimeRND 0.25
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EmittingTime 0.08
+   Repeat 0
+  }
+ }
+ MinFPS 30
+ LightOffset 0 0.2 0
+ LightClipEV -16
+ LightRadius 24
+ CastShadow 1
+}

@@ -1,0 +1,25 @@
+GenericEntity : "{6C83E3A52A496DED}Prefabs/Weapons/Magazines/Lasgun_Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Las Marksman Power Cell (15)"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellLasPack_Marksman "{CA7222759F64C491}" {
+   }
+   ItemModel "{7F676B84886AD807}Assets/Weapons/Magazines/LasgunBat/Thillium_Pattern_Long_Las_Bat.xob"
+   MaxAmmo 15
+   AmmoConfig "{4283037ADB3E0475}Configs/Weapons/Ammo/Ammo_Las_Marksman.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{7F676B84886AD807}Assets/Weapons/Magazines/LasgunBat/Thillium_Pattern_Long_Las_Bat.xob"
+  }
+ }
+}

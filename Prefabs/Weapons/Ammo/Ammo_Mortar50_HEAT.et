@@ -1,0 +1,27 @@
+Projectile : "{5C1A77E3B0A95605}Prefabs/Weapons/Ammo/Ammo_Mortar50_HE.et" {
+ ID "50C6F965BA00F9FA"
+ components {
+  AICombatPropertiesComponent "{59C92CB12877478B}" {
+   Priority 2
+   PriorityAgainstVehicles 70
+  }
+  ShellMoveComponent "{20FB66C5FA209A29}" {
+   InitSpeedVariation 0.1
+   DispersionMultiplier 0.25
+  }
+  CollisionTriggerComponent "{5C1A77E3B0A95650}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5C1A77E3B0A95651}" {
+     EffectPrefab "{5C1A77E3B0A95681}Prefabs/Weapons/Warheads/Warhead_Mortar50_HEAT.et"
+     ParticleEffect "{318510C6FB1633D9}Particles/Weapon/Explosion_Mortar_Base.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{5C1A77E3B0A95652}" {
+    }
+    SCR_ExplosionAmmoEffect "{5C1A77E3B0A95653}" {
+    }
+   }
+   SafetyDistance 20
+  }
+ }
+}

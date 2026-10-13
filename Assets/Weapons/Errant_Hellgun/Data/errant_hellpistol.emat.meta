@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{449AD5B62E2476C2}Assets/Weapons/Errant_Hellgun/Data/errant_hellpistol.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

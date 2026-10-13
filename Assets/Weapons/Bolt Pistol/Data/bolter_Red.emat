@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 0.071 0.561 0.192 1
+ ApplyAlbedoToEmissive 1
+ EmissiveMap "{9D98FC67CFBF6AE5}Assets/Weapons/Bolt Pistol/Data/green_textures/bolter_EM.edds"
+ BCRMap "{B67B63887176C4D2}Assets/Weapons/Bolt Pistol/Data/red_textures/bolter_BCR.edds"
+ NMOMap "{E77ABA5C1CDE02B9}Assets/Weapons/Bolt Pistol/Data/green_textures/bolter_NMO.edds"
+}

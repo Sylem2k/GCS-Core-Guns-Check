@@ -1,0 +1,67 @@
+GenericEntity : "{2058187E5777DE28}Prefabs/Weapons/Rifles/Bastion/Lucius_AR.et" {
+ coords 120.69 1 121.148
+}
+GenericEntity : "{2288B3095AE283B6}Prefabs/Weapons/Rifles/Bastion/Lucius_DMR.et" {
+ coords 120.864 1 122.708
+}
+GenericEntity : "{22F1579A6FC2A243}Prefabs/Weapons/Rifles/Bastion/Krieg_SMG.et" {
+ coords 120.835 1.169 115.389
+}
+GenericEntity : "{270BAE92DFC676DB}Prefabs/Weapons/Rifles/Bastion/Lucius_Hellgun.et" {
+ coords 120.873 1 124.527
+}
+GenericEntity : "{323FA98C8B364CA8}Prefabs/Weapons/Rifles/Errant/Errant_Longlas.et" {
+ coords 121.891 1 119.713
+}
+GenericEntity : "{3AF4E16DCBE521C7}Prefabs/Weapons/Rifles/Fleet/Thillium_Longlas.et" {
+ coords 122.043 1 122.485
+}
+GenericEntity : "{49D04BC0B08E2D08}Prefabs/Weapons/Rifles/Kantrael/Kantrael_SMG.et" {
+ coords 120.073 1 115.296
+}
+GenericEntity : "{4E770AF84C275C64}Prefabs/Weapons/Rifles/Kantrael/Kantrael_Carbine.et" {
+ coords 118.691 1 119.772
+}
+GenericEntity : "{4F08C108491DC0B0}Prefabs/Weapons/Rifles/Kantrael/Kantrael_AR.et" {
+ coords 118.588 1 117.744
+}
+GenericEntity : "{52121945A5E29843}Prefabs/Weapons/Rifles/Kantrael/Kantrael_DMR.et" {
+ coords 118.749 1 121.63
+}
+GenericEntity : "{56CD1178C5A4E48C}Prefabs/Weapons/Rifles/Laslock/Laslock.et" {
+ coords 116.309 1 118
+}
+GenericEntity : "{5C1A77E3B0A94E20}Prefabs/Weapons/Handguns/BoltPistol/BoltPistol_Godwyn.et" {
+ coords 119.516 1 120.31
+}
+GenericEntity : "{5C1A77E3B0A94E30}Prefabs/Weapons/Rifles/Shotgun/Krieg_Shotgun.et" {
+ coords 115.19 1 117.857
+}
+GenericEntity : "{5C1A77E3B0A95010}Prefabs/Weapons/Rifles/Accatran/AccatranMk2_Recon.et" {
+ coords 120.004 1 127.441
+}
+GenericEntity : "{5C1A77E3B0A9508A}Prefabs/Weapons/Rifles/Accatran/AccatranMk2_Recon_Blue.et" {
+ coords 119.738 1 119.119
+}
+GenericEntity : "{5C1A77E3B0A950F3}Prefabs/Weapons/Rifles/Accatran/AccatranMk2_Recon_Red.et" {
+ coords 119.477 1 117.522
+}
+GenericEntity : "{5C1A77E3B0A95260}Prefabs/Weapons/Rifles/Accatran/AccatranMk2_Marksman.et" {
+ coords 119.86 1 122.247
+}
+GenericEntity : "{5C1A77E3B0A95320}Prefabs/Weapons/Rifles/Accatran/AccatranMk2_Marksman_Blue.et" {
+ coords 120.094 1 123.99
+}
+GenericEntity : "{5C1A77E3B0A95321}Prefabs/Weapons/Rifles/Accatran/AccatranMk2_Marksman_Red.et" {
+ coords 120.153 1 125.676
+}
+GenericEntity : "{727FF4D9BE64DC7E}Prefabs/Weapons/Grenades/Grenade_PlushRat.et" {
+ coords 119.721 1 120.962
+ angles 0 47.033 0
+}
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ coords 117.307 1 117.835
+}
+GenericEntity : "{E5FC52456834321E}Prefabs/Weapons/Rifles/Hellgun/Hellgun_Base.et" {
+ coords 121.394 1 118.279
+}

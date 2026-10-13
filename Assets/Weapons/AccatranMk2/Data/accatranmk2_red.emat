@@ -1,0 +1,10 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A950F0}Assets/Weapons/AccatranMk2/Data/accatranmk2_red_BCR.edds"
+ NMOMap "{5C1A77E3B0A950F1}Assets/Weapons/AccatranMk2/Data/accatranmk2_red_NMO.edds"
+ DetailNormalPower 0.3
+ DetailNormalMap "{7E9A15F454E44987}Assets/_SharedData/Metal/ST_Scratches_03_N.edds"
+ DetailNormalMapUVTransform MatUVTransform "{1A77E3B0A950D3E3}" {
+  TilingU 4
+  TilingV 4
+ }
+}

@@ -1,0 +1,138 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{3F3E12414AFB4D53}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_Lasgun.acp" "{A6F3D0955462D8FE}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{3486104530630CA2}Assets/Weapons/Cadian_DMR/cadian_DMR_w_LODs.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Kantrael DMR"
+     Description "Battle Group Arrow marksman lasrifle. Deliberate single fire, high-yield las bolt, 4x optic."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F025C7B97B7408}" {
+     Weight 4.2
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{5C1A77E3B0A95350}Assets/Weapons/Cadian_DMR/Anims/p_cadiandmr_ik.anm"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+    }
+    SCR_2DPIPSightsComponent "{5C1A77E3B0A90150}" {
+     m_iCameraIndex 9
+     SightsPosition PointInfo "{5C1A77E3B0A90151}" {
+      PivotID "Eye.005"
+      Offset 0 -0.0194 0
+     }
+     SightsRanges {
+      SightRangeInfo "{5C1A77E3B0A90152}" {
+       Range 0 100
+      }
+      SightRangeInfo "{5C1A77E3B0A90153}" {
+       Range 0.005 300
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5C1A77E3B0A90154}" {
+      m_fBaseZoom 1
+      m_fZoomMax 1
+      m_fInterpolationSpeed 50
+     }
+     SightsPointFront PointInfo "{5C1A77E3B0A90155}" {
+      PivotID "Barrell_Muzzle"
+      Offset -0.0006 0.0099 0
+     }
+     SightsPointRear PointInfo "{5C1A77E3B0A90156}" {
+      PivotID "Eye.005"
+      Offset 0 -0.0194 0.085
+     }
+     ADSTime 0.35
+     m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_ReticleColor 1 0.1 0.05 1
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 1 0.1 0.05 1
+     m_eZeroingType EPZ_RETICLE_OFFSET
+     m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
+     m_fObjectiveFov 24
+     m_fReticleAngularSize 18.06
+     m_fReticlePortion 1
+     m_fReticleBaseZoom 0
+     m_fMagnification 1
+     m_vCameraOffset 0 0 0.045
+     m_fScopeRadius 0.0106
+    }
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "Scene_Root"
+      Offset 0.0012 -0.0007 -0.0069
+      Prefab "{7D79321B31AE5DE1}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_lasgun_test.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "Snap_Hand_Left.006"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "Snap_Hand_Right.005"
+      Offset 0 0 0
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "Scene_Root"
+       Offset 0 0.06 0.7
+       Angles 0 0 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "Scene_Root"
+       Offset 0 0.06 0.7
+       Angles 0 0 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 26
+      }
+     }
+     MagazineWell STC_MagazineWellLasPack_Marksman "{6CA5BF0096DFA490}" {
+     }
+     DispersionDiameter 0.15
+     DispersionRange 600
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "Slot_Magazine.005"
+      Offset 0 -0.01 -0.15
+      Angles 0 180 0
+     }
+     MagazineTemplate "{42C895E43439ABA1}Prefabs/Weapons/Magazines/Kantrael/Magazine_Kantrael_DMR_15rnd.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{9821CD00A72A31EA}Assets/Weapons/Rifles/workspaces/m21.agr"
+     AnimInstance "{4E858695D2DC5EEC}Assets/Weapons/Rifles/workspaces/m21_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{69F025C7B97AB919}" {
+      AnimGraph "{9821CD00A72A31EA}Assets/Weapons/Rifles/workspaces/m21.agr"
+      AnimInstance "{B5DB17A44ADD3A00}Assets/Weapons/Rifles/workspaces/m21_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Kantrael DMR"
+    Description "Battle Group Arrow marksman lasrifle. Deliberate single fire, high-yield las bolt, 4x optic."
+    Icon ""
+   }
+  }
+ }
+}

@@ -1,0 +1,107 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{0C6B6D6ABE1E5EE1}Assets/Weapons/Kantrael_AR/kantrael ar_w_LODs_drizzt.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Kantrael Assault Rifle"
+     Description "Battle Group Arrow standard-issue lasrifle. Single fire and sustained full auto, 4x optic."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F025C7B97B7408}" {
+     Weight 3.6
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+    }
+    SCR_2DPIPSightsComponent "{5C1A77E3B0A90110}" {
+     m_iCameraIndex 9
+     SightsPosition PointInfo "{5C1A77E3B0A90111}" {
+      PivotID "eye"
+      Offset 0 -0.0005 0
+     }
+     SightsRanges {
+      SightRangeInfo "{5C1A77E3B0A90112}" {
+       Range 0 100
+      }
+      SightRangeInfo "{5C1A77E3B0A90113}" {
+       Range 0.005 300
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5C1A77E3B0A90114}" {
+      m_fBaseZoom 1
+      m_fZoomMax 1
+      m_fInterpolationSpeed 50
+     }
+     SightsPointFront PointInfo "{5C1A77E3B0A90115}" {
+      PivotID "barrel_muzzle"
+      Offset -0.0005 0.0386 0
+     }
+     SightsPointRear PointInfo "{5C1A77E3B0A90116}" {
+      PivotID "eye"
+      Offset 0 -0.0005 0.12
+     }
+     ADSTime 0.35
+     m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_ReticleColor 1 0.1 0.05 1
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 1 0.1 0.05 1
+     m_eZeroingType EPZ_RETICLE_OFFSET
+     m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
+     m_fObjectiveFov 24
+     m_fReticleAngularSize 18.06
+     m_fReticlePortion 1
+     m_fReticleBaseZoom 0
+     m_fMagnification 1
+     m_vCameraOffset 0 0 0.054
+     m_fScopeRadius 0.015
+    }
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "Scene_Root"
+      Prefab "{7D79321B31AE5DE1}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_lasgun_test.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "snap_hand_left"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
+      Offset 0 0 0
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 300
+      }
+      BaseFireMode "{72B1C49284C729AD}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 180
+       UIName "Sustained"
+      }
+     }
+     MagazineWell STC_MagazineWellLasPack_Standard "{636A94BEBEE48573}" {
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0866 -0.011
+      Angles 0 180 0
+     }
+     MagazineTemplate "{3CECDB330CB23AF4}Prefabs/Weapons/Magazines/Kantrael/Magazine_Kantrael_AR_40rnd.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Kantrael Assault Rifle"
+    Description "Battle Group Arrow standard-issue lasrifle. Single fire and sustained full auto, 4x optic."
+    Icon ""
+   }
+  }
+ }
+}

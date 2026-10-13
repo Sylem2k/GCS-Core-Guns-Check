@@ -1,0 +1,59 @@
+Projectile : "{D40A105437369C1D}Prefabs/Weapons/Core/Ammo_GrenadeLauncher_Base.et" {
+ ID "50C6F965BA00F9FA"
+ components {
+  SCR_ShellSoundComponent "{60C2960A4FB4346A}" {
+   Filenames {
+    "{5690822984961E30}Sounds/Weapons/_SharedData/ProjectileTravelling/Weapons_ProjectileTravelling_Mortar_Generic.acp"
+   }
+  }
+  AICombatPropertiesComponent "{59C92CB12877478B}" {
+   Priority 6
+   PriorityAgainstVehicles 40
+   UsedAgainst 0 0x3f
+   IndirectlyUsedAgainst 0 0x3f
+  }
+  CollisionTriggerComponent "{5C1A77E3B0A95650}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5C1A77E3B0A95651}" {
+     EffectPrefab "{5C1A77E3B0A95607}Prefabs/Weapons/Warheads/Warhead_Mortar50_HE.et"
+     ParticleEffect "{318510C6FB1633D9}Particles/Weapon/Explosion_Mortar_Base.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{5C1A77E3B0A95652}" {
+    }
+    SCR_ExplosionAmmoEffect "{5C1A77E3B0A95653}" {
+    }
+   }
+   "Trigger Offset" 0 0 -0.05
+   SafetyDistance 30
+  }
+  InventoryItemComponent "{52627A12350994B6}" {
+   Enabled 0
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{5C1A77E3B0A95613}Assets/Weapons/Mortar50/Shell50.xob"
+  }
+  ShellMoveComponent "{20FB66C5FA209A29}" {
+   InitSpeed 114
+   InitSpeedVariation 1
+   Mass 1.1
+   TimeToLive 60
+   BallisticTableConfig "{5C1A77E3B0A95660}Configs/Weapons/Ammo/Ammo_Mortar50_BallisticTable.conf"
+   BallisticTableGenerationConfig "{ACA14C2861AFEF28}Prefabs/Weapons/Core/MortarBallisticTableGeneratorConfig.conf"
+   ProjectileWindTableConfig "{5C1A77E3B0A95671}Configs/Weapons/Ammo/WindData/WindData_Mortar50.conf"
+   AirDrag 0.0002
+   Diameter 50
+   Length 330
+  }
+  ActionsManagerComponent "{51888D453FDEC72A}" {
+   Enabled 0
+  }
+  RplComponent "{5188CD84136622B4}" {
+   Enabled 0
+  }
+  Hierarchy "{5C1A77E3B0A95654}" {
+  }
+ }
+ ProjectileModel "{5C1A77E3B0A95613}Assets/Weapons/Mortar50/Shell50.xob"
+ CartridgeModel "{5C1A77E3B0A95613}Assets/Weapons/Mortar50/Shell50.xob"
+}

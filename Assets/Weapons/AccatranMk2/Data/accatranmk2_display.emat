@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 1 1 1 1
+ ApplyAlbedoToEmissive 1
+ EmissiveMap "{5C1A77E3B0A950E3}Assets/Weapons/AccatranMk2/Data/accatranmk2_display_EM.edds"
+ BCRMap "{5C1A77E3B0A950E1}Assets/Weapons/AccatranMk2/Data/accatranmk2_display_BCR.edds"
+ NMOMap "{5C1A77E3B0A950E2}Assets/Weapons/AccatranMk2/Data/accatranmk2_display_NMO.edds"
+}

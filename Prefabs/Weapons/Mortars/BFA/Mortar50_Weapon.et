@@ -1,0 +1,105 @@
+GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{BAFA286ACB945CF7}Sounds/Weapons/Mortars/M252/Weapons_Mortars_M252_Shot.acp"
+   }
+   IncludeInactive 1
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object ""
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "50mm Revolver Mortar"
+     Description "Five-chamber revolving 50mm mortar."
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID ""
+      Offset -0.1623 0.881 -0.083
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       Enabled 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{C0C3C093C334F10D}Particles/Weapon/Muzzle_Mortar.ptc"
+       EnabledOnDedicatedServer 1
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        PivotID ""
+        Offset 0 1.32 0.03
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID ""
+       Offset 0 1.3 0.03
+       Angles 90 0 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID ""
+       Offset 0 1.22 0.03
+       Angles 90 0 0
+      }
+     }
+     ChamberedAmmo 0
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 40
+      }
+     }
+     MagazineWell STC_MagazineWellMortar50 "{5C1A77E3B0A95640}" {
+     }
+     DispersionDiameter 2
+     DispersionRange 400
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_bShowCaliber 1
+      m_sCaliber "50 mm"
+     }
+     ReloadDuration 4
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID ""
+      Offset 0 0.38 0.098
+      ChildPivotID ""
+     }
+     MagazineTemplate ""
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "50mm Revolver Mortar"
+    Description "Five-chamber revolving 50mm mortar."
+    m_bShowWeaponName 1
+   }
+   CanBeOnSling 0
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      PivotID ""
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      PivotID ""
+     }
+    }
+   }
+  }
+ }
+}

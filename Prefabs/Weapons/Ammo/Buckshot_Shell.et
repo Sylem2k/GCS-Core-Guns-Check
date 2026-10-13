@@ -1,0 +1,45 @@
+TracerProjectile : "{AC26AB660097633D}Prefabs/Weapons/Ammo/Ammo_556x45_Ball_M855.et" {
+ ID "5C1A77E3B0A95040"
+ components {
+  TimerTriggerComponent "{5C1A77E3B0A95041}" {
+   PROJECTILE_EFFECTS {
+    STC_ShotgunSpreadEffect "{5C1A77E3B0A95042}" {
+     Enabled 1
+     m_sPelletPrefab "{5C1A77E3B0A94E32}Prefabs/Weapons/Ammo/Buckshot_Pellet.et"
+     m_iPelletCount 16
+     m_fSpreadAngle 2
+    }
+   }
+   TIMER 0.01
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 100
+   InitSpeedVariation 0
+   TimeToLive 1.5
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 18
+    }
+    AIHitEffect "{C422E51CCDDF6BD3}" {
+    }
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+    }
+    ProjectileDamage "{9E33D5F4E5F249C4}" {
+     DamageValue 11
+     DamageType Collision
+     DamageEffects {
+      SCR_CollisionDamageEffect "{7F52DBFB80203F78}" {
+      }
+     }
+    }
+   }
+   AirDrag 0.0025
+   Diameter 8.4
+   Length 8.4
+   PenetrationDepth 1
+  }
+ }
+ SpawnAsCartridge 0
+}

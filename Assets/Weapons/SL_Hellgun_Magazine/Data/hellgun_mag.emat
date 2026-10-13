@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{BC0FB750A8DE24F0}Assets/Weapons/SL_Hellgun_Magazine/Data/hellgun_mag_BCR.edds"
+ NMOMap "{84D70CC271A9766E}Assets/Weapons/SL_Hellgun_Magazine/Data/hellgun_mag_NMO.edds"
+}

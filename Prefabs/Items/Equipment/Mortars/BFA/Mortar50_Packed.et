@@ -1,0 +1,71 @@
+GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{618CCE7DA704C856}" {
+   Object "{5C1A77E3B0A95611}Assets/Weapons/Mortar50/Mortar50_Packed.xob"
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "50mm Revolver Mortar (packed)"
+     Description "Single-piece 50mm five-round revolver mortar. Carry it on your back, drop it and assemble it in place. Feeds from 5-round mortar cells."
+     m_aItemHints {
+      SCR_DeployableHintUIInfo "{6550AB11AF606194}" {
+       Description "50mm Revolver Mortar"
+      }
+      SCR_InventoryItemHintUIInfo "{5C1A77E3B0A95644}" : "{CD2C954E8E9D618B}Configs/Inventory/ItemHints/DeployableItem_WearableBackslot_ItemHint.conf" {
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 18
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5C1A77E3B0A95645}" {
+      CameraOrbitAngles -20 -40 0
+      CameraDistanceToItem 1.3
+     }
+    }
+   }
+   WbPlacementFromAttributes 0
+  }
+  SCR_MultiPartDeployableItemComponent "{61B46B9C8F38F759}" {
+   m_aVariants {
+    SCR_DeployableVariantContainer "{5C1A77E3B0A95646}" {
+     m_sReplacementPrefab "{5C1A77E3B0A95600}Prefabs/Weapons/Mortars/BFA/Mortar50_Deployed.et"
+     m_sPreviewObject "{5C1A77E3B0A95610}Assets/Weapons/Mortar50/Mortar50_Deployed.xob"
+     m_fMaxAllowedTilt 25
+     m_SurfaceValidator SCR_NoVehicleSurfaceValidation "{5C1A77E3B0A95647}" {
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{618CCE7DB8D53A4E}" {
+   WornModel "{0E51B2B42FDA7DFD}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Backpack_TeamWeaponBag.xob"
+   WornMaterialsOverride {
+    "{8264AE9AB6E662D4}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Data/Backpack_TeamWeaponBag_US.emat"
+   }
+   ItemModel "{5C1A77E3B0A95611}Assets/Weapons/Mortar50/Mortar50_Packed.xob"
+   DeflatedModel "{1478285B39FB7CD0}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Backpack_TeamWeaponBag_Inflated.xob"
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0 0
+     }
+     Radius 0.9
+    }
+   }
+   additionalActions {
+    SCR_DeployMultiPartInventoryItemAction "{61B48E9F0815DDEA}" {
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Description "50mm Revolver Mortar"
+     }
+     Duration 5.5
+     m_eRequiredGadget BUILDING_TOOL
+    }
+   }
+  }
+ }
+}

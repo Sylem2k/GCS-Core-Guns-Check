@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C8036BDDA9556CB9}Assets/Weapons/Voss_Magazine/Data/magazinesteel.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

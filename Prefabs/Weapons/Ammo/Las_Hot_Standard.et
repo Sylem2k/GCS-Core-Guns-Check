@@ -1,0 +1,20 @@
+TracerProjectile : "{5C1A77E3B0A95310}Prefabs/Weapons/Ammo/STC_LasBolt_Hot.et" {
+ ID "5C1A77E3B0A95311"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 22
+    }
+    ProjectileDamage "{9E33D5F4E5F249C4}" {
+     DamageValue 22
+     DamageType Collision
+     DamageEffects {
+      SCR_CollisionDamageEffect "{7F52DBFB80203F78}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

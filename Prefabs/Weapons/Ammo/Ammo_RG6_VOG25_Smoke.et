@@ -1,0 +1,27 @@
+Projectile : "{BDD18BEEC1165353}Prefabs/Weapons/Ammo/Ammo_Grenade_Smoke_M713_Red.et" {
+ ID "50C6F965BA00F9FA"
+ components {
+  CollisionTriggerComponent "{66BEC8FCB8DCCFD0}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{693AB5DAF00EF49A}" {
+     EffectPrefab "{5C1A77E3B0A95404}Prefabs/Weapons/Warheads/Warhead_RG6_Smoke_White.et"
+    }
+   }
+  }
+  InventoryItemComponent "{52627A12350994B6}" {
+   Enabled 0
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{52512E76CB91B0B1}Assets/Weapons/Ammo/Grenades/Flare_40mm_VOG40OP_White/Flare_40mm_VG40OP_White.xob"
+  }
+  ActionsManagerComponent "{51888D453FDEC72A}" {
+   Enabled 0
+  }
+  RplComponent "{5188CD84136622B4}" {
+   Enabled 0
+  }
+ }
+ ProjectileModel "{52512E76CB91B0B1}Assets/Weapons/Ammo/Grenades/Flare_40mm_VOG40OP_White/Flare_40mm_VG40OP_White.xob"
+ CartridgeModel "{52512E76CB91B0B1}Assets/Weapons/Ammo/Grenades/Flare_40mm_VOG40OP_White/Flare_40mm_VG40OP_White.xob"
+ CartridgeLayerPreset "ItemFireView"
+}

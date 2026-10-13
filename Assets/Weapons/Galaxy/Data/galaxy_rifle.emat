@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{B00D956CB3757BD1}Assets/Weapons/Galaxy/Data/DefaultMaterial_BCR.edds"
+ NMOMap "{88D52EFE6A02294F}Assets/Weapons/Galaxy/Data/DefaultMaterial_NMO.edds"
+}

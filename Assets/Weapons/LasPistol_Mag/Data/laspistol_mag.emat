@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{C935C1055EDC5DEF}Assets/Weapons/LasPistol_Mag/Data/DefaultMaterial_BCR.edds"
+ NMOMap "{F1ED7A9787AB0F71}Assets/Weapons/LasPistol_Mag/Data/DefaultMaterial_NMO.edds"
+}

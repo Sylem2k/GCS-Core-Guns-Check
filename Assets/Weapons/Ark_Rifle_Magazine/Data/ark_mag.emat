@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{4B5741F5EE3D67D4}Assets/Weapons/Ark_Rifle_Magazine/Data/ark mag_BCR.edds"
+ NMOMap "{738FFA67374A354A}Assets/Weapons/Ark_Rifle_Magazine/Data/ark mag_NMO.edds"
+}

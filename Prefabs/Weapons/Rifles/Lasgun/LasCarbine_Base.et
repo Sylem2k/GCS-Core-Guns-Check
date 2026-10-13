@@ -1,0 +1,354 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{5C1A77E3B0A94D21}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_Lasgun_Bass.acp" "{A6F3D0955462D8FE}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{00F7B9B1A0D3C622}Assets/Weapons/Voss_Unfolded/voss_unfolded_w_LODs.xob"
+  }
+  RigidBody "{69F025C7B97B7461}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{69F025C7B97B7417}" {
+   m_fDamage 20
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#AR-Weapon_M16A2_Name"
+     Description "#AR-Weapon_M16A2_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F025C7B97B7408}" {
+     Weight 3.5
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 1500
+     RestingUP Left
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
+     AnimationIKPose "{90219595CD0EB51D}Assets/Weapons/Rifles/M16A2/anims/anm/p_m16_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{69F025C7B97B7402}" {
+        "Point info" DeploymentPointInfo dp {
+         PivotID "Scene_Root"
+         Offset 0 0.0777 0.4321
+        }
+        StabilizationSize 0.05 0.12 0.37
+       }
+      }
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_fRecoilTarget 0.075
+      m_vTranslationMin 0.004 0.004 0
+      m_vTranslationMax 0.006 0.006 0
+      m_vRotationImpulseMin 0 0 13
+      m_vRotationImpulseMax 0 0 16
+     }
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraDistanceToItem 1
+      FOV 30
+      AspectRatio 3
+     }
+     ItemOneHandAnimAttributes "{69F025C7B97B7405}" {
+      ErectLinearOffsetUpper 0 0 0
+      ErectLinearOffset 0.018 -0.2 -0.1
+      ErectLinearOffsetLower 0.018 -0.05 0
+      CrouchLinearOffsetUpper 0 0 0
+      CrouchLinearOffset 0.018 -0.16 -0.1
+      CrouchLinearOffsetLower 0 -0.15 0
+      SpringCoefficient 2.2
+      DamperCoefficient 2.4
+     }
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{69F025C7B97B743A}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69F025C7B97B2772}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      PivotID "slot_barrel_muzzle"
+      Offset 0 -0.0294 0.0047
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0 0.0486 0.4467
+     }
+     AttachmentType AttachmentBayonetM9 "{69F025C7B97B2777}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{69F025C7B97B7433}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      PivotID "slot_hand_guard"
+      DeactivatePhysicsOnAtaching 1
+      InspectionWidgetOffset 0 0.0789 0.2607
+     }
+     AttachmentType AttachmentHandGuardM16 "{69F025C7B97B7430}" {
+     }
+    }
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optic"
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0 0.1222 0.0283
+     }
+     AttachmentType AttachmentOpticsCarryHandle "{69F025C7B97B743C}" {
+     }
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset 0 0 -0.01
+     }
+     SightsRanges {
+      SightRangeInfo "{69F025C7B97B276B}" {
+       Range 0.213 200
+       WeaponPosition PointInfo "{69F025C7B97B27CC}" {
+        Offset 0 -0.0012 0
+        Angles 0.11 0 0
+       }
+      }
+      SightRangeInfo "{69F025C7B97B27CF}" {
+       Range 0.314 300
+       WeaponPosition PointInfo "{69F025C7B97B27CE}" {
+        Offset 0 -0.0019 0
+        Angles 0.18 0 0
+       }
+      }
+      SightRangeInfo "{69F025C7B97B27C1}" {
+       Range 0.44 400
+       WeaponPosition PointInfo "{69F025C7B97AE2E3}" {
+        Offset 0 -0.0026 0
+        Angles 0.24 0 0
+       }
+      }
+      SightRangeInfo "{69F025C7B97AE2E2}" {
+       Range 0.59 500
+       WeaponPosition PointInfo "{69F025C7B97AE2E1}" {
+        Offset 0 -0.0035 0
+        Angles 0.33 0 0
+       }
+      }
+      SightRangeInfo "{69F025C7B97AB7EE}" {
+       Range 0.76 600
+       WeaponPosition PointInfo "{69F025C7B97AB7EF}" {
+        Offset 0 -0.0045 0
+        Angles 0.42 0 0
+       }
+      }
+      SightRangeInfo "{69F025C7B97AB6CA}" {
+       Range 0.927 700
+       WeaponPosition PointInfo "{69F025C7B97AB6CD}" {
+        Offset 0 -0.0059 0
+        Angles 0.55 0 0
+       }
+      }
+      SightRangeInfo "{69F025C7B97AB6F7}" {
+       Range 0.995 800
+       WeaponPosition PointInfo "{69F025C7B97AB6F6}" {
+        Offset 0 -0.0074 0
+        Angles 0.69 0 0
+       }
+      }
+     }
+     SightsRangesDefaultIndex 1
+     SightsPointFront PointInfo "{69F025C7B97AB6F9}" {
+      Offset 0 0.1444 0.4649
+     }
+     SightsPointRear PointInfo "{69F025C7B97AB6FB}" {
+      PivotID "w_sight"
+      Offset 0 0.0076 0
+     }
+     m_iOpticDOFDistanceScale 30
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{69F025C7B97AB6FD}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        PivotID "slot_barrel_muzzle"
+        ChildPivotID "snap_barrel_muzzle"
+        InspectionWidgetOffset 0 0.0826 0.61
+       }
+       AttachmentType AttachmentMuzzle556_45 "{69F025C7B97AB6FF}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       Enabled 0
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+        PivotID "barrel_chamber"
+        Offset 0.015 0.006 -0.055
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{DDF8E6F5BCEABCCC}Particles/Weapon/Muzzle_M16A2_Open.ptc"
+       ResetOnFire 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 800
+      }
+     }
+     MagazineWell STC_MagazineWellLasPack_Standard "{69F025C7B97AB6E5}" {
+     }
+     DispersionDiameter 0.4
+     DispersionRange 400
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+       "Lower Translation" 0.05 -0.005 -0.013
+       "Lower Rotation" -10 -8 -10
+      }
+      RecoilWeaponAimModifier "{69F025C7B97AB6E6}" {
+       LinearData RecoilData "{69F025C7B97AB6E8}" {
+        "Curve X" {
+         0 0.5 0.034 0.553 0.051 0.905 0.203 0.641 0.301 0.518 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.071 0.65 0.095 0.5 0.261 0.5 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.008 0.809 0.026 0.997 0.032 0.944 0.046 0.948 0.081 0.62 0.177 0.512 0.436 0.5 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.001 -0.022
+        "Curve Maxs" 0 -0.001 -0.018
+        "Base Recoil Scale" 6
+       }
+       AngularData RecoilData "{69F025C7B97AB6EB}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.038 0.796 0.093 1 0.222 0.765 0.349 0.571 0.529 0.508 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.033 0.641 0.049 0.892 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Time Scale" 1.25
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -1 1.5 1
+        "Curve Maxs" 1 1.8 1
+        "Base Recoil Scale" 6
+       }
+       TurnOffsetData RecoilData "{69F025C7B97AB6EA}" {
+        "Curve X" {
+         0 0.5 0.06 1 0.093 0.752 0.116 0.539 0.148 0.502 1 0.5
+        }
+        "Curve Y" {
+         0.031 0.998 0.105 0.576 0.236 0.5 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 0
+        "Curve Mins" -1.5 4.5 0
+        "Curve Maxs" 1.5 6 0
+        "Base Recoil Scale" 6
+       }
+      }
+      ZeroingWeaponAimModifier "{69F025C7B97AB911}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{565ECB55D6F6D63D}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "Snap_Hand_Left"
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "Snap_Hand_Right"
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+      Offset 0 0.041 -0.3423
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "Slot_Magazine"
+      Offset 0 -0.0866 -0.0108
+      Angles 0 180 0
+      InspectionWidgetOffset 0 -0.0431 0.0743
+     }
+     MagazineTemplate "{6C83E3A52A496DED}Prefabs/Weapons/Magazines/Lasgun_Magazine_Base.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+     AnimInstance "{278604E4583F2647}Assets/Weapons/Rifles/workspaces/m16_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{69F025C7B97AB919}" {
+      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+      AnimInstance "{DCD895D5C03E42AB}Assets/Weapons/Rifles/workspaces/m16_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   obstructionTestAddedLength 0.05
+   signiObstrWeaponMaxZOffset 0.25
+   obstructionTestBBScale 0.08 0.08 0.08
+   SoundInt 1020200
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#AR-Weapon_M16A2_Name"
+    Description "#AR-Weapon_M16A2_Description"
+    Icon ""
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 -0.0178 -0.053
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      Offset 0 0.0745 0.4719
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{69F025C7B97AB91F}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0493 -0.0254
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{69F025C7B97AB91E}" {
+      PivotID "w_fire_mode"
+      Angles 0 -90 0
+     }
+     Radius 0.05
+     Omnidirectional 0
+    }
+    UserActionContext "{618A84270A2BFDC0}" {
+     UIInfo SCR_ActionContextUIInfo "{618A842787792024}" : "{970293F8561231D4}Configs/UI/NearbyInteractionContext/NearbyContextWeapons.conf" {
+     }
+     Position PointInfo "{618A842792A66B70}" {
+      Offset 0 0.0009 0.0047
+     }
+    }
+    UserActionContext "{69F025C7B97AB903}" {
+     UIInfo SCR_ActionContextUIInfo "{6104781998187301}" : "{970293F8561231D4}Configs/UI/NearbyInteractionContext/NearbyContextWeapons.conf" {
+     }
+     ContextName "bayonet"
+     Position PointInfo "{69F025C7B97AB905}" {
+      PivotID "slot_barrel_muzzle"
+      Offset 0 -0.0278 -0.1254
+     }
+     Radius 0.1
+    }
+    UserActionContext "{69F025C7B97AB904}" {
+     ContextName "optic"
+     Position PointInfo "{69F025C7B97A94AD}" {
+      Offset 0 0.1351 0.0448
+     }
+     Radius 0.075
+    }
+   }
+  }
+ }
+}

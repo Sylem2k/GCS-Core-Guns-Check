@@ -1,0 +1,18 @@
+GenericEntity : "{5C1A77E3B0A95601}Prefabs/Weapons/Mortars/BFA/Mortar50_Weapon.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      STC_MortarRecoilEffectComponent "{5C1A77E3B0A959A2}" {
+       EnabledOnDedicatedServer 1
+       m_fRecoilImpulse 8000
+       m_vRecoilPointLocal 0 0.35 -1.9
+      }
+     }
+    }
+   }
+  }
+ }
+}

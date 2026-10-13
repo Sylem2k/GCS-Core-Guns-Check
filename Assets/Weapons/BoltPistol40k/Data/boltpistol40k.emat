@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A94E02}Assets/Weapons/BoltPistol40k/Data/boltpistol40k_BCR.edds"
+ NMOMap "{5C1A77E3B0A94E03}Assets/Weapons/BoltPistol40k/Data/boltpistol40k_NMO.edds"
+}

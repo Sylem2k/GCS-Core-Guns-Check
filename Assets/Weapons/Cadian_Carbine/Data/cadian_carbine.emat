@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{1AC32DF2415E3890}Assets/Weapons/Cadian_Carbine/Data/Material_BCR.edds"
+ NMOMap "{221B966098296A0E}Assets/Weapons/Cadian_Carbine/Data/Material_NMO.edds"
+}

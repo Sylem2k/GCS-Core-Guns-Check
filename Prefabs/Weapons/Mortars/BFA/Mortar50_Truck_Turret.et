@@ -1,0 +1,16 @@
+Turret : "{5C1A77E3B0A95710}Prefabs/Weapons/Mortars/BFA/Mortar50_Emplaced.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  RigidBody "{51ACD09C423F175F}" {
+   SimState None
+  }
+  SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "50mm Revolver Mortar (truck mount)"
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{5C1A77E3B0A959A0}Prefabs/Weapons/Mortars/BFA/Mortar50_Weapon_Truck.et"
+  }
+ }
+}

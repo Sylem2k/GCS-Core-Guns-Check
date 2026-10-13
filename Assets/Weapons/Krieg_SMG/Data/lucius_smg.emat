@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{4D56BB4EE427CED0}Assets/Weapons/Krieg_SMG/Data/lucius smg_BCR.edds"
+ NMOMap "{758E00DC3D509C4E}Assets/Weapons/Krieg_SMG/Data/lucius smg_NMO.edds"
+}

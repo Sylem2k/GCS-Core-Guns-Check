@@ -1,0 +1,94 @@
+GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
+ ID "5C1A77E3B0A95220"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5C1A77E3B0A95221}" {
+     Name "Accatran Mk II Marksman Optic 3.5-12x"
+     Description "Variable 3.5-12x optic cut for the Accatran Mk II marksman lasrifle carry handle. Front-focal-plane mil reticle."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5C1A77E3B0A95222}" {
+     Weight 0.4
+     ItemVolume 250
+     RestingUP Right
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType STC_AttachmentOpticsAccatran "{5C1A77E3B0A95223}" {
+      }
+     }
+    }
+   }
+  }
+  MeshObject "{5C1A77E3B0A95224}" {
+   Object "{5C1A77E3B0A95210}Assets/Weapons/Accatran_Scope/accatran_scope.xob"
+  }
+  SCR_2DPIPSightsComponent "{5C1A77E3B0A95225}" {
+   SightsPosition PointInfo "{5C1A77E3B0A95226}" {
+    PivotID ""
+    Offset -0.0040 0.0080 -0.3450
+   }
+   SightsRanges {
+    SightRangeInfo "{5C1A77E3B0A95227}" {
+     Range 0 100
+    }
+    SightRangeInfo "{5C1A77E3B0A95228}" {
+     Range 0.004 200
+    }
+    SightRangeInfo "{5C1A77E3B0A95229}" {
+     Range 0.012 300
+    }
+    SightRangeInfo "{5C1A77E3B0A9522A}" {
+     Range 0.024 400
+    }
+    SightRangeInfo "{5C1A77E3B0A9522B}" {
+     Range 0.04 500
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{5C1A77E3B0A9522C}" {
+    m_fBaseZoom 3.5
+    m_fZoomMax 12
+    m_fStepZoomSize 1.5
+    m_fInterpolationSpeed 50
+   }
+   SightsPointFront PointInfo "{5C1A77E3B0A9522D}" {
+    PivotID ""
+    Offset -0.0040 0.0080 0.1714
+   }
+   SightsPointRear PointInfo "{5C1A77E3B0A9522E}" {
+    PivotID ""
+    Offset -0.0040 0.0080 -0.2396
+   }
+   ADSTime 0.45
+   m_sReticleTexture "{5C1A77E3B0A95214}Assets/Weapons/Sights/STC_Accatran4x/STC_Accatran4x_reticle_UI.edds"
+   m_sReticleGlowTexture "{5C1A77E3B0A95214}Assets/Weapons/Sights/STC_Accatran4x/STC_Accatran4x_reticle_UI.edds"
+   m_bHasIllumination 1
+   m_cReticleTextureIllumination 0.9 0.08 0.04 1
+   m_eZeroingType EPZ_RETICLE_OFFSET
+   m_fReticleOffsetInterpSpeed 40
+   m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
+   m_fObjectiveFov 6.78
+   m_fReticleAngularSize 1.375
+   m_fReticlePortion 1
+   m_fReticleBaseZoom 0
+   m_fMagnification 3.5
+   m_fScopeRadius 0.02022
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     Position PointInfo "{5284E0EFC526E6F0}" {
+      Offset 0 0.01 -0.03
+     }
+    }
+   }
+   additionalActions {
+    SCR_AttachItemFromInventoryAction "{5C1A77E3B0A95231}" {
+     ParentContextList {
+      "optic"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+GenericEntity : "{FB2C40F558435212}Prefabs/Weapons/Warheads/Warhead_Shell_Smoke_M713_Red.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    SpawnParticleEffect "{693AB5D6500E77E9}" {
+     ParticleEffect "{273A8DD1950A31DA}Particles/Weapon/Smoke_Mortar_Shell.ptc"
+    }
+   }
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{273A8DD1950A31DA}Particles/Weapon/Smoke_Mortar_Shell.ptc"
+  }
+ }
+}

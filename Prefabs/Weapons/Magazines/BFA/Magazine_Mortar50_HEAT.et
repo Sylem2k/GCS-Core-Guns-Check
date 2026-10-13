@@ -1,0 +1,21 @@
+GenericEntity : "{5C1A77E3B0A95603}Prefabs/Weapons/Magazines/BFA/Magazine_Mortar50_HE.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "50mm Mortar Cell (5x HEAT)"
+     Description "Five-chamber revolving cell for the 50mm revolver mortar, loaded with shaped-charge bombs. Small blast and very little fragmentation, but the jet punches about 200 mm of armour - a top-attack round for vehicles and hardened positions."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "50mm Cell HEAT"
+    m_sAmmoType "HEAT"
+    m_eAmmoTypeFlags HEAT
+   }
+   AmmoConfig "{5C1A77E3B0A95682}Configs/Weapons/Ammo/Ammo_Mortar50_HEAT.conf"
+  }
+ }
+}

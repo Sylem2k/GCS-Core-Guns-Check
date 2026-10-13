@@ -1,0 +1,14 @@
+Projectile : "{5C1A77E3B0A95605}Prefabs/Weapons/Ammo/Ammo_Mortar50_HE.et" {
+ ID "50C6F965BA00F9FA"
+ components {
+  CollisionTriggerComponent "{5C1A77E3B0A95650}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5C1A77E3B0A95651}" {
+     EffectPrefab "{1CAEE2299E962EDE}Prefabs/Weapons/Warheads/Warhead_Shell_Smoke_M819.et"
+     ParticleEffect "{273A8DD1950A31DA}Particles/Weapon/Smoke_Mortar_Shell.ptc"
+    }
+   }
+   SafetyDistance 15
+  }
+ }
+}

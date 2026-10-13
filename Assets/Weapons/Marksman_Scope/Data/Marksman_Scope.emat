@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A95372}Assets/Weapons/Marksman_Scope/Data/Marksman_Scope_BCR.edds"
+ NMOMap "{5C1A77E3B0A95373}Assets/Weapons/Marksman_Scope/Data/Marksman_Scope_NMO.edds"
+}

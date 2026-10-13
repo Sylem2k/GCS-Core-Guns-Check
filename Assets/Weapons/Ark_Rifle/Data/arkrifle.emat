@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 1 1 1 1
+ ApplyAlbedoToEmissive 1
+ EmissiveMap "{0475CA7078FEE637}Assets/Weapons/Ark_Rifle/Data/arkrifle_EM.edds"
+ BCRMap "{72C5A627DC999C28}Assets/Weapons/Ark_Rifle/Data/arkrifle_BCR.edds"
+ NMOMap "{4A1D1DB505EECEB6}Assets/Weapons/Ark_Rifle/Data/arkrifle_NMO.edds"
+}

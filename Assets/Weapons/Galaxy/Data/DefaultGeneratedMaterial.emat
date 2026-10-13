@@ -1,0 +1,7 @@
+MatPBRBasic {
+ BlendMode AlphaBlend
+ EmissiveMap "{027BD0E6A1CC9C51}Assets/Weapons/Galaxy/Data/DefaultMaterial_EM.edds"
+ BCRMap "{B00D956CB3757BD1}Assets/Weapons/Galaxy/Data/DefaultMaterial_BCR.edds"
+ OpacityMap "{73B6A0EEC96652D0}Assets/Weapons/Galaxy/Data/DefaultMaterial_A.edds"
+ NMOMap "{88D52EFE6A02294F}Assets/Weapons/Galaxy/Data/DefaultMaterial_NMO.edds"
+}

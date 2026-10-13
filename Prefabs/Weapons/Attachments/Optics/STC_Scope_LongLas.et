@@ -1,0 +1,42 @@
+GenericEntity : "{F7592BD37116D7C3}Prefabs/Weapons/Attachments/Optics/Optic_ARTII/Optic_ARTII_base.et" {
+ ID "5C1A77E3B0A95060"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5D0CC83435B5584E}" {
+     Name "Thillium Long Las Scope"
+     Description "Long-range optic for the Thillium and Errant pattern long las. Front-focal-plane mil reticle with stadiametric rangefinder and hold-over ladder."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5D0CC83435B55848}" {
+     Weight 0.9
+     ItemVolume 500
+     RestingUP Right
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType STC_AttachmentOpticsLongLas "{5C1A77E3B0A95061}" {
+      }
+     }
+    }
+   }
+  }
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{E129F452DFCC46A5}Assets/Weapons/Thillium_Longlas/Thillium_Pattern_Long_La_Scope.xob"
+  }
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   SightsPointFront PointInfo "{5D0CCDD062A657DB}" {
+    Offset 0 0 0.0073
+   }
+   SightsPointRear PointInfo "{5D0CCDD062A657D5}" {
+    Offset 0 0 -0.0051
+   }
+   SightsPriority 1
+   m_sReticleTexture "{5C1A77E3B0A95065}Assets/Weapons/Sights/STC_LongLas/STC_LongLas_reticle_UI.edds"
+   m_sReticleGlowTexture "{5C1A77E3B0A95065}Assets/Weapons/Sights/STC_LongLas/STC_LongLas_reticle_UI.edds"
+   m_ReticleColor 0 0 0 1
+   m_fReticleAngularSize 3.659
+   m_fReticlePortion 1
+   m_fReticleBaseZoom 0
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A95A11}Sounds/Weapons/Grenades/BFA/Weapons_RatGrenade_Pin_Unpin.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

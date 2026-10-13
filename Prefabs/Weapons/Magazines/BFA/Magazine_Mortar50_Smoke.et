@@ -1,0 +1,21 @@
+GenericEntity : "{5C1A77E3B0A95603}Prefabs/Weapons/Magazines/BFA/Magazine_Mortar50_HE.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "50mm Mortar Cell (5x Smoke)"
+     Description "Five-chamber revolving cell for the 50mm revolver mortar, loaded with white smoke bombs."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "50mm Cell Smoke"
+    m_sAmmoType "Smoke"
+    m_eAmmoTypeFlags SMOKE
+   }
+   AmmoConfig "{5C1A77E3B0A9560A}Configs/Weapons/Ammo/Ammo_Mortar50_Smoke.conf"
+  }
+ }
+}

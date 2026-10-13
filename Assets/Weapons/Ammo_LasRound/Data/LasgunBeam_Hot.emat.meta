@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A95300}Assets/Weapons/Ammo_LasRound/Data/LasgunBeam_Hot.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

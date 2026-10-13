@@ -1,0 +1,54 @@
+MetaFileClass {
+ Name "{E4A5D300096CC4A7}Assets/Weapons/Errant_Hellgun/errant hellgun lense.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A08383DD147B6F5}" {
+     SourceMaterial "back"
+     AssignedMaterial "{0BCDC338ACE79B88}Assets/Weapons/Errant_Hellgun/Data/back.emat"
+    }
+    MaterialAssignClass "{6A08383DD147B69C}" {
+     SourceMaterial "glass"
+     AssignedMaterial "{FEFBA82E75D5D10E}Assets/Weapons/Errant_Hellgun/Data/glass.emat"
+    }
+    MaterialAssignClass "{6A08383DD147B697}" {
+     SourceMaterial "pip"
+     AssignedMaterial "{79862C45BD466C98}Assets/Weapons/Errant_Hellgun/Data/pip.emat"
+    }
+   }
+   MeshParams {
+    MeshParam back {
+    }
+    MeshParam lense {
+    }
+    MeshParam pip {
+    }
+   }
+   Common TXOCommonClass "{6A08383DD0BC2959}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.9 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A08383DD0BC29DA}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A08383DD0BC29F9}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A08383DD0BC29E6}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A08383DD0BC298F}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A08383DD0BC29B7}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

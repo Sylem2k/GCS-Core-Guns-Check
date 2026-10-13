@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F9A411F4D2626602}Assets/Weapons/Cadian_DMR_Magazine/Data/dmr_mag.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

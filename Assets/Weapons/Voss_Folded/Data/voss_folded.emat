@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{F81849B830081B3C}Assets/Weapons/Voss_Folded/Data/voss_folded_BCR.edds"
+ NMOMap "{C0C0F22AE97F49A2}Assets/Weapons/Voss_Folded/Data/voss_folded_NMO.edds"
+}

@@ -1,0 +1,178 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{5E96A067C355978C}" {
+    m_sSoundEventName "SOUND_BUILD_MORTAR_POSITION"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{5E96A0643BAAEAF8}" {
+    m_sSoundEventName "SOUND_DESTROY_MORTAR_POSITION"
+   }
+  }
+  Hierarchy "{60AAE974D146E39D}" {
+   Enabled 1
+  }
+ }
+ {
+  GenericEntity : "{5C1A77E3B0A95740}Prefabs/Compositions/Misc/SubCompositions/BFA/Foundation_Mortar50_US.et" {
+   ID "5C1A77E3B0A95744"
+   coords 0 0.2 0
+   {
+    GenericEntity {
+     ID "5C1A77E3B0A95745"
+     components {
+      Hierarchy "{5C1A77E3B0A95760}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95746"
+     components {
+      Hierarchy "{5C1A77E3B0A95761}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95747"
+     components {
+      Hierarchy "{5C1A77E3B0A95762}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95748"
+     components {
+      Hierarchy "{5C1A77E3B0A95763}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95749"
+     components {
+      Hierarchy "{5C1A77E3B0A95764}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574A"
+     components {
+      Hierarchy "{5C1A77E3B0A95765}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574B"
+     components {
+      Hierarchy "{5C1A77E3B0A95766}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574C"
+     components {
+      Hierarchy "{5C1A77E3B0A95767}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574D"
+     components {
+      Hierarchy "{5C1A77E3B0A95768}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574E"
+     components {
+      Hierarchy "{5C1A77E3B0A95769}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574F"
+     components {
+      Hierarchy "{5C1A77E3B0A9576A}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95750"
+     components {
+      Hierarchy "{5C1A77E3B0A9576B}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95751"
+     components {
+      Hierarchy "{5C1A77E3B0A9576C}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95752"
+     components {
+      Hierarchy "{5C1A77E3B0A9576D}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95753"
+     components {
+      Hierarchy "{5C1A77E3B0A9576E}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95755"
+     components {
+      Hierarchy "{5C1A77E3B0A9576F}" {
+      }
+     }
+    }
+    GameEntity {
+     ID "5C1A77E3B0A95756"
+     components {
+      Hierarchy "{5C1A77E3B0A95770}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95757"
+     components {
+      Hierarchy "{5C1A77E3B0A95771}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95758"
+     components {
+      Hierarchy "{5C1A77E3B0A95772}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95759"
+     components {
+      Hierarchy "{5C1A77E3B0A95773}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9575A"
+     components {
+      Hierarchy "{5C1A77E3B0A95774}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9575F"
+     components {
+      Hierarchy "{5C1A77E3B0A95775}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

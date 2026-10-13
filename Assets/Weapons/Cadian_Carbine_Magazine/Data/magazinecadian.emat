@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{CC13382A0411C1E7}Assets/Weapons/Cadian_Carbine_Magazine/Data/magazinesteel_BCR.edds"
+ NMOMap "{F4CB83B8DD669379}Assets/Weapons/Cadian_Carbine_Magazine/Data/magazinesteel_NMO.edds"
+}

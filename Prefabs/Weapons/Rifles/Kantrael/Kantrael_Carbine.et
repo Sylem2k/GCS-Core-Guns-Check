@@ -1,0 +1,110 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{0789151E6E71D93C}Assets/Weapons/Cadian_Carbine/cadian_carbine_w_LOD.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Kantrael Carbine"
+     Description "Battle Group Arrow las-carbine. Single fire and 3-round burst, 4x optic."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F025C7B97B7408}" {
+     Weight 3.2
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+    }
+    SCR_2DPIPSightsComponent "{5C1A77E3B0A90130}" {
+     m_iCameraIndex 9
+     SightsPosition PointInfo "{5C1A77E3B0A90131}" {
+      PivotID "Eye"
+      Offset 0 -0.0436 0
+     }
+     SightsRanges {
+      SightRangeInfo "{5C1A77E3B0A90132}" {
+       Range 0 100
+      }
+      SightRangeInfo "{5C1A77E3B0A90133}" {
+       Range 0.005 300
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5C1A77E3B0A90134}" {
+      m_fBaseZoom 1
+      m_fZoomMax 1
+      m_fInterpolationSpeed 50
+     }
+     SightsPointFront PointInfo "{5C1A77E3B0A90135}" {
+      PivotID "Barrel_Muzzle"
+      Offset -0.0006 0.0508 0
+     }
+     SightsPointRear PointInfo "{5C1A77E3B0A90136}" {
+      PivotID "Eye"
+      Offset 0 -0.0436 0.0616
+     }
+     ADSTime 0.35
+     m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_ReticleColor 1 0.1 0.05 1
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 1 0.1 0.05 1
+     m_eZeroingType EPZ_RETICLE_OFFSET
+     m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
+     m_fObjectiveFov 24
+     m_fReticleAngularSize 18.06
+     m_fReticlePortion 1
+     m_fReticleBaseZoom 0
+     m_fMagnification 1
+     m_vCameraOffset 0 0 0.07
+     m_fScopeRadius 0.0077
+    }
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "Scene_Root"
+      Offset 0.0012 -0.0007 -0.0069
+      Prefab "{7D79321B31AE5DE1}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_lasgun_test.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "Snap_Hand_Left"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "Snap_Hand_Right"
+      Offset 0 0 0
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 407
+      }
+      BaseFireMode "{619AB45BF76565F3}" : "{B5D823125A678D73}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Burst.conf" {
+       BurstType Interruptable
+       RoundsPerMinute 407
+      }
+     }
+     MagazineWell STC_MagazineWellKantraelCarbine "{5DE31F994D15F6EB}" {
+     }
+     DispersionDiameter 0.3
+     DispersionRange 400
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "Slot_Magazine"
+      Offset 0 -0.0866 -0.011
+      Angles 0 180 0
+     }
+     MagazineTemplate "{2D303364F2A923F1}Prefabs/Weapons/Magazines/Kantrael/Magazine_Kantrael_Carbine_24rnd.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Kantrael Carbine"
+    Description "Battle Group Arrow las-carbine. Single fire and 3-round burst, 4x optic."
+    Icon ""
+   }
+  }
+ }
+}

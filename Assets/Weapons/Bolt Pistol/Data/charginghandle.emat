@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{7CCF4E853DEE9F93}Assets/Weapons/Bolt Pistol/Data/grey_textures/charginghandle_BCR.edds"
+ NMOMap "{4417F517E499CD0D}Assets/Weapons/Bolt Pistol/Data/grey_textures/charginghandle_NMO.edds"
+}

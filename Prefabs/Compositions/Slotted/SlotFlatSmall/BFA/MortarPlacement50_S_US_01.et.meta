@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A95741}Prefabs/Compositions/Slotted/SlotFlatSmall/BFA/MortarPlacement50_S_US_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

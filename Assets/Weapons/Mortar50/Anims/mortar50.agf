@@ -1,0 +1,438 @@
+AnimSrcGraphFile {
+ Sheets {
+  AnimSrcGraphSheet Master {
+   Nodes {
+    AnimSrcNodePose AimingAnim {
+     Tags {
+      "TagItemUpdateColliders"
+     }
+     EditorPos 360.6 89.7
+     Source "Mortar.Default.Aiming"
+     Time "normalize(AimY, 45, 87.5)"
+    }
+    AnimSrcNodeGroupSelect WeaponMasterControl {
+     EditorPos 366 84.6
+     Child "MortarFiringQ"
+     Group "Mortar"
+     Column "Default"
+    }
+    AnimSrcNodeStateMachine MortarSTM {
+     EditorPos 360.6 78.6
+     states {
+      AnimSrcNodeState LowToHighTransition {
+       EditorPos 363.4 80.8
+       Child "LowToHighAnim"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState HighToLowTransition {
+       EditorPos 358 80.8
+       Child "HighToLowAnim"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState AimingHigh {
+       EditorPos 366.8 79.5
+       Child "AimingHighAnim"
+       StartCondition "AimY >= 65"
+      }
+      AnimSrcNodeState AimingLow {
+       EditorPos 354.6 79.6
+       Child "AimingLowANim"
+       StartCondition "AimY < 65"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{614ED5D28199F73D}" {
+       FromState "LowToHighTransition"
+       ToState "AimingHigh"
+       Duration "0.2"
+       Condition "RemainingTimeLess(0.1)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{614ED5D28199F707}" {
+       FromState "HighToLowTransition"
+       ToState "AimingLow"
+       Duration "0.2"
+       Condition "RemainingTimeLess(0.1)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{614ED5D28199F705}" {
+       FromState "AimingLow"
+       ToState "LowToHighTransition"
+       Duration "0.2"
+       Condition "AimY >= 68.3"
+      }
+      AnimSrcNodeTransition "{614ED5D28199F70B}" {
+       FromState "AimingHigh"
+       ToState "HighToLowTransition"
+       Duration "0.2"
+       Condition "AimY < 68.3"
+      }
+     }
+    }
+    AnimSrcNodeSource LowToHighAnim {
+     EditorPos 363.3 82.1
+     Source "Mortar.Default.LowToHigh_Step"
+    }
+    AnimSrcNodeSource HighToLowAnim {
+     EditorPos 358.4 82
+     Source "Mortar.Default.HighToLow_Step"
+    }
+    AnimSrcNodePose AimingLowANim {
+     EditorPos 355 82
+     Source "Mortar.Default.Aiming"
+     Time "lerp(0.0/50.0, 25.0/50.0, normalize(AimY, 45, 68.3))"\
+     ""\
+     "// applies between frame 0 and 25 out of 50"
+    }
+    AnimSrcNodePose AimingHighAnim {
+     EditorPos 366.9 82
+     Source "Mortar.Default.Aiming"
+     Time "lerp(26.0/50.0, 50.0/50.0, normalize(AimY, 68.3, 87.5))"\
+     ""\
+     "// applies between frame 26 and 50 out of 50"
+    }
+    AnimSrcNodeIK2Target CrankIKT {
+     EditorPos 360.4 84.6
+     Child "AimingAnim"
+     Chains {
+      AnimSrcIkTargetBinding "{614ED5D28199F712}" {
+       IkTarget "RightArm"
+       IkChain "RightArm"
+      }
+      AnimSrcIkTargetBinding "{614ED5D28199F710}" {
+       IkTarget "LeftArm"
+       IkChain "LeftArm"
+      }
+     }
+    }
+    AnimSrcNodeBlend CrankIKB {
+     EditorPos 360.6 77.6
+     BlendWeight "1"
+     Child0 "CrankIKT"
+     Child1 "MortarSTM"
+     IkTargets "Keep Singular From First"
+     Optimization "Always eval both"
+    }
+    AnimSrcNodeIK2 MasterControl {
+     EditorPos 360.6 76.4
+     Child "SOUND_GETIN"
+     Chains {
+      AnimSrcIkBinding "{614ED5D28199F71A}" {
+       IkTarget "RightArm"
+       IkChain "RightArm"
+      }
+      AnimSrcIkBinding "{614ED5D28199F71B}" {
+       IkTarget "LeftArm"
+       IkChain "LeftArm"
+      }
+     }
+     Solver AnimSrcNodeIK2TwoBoneSolver "{614ED5D28199F71F}" {
+     }
+     Version 1
+    }
+    AnimSrcNodeStateMachine FireMasterControl02 {
+     Tags {
+      "TagLItemAction"
+     }
+     EditorPos 341.1 78.6
+     states {
+      AnimSrcNodeState FireReady {
+       Tags {
+        "TagFireReady"
+       }
+       EditorPos 338.2 81.1
+       Child "Event 15838"
+       StartCondition "false"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState FiringOut {
+       Tags {
+        "TagLItemAction" "Exit" "TagExit"
+       }
+       EditorPos 345.9 81.2
+       Child "FiringOutSrc"
+       StartCondition "false"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState Firing {
+       Tags {
+        "TagLItemAction"
+       }
+       EditorPos 342 79.9
+       Child "FiringAnimB"
+       StartCondition "false"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState StartAimBlend {
+       Tags {
+        "TagLItemAction"
+       }
+       EditorPos 334.7 79.7
+       Child "FiringStartAimIK2"
+       StartCondition "false"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState Start {
+       Tags {
+        "TagLItemAction"
+       }
+       EditorPos 331 79.7
+       Child "MortarFireStart"
+       StartCondition "true"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{614ED5D28199F7E4}" {
+       FromState "FireReady"
+       ToState "Firing"
+       Condition "true"
+      }
+      AnimSrcNodeTransition "{614ED5D28199F7EA}" {
+       FromState "Firing"
+       ToState "FiringOut"
+       Duration "0.2"
+       Condition "true"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{614ED5D28199F7E8}" {
+       FromState "StartAimBlend"
+       ToState "FireReady"
+       Duration "0.4"
+       Condition "RemainingTimeLess(0.1)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{614ED5D28199F7EF}" {
+       FromState "Start"
+       ToState "StartAimBlend"
+       Duration "GetEventDuration(\"HandsPosition\")"
+       StartTime "GetLowerTime()"
+       Condition "IsEvent(\"HandsPosition\")"
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodePose FiringAimingSrc {
+     EditorPos 337.8 87.9
+     Source "Mortar.FiringAimspace"
+     Time "normalize(AimY, 45, 87.5)"
+    }
+    AnimSrcNodeSource FiringSrc {
+     EditorPos 341.6 86.9
+     Source "Mortar.FiringADD"
+    }
+    AnimSrcNodeSource FiringOutSrc {
+     EditorPos 345.9 84.6
+     Source "Mortar.FiringEnd"
+    }
+    AnimSrcNodeBlendT FiringAnimB {
+     EditorPos 341.7 84.8
+     BlendTime "0"
+     TriggerOn "Firing"
+     Condition "Firing"
+     Child0 "FiringAimingSrc"
+     Child1 "FiringSrc"
+     Optimization "Always eval left"
+     PostEval 1
+    }
+    AnimSrcNodeSource FiringStartHighSrc {
+     EditorPos 332.5 87.9
+     Source "Mortar.GetIn_Left_High"
+     Predictions {
+      AnimSrcNodePrediction ItemUsePrediction {
+       Name "ItemUsePrediction"
+       Bone "EntityPosition"
+       PercentTime 0.5
+      }
+     }
+    }
+    AnimSrcNodeBlend FiringStartIKTargetB {
+     EditorPos 334.9 84.3
+     BlendWeight "1"
+     Child0 "FiringStartAimIKT"
+     Child1 "FiringStartAngleB"
+     IkTargets "Keep Singular From First"
+     Optimization "Always eval both"
+    }
+    AnimSrcNodeIK2Target FiringStartAimIKT {
+     EditorPos 337.4 85.9
+     Child "FiringAimingSrc"
+     Chains {
+      AnimSrcIkTargetBinding "{614ED5D28199F7FF}" {
+       IkTarget "RightArm"
+       IkChain "RightArm"
+      }
+      AnimSrcIkTargetBinding "{614ED5D28199F7FD}" {
+       IkTarget "LeftArm"
+       IkChain "LeftArm"
+      }
+     }
+    }
+    AnimSrcNodeIK2 FiringStartAimIK2 {
+     EditorPos 334.9 83.4
+     Child "FiringStartIKTargetB"
+     Weight "1"
+     Chains {
+      AnimSrcIkBinding "{614ED5D28199F7C3}" {
+       IkTarget "RightArm"
+       IkChain "RightArm"
+      }
+      AnimSrcIkBinding "{614ED5D28199F7C0}" {
+       IkTarget "LeftArm"
+       IkChain "LeftArm"
+      }
+     }
+     Solver AnimSrcNodeIK2TwoBoneSolver "{614ED5D28199F7C6}" {
+     }
+     Version 1
+    }
+    AnimSrcNodeSource FiringStartLowSrc {
+     EditorPos 329.5 87.9
+     Source "Mortar.GetIn_Left_Low"
+     Predictions {
+      AnimSrcNodePrediction ItemUsePrediction {
+       Name "ItemUsePrediction"
+       Bone "EntityPosition"
+       PercentTime 0.5
+      }
+     }
+    }
+    AnimSrcNodeBlend FiringStartAngleB {
+     EditorPos 331.1 86.5
+     BlendWeight "normalize(AimY, 45, 87.5)"
+     Child0 "FiringStartLowSrc"
+     Child1 "FiringStartHighSrc"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodeEvent "Event 15838" {
+     EditorPos 338.2 82.7
+     Child "FiringAimingSrc"
+     Events {
+      AnimSrcEventGeneric "{614ED5D28199F7CB}" {
+       Name "MortarFireReady"
+       Once 1
+      }
+     }
+    }
+    AnimSrcNodeSource MortarFiringHighSrc {
+     EditorPos 367.4 89.7
+     Source "Mortar.Default.FiringADDHigh"
+    }
+    AnimSrcNodeSource MortarFiringLowSrc {
+     EditorPos 364.2 89.7
+     Source "Mortar.Default.FiringADDLow"
+    }
+    AnimSrcNodeBlend MortarFiringAngleB {
+     EditorPos 366.1 88
+     BlendWeight "normalize(AimY, 45, 87.5)"
+     Child0 "MortarFiringLowSrc"
+     Child1 "MortarFiringHighSrc"
+     Optimization "Always eval both"
+    }
+    AnimSrcNodeQueue MortarFiringQ {
+     EditorPos 366 85.7
+     Child "MortarAimHorizontalProc"
+     QueueItems {
+      AnimSrcNodeQueueItem "{614ED5D28199F7D3}" {
+       Child "MortarFiringRecoilTime"
+       StartExpr "HasVariableChangedTo(Firing, true)"
+       BlendInTime 0.05
+       BlendOutTime 0.05
+       EnqueueMethod Enqueue
+      }
+     }
+    }
+    AnimSrcNodeTimeScale MortarFiringRecoilTime {
+     EditorPos 366.1 87.2
+     Child "MortarFiringAngleB"
+     TimeExpr "lerp(2.5, 1.0, Recoil)"
+     TimeStorage "Real Time"
+    }
+    AnimSrcNodeProcTransform MortarAimHorizontalProc {
+     EditorPos 361.8 87.6
+     Child "AimingAnim"
+     Expression "-1"
+     Bones {
+      AnimSrcNodeProcTrBoneItem "{615AC492A2B747C9}" {
+       Bone "w_cannon_rotater"
+       Axis Y
+       Op Rotate
+       Amount "rad(AimX)"
+      }
+     }
+    }
+    AnimSrcNodeEvent SOUND_GETIN {
+     EditorPos 360.6 77
+     Child "CrankIKB"
+     Events {
+      AnimSrcEventGeneric "{59B8921724A8812E}" {
+       Name "Sound"
+       MainPathOnly 1
+       Condition "!IsTag(\"TagUnconscious\")"
+       UserString "SOUND_CHAR_HANDGRAB.lefthand"
+       UserInt 5
+      }
+      AnimSrcEventGeneric "{6236EA66F74D3379}" {
+       Name "Sound"
+       MainPathOnly 1
+       Condition "!IsTag(\"TagUnconscious\")"
+       UserString "SOUND_CHAR_MOVEMENT_FOOT_SCRAPE.leftfoot"
+      }
+      AnimSrcEventGeneric "{62767B206FB6FFB7}" {
+       Name "Sound"
+       MainPathOnly 1
+       Condition "!IsTag(\"TagUnconscious\")"
+       UserString "SOUND_CHAR_MOVEMENT"
+       UserInt 3
+      }
+     }
+    }
+    AnimSrcNodeBlend Fire_LeftB {
+     EditorPos 341 72.9
+     BlendWeight "IsLeftSide"
+     Child0 "FireRightG"
+     Child1 "FireLeftG"
+     Optimization "Skip blended out"
+     SelectMainPath 1
+    }
+    AnimSrcNodeCtxBegin FireMasterControl {
+     EditorPos 341 71.5
+     Child "Fire_LeftB"
+    }
+    AnimSrcNodeGroupSelect FireLeftG {
+     EditorPos 342.7 75
+     Child "FireLeftCtxEnd"
+     Group "Mortar"
+     Column "Fire_Left"
+    }
+    AnimSrcNodeGroupSelect FireRightG {
+     EditorPos 339.6 75
+     Child "FireLeftCtxEnd"
+     Group "Mortar"
+     Column "Default"
+    }
+    AnimSrcNodeCtxEnd FireLeftCtxEnd {
+     EditorPos 341.1 77.3
+     Child "FireMasterControl02"
+    }
+    AnimSrcNodeEvent MortarFireStart {
+     EditorPos 331 82.7
+     Child "FiringStartAngleB"
+     Events {
+      AnimSrcEventGeneric "{6124D383B0A3B107}" {
+       Name "MortarFireStart"
+      }
+     }
+    }
+   }
+  }
+ }
+}

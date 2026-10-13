@@ -1,0 +1,40 @@
+GenericEntity : "{8C3C62C58D2DBEDA}Prefabs/Weapons/Warheads/Warhead_HEAT.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{D8320D0247C27BE9}Sounds/Weapons/Ammo/MortarShells/Weapons_Ammo_MortarShell_8xmm_HE.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{567CBC1D0F5B4AEA}" {
+     ExplosionEffects {
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" {
+       DamageFragmentCount 140
+       GurneyConstant 2800
+       CaseWeight 900
+      }
+     }
+     ChargeWeight 90
+     TntEquivalent 1.6
+    }
+    SubmunitionEffect "{567CB8E002C26D97}" {
+     Prefab "{5C1A77E3B0A95684}Prefabs/Weapons/Ammo/Ammo_Mortar50_HEAT_Penetrator.et"
+    }
+    SubmunitionEffect "{5D692C94EC533259}" {
+     Prefab "{5C1A77E3B0A95685}Prefabs/Weapons/Ammo/Ammo_Mortar50_HEAT_Spall.et"
+     Count 30
+     Dispersion 60
+    }
+    SpawnDecalEffect "{5E24CB0410DA8EC3}" {
+     Scale 1.2
+     Material "{039FA43299C7980D}Assets/Decals/Miscellaneous/Mortar/Decal_Impact_Mortar_01.emat"
+    }
+   }
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{318510C6FB1633D9}Particles/Weapon/Explosion_Mortar_Base.ptc"
+  }
+ }
+}

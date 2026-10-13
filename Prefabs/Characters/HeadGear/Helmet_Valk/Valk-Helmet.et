@@ -1,0 +1,64 @@
+GameEntity : "{EC0071079B219026}Prefabs/Characters/Core/Headgear_Helmet_Base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{9F3547456AEF30D3}Assets/Characters/HeadGear/Helmet_SPH4/Helmet_SPH4_01_Item.xob"
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "#AR-Headgear_SPH4_Name"
+     Description "#AR-Headgear_SPH4_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.54
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D35767351900}" {
+      PreviewWornModel 0
+     }
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{6A7C370C26FCE566}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6A7C370C26FCE598}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6A7C370C26FCE596}" {
+      m_AffiliatedFactionKey "US"
+      m_iOutfitFactionValue 15
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Visor {
+     Prefab "{DB28E23531799714}Prefabs/Characters/Core/Helmet_attachment_visor_base.et"
+     AreaType Helmet_CatEarsUWU9000 "{6A7C370FA3EA918B}" {
+     }
+    }
+    LoadoutSlotInfo Catears {
+     Prefab "{D073DE3DD2FDB098}Prefabs/Characters/Core/Helmet_attachment_Cat_ears_base.et"
+     AreaType Helmet_CatEarsUWU9001 "{6A7C370F2225B243}" {
+     }
+    }
+   }
+   WornModel "{47CCB05B2E5AC454}Assets/Characters/HeadGear/AirHelmet/Models/air_helmet_worn.xob"
+   ItemModel "{47CCB05B2E5AC454}Assets/Characters/HeadGear/AirHelmet/Models/air_helmet_worn.xob"
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+  }
+  ActionsManagerComponent "{5112706CD4157AC9}" {
+   ActionContexts {
+    UserActionContext "{5112706CD4157AF3}" {
+     Position PointInfo "{5112706CD4157AF0}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+  }
+ }
+}

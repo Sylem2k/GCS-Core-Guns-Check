@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{6767C18AD365D4AC}Assets/Weapons/Bolter/Data/charginghandle_BCR.edds"
+ NMOMap "{5FBF7A180A128632}Assets/Weapons/Bolter/Data/charginghandle_NMO.edds"
+}

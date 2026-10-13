@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A94E12}Assets/Weapons/Shotgun40k/Data/shotgun40k_BCR.edds"
+ NMOMap "{5C1A77E3B0A94E13}Assets/Weapons/Shotgun40k/Data/shotgun40k_NMO.edds"
+}

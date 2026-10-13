@@ -1,0 +1,5 @@
+MatPBRBasic {
+ EmissiveMap "{9D98FC67CFBF6AE5}Assets/Weapons/Bolt Pistol/Data/green_textures/bolter_EM.edds"
+ BCRMap "{DFA201CEC5A95027}Assets/Weapons/Bolt Pistol/Data/green_textures/bolter_BCR.edds"
+ NMOMap "{E77ABA5C1CDE02B9}Assets/Weapons/Bolt Pistol/Data/green_textures/bolter_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{098F82354FC2B074}Assets/Characters/HeadGear/AirHelmet/Models/Attachments/Data/dovetail.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

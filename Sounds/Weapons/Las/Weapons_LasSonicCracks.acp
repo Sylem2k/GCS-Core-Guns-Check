@@ -1,0 +1,3005 @@
+AudioClass {
+ signals {
+  SignalClass "28685" {
+   id 28685
+   name "DistanceBlender_SonicCracks"
+   tl -1005.648 -33.882
+   res "{F323066698277E33}Sounds/_SharedData/Signals/SimpleHelpers/SimpleDistanceBlender_SonicCracks.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 28
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:1" {
+         id 97292
+         port 1
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:2" {
+         id 97292
+         port 2
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:3" {
+         id 97292
+         port 3
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 40
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:1" {
+         id 97292
+         port 1
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 41
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:6" {
+         id 97292
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 44
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:7" {
+         id 97292
+         port 7
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 45
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:8" {
+         id 97292
+         port 8
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 46
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:9" {
+         id 97292
+         port 9
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 47
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:10" {
+         id 97292
+         port 10
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 48
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:11" {
+         id 97292
+         port 11
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 49
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:12" {
+         id 97292
+         port 12
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 50
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:13" {
+         id 97292
+         port 13
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 51
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:14" {
+         id 97292
+         port 14
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 60
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:15" {
+         id 97292
+         port 15
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 61
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:16" {
+         id 97292
+         port 16
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 70
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:17" {
+         id 97292
+         port 17
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 13 28 40 41 43 44 45 46 47 48 49 50 51 60 61 70
+   }
+   outputsport {
+    6 7 8 23 27 37 55 56 57 65 67 73
+   }
+   inputvalues {
+    0 0 0 0 20 0 0 800 0 0 0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 350 0 0 0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 180 20 1 1 800 1 1 1 1 1 1 1 1 1 1 1
+   }
+   path "{F323066698277E33}Sounds/_SharedData/Signals/SimpleHelpers/SimpleDistanceBlender_SonicCracks.sig"
+  }
+  SignalClass "33805" {
+   id 33805
+   name "RandomChance"
+   comment "CustomValue = PreSilence time"
+   tl -1008.648 -302.323
+   ctl 0 -21
+   res "{33447DCE4959C32C}Sounds/_SharedData/Signals/SimpleHelpers/RandomChance.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "22540:1" {
+         id 22540
+         port 1
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 10
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "22540:2" {
+         id 22540
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    2 10
+   }
+   outputsport {
+    1 9
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+   path "{33447DCE4959C32C}Sounds/_SharedData/Signals/SimpleHelpers/RandomChance.sig"
+  }
+  SignalClass "51213" {
+   id 51213
+   name "Weapon_BulletCrack_Tails"
+   tl -1008.648 863.448
+   res "{D287963451C22B9C}Sounds/_SharedData/Signals/Weapons/Weapon_BulletCrack_Tails.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 79
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "28685:23" {
+         id 28685
+         port 23
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    49 50 51 52 79
+   }
+   outputsport {
+    2 57 58 59
+   }
+   inputvalues {
+    1 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1
+   }
+   path "{D287963451C22B9C}Sounds/_SharedData/Signals/Weapons/Weapon_BulletCrack_Tails.sig"
+  }
+  SignalClass "73741" {
+   id 73741
+   name "VCloseAddChance"
+   tl -1010 -183.077
+   res "{C9B52179BE226402}Sounds/_SharedData/Signals/SimpleHelpers/RandomChance_2.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "22540:3" {
+         id 22540
+         port 3
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 10
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "22540:4" {
+         id 22540
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    2 10
+   }
+   outputsport {
+    1 9
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+   path "{C9B52179BE226402}Sounds/_SharedData/Signals/SimpleHelpers/RandomChance_2.sig"
+  }
+  SignalClass "88077" {
+   id 88077
+   name "Signal 93"
+   tl -1015.925 1214.29
+   res "{E801AB59ABF0E75D}Sounds/_SharedData/Signals/SimpleHelpers/SimpleDistanceBlender2Steps.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "97292:2" {
+         id 97292
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3
+   }
+   outputsport {
+    4 7
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+   path "{E801AB59ABF0E75D}Sounds/_SharedData/Signals/SimpleHelpers/SimpleDistanceBlender2Steps.sig"
+  }
+ }
+ sounds {
+  SoundClass "5129" {
+   id 5129
+   name "SOUND_SONIC_CRACK"
+   comment "Regular sonic crack, when a projectile passes by the listener"
+   version 5
+   tl 302.127 46.643
+   ctl 0 -21
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:73" {
+       id 28685
+       port 73
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "13330:65" {
+       id 13330
+       port 65
+      }
+      ConnectionClass "16402:65" {
+       id 16402
+       port 65
+      }
+      ConnectionClass "103442:65" {
+       id 103442
+       port 65
+      }
+      ConnectionClass "110610:65" {
+       id 110610
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    50 0
+   }
+   outState 108555
+   outStatePort 184327
+   speedOfSoundSimulation 1
+   "static" 1
+  }
+  SoundClass "37897" {
+   id 37897
+   name "SOUND_SONIC_CRACK_SECONDARY"
+   comment "Remaining sonic crack energy when a projectile becomes subSonic before it reaches the listener"
+   version 5
+   tl 303.556 1167.568
+   ctl 0 -21
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:73" {
+       id 28685
+       port 73
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "79890:65" {
+       id 79890
+       port 65
+      }
+      ConnectionClass "82962:65" {
+       id 82962
+       port 65
+      }
+      ConnectionClass "103442:65" {
+       id 103442
+       port 65
+      }
+      ConnectionClass "109586:65" {
+       id 109586
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    50 0
+   }
+   volume_dB -6
+   priority 40
+   outState 108555
+   outStatePort 184327
+   speedOfSoundSimulation 1
+   "static" 1
+  }
+  SoundClass "81929" {
+   id 81929
+   name "SOUND_SONIC_CRACK_IMPACT"
+   comment "Remaining sonic crack energy when the projectile impacts before it reaches the listener"
+   version 5
+   tl 303.556 1370.273
+   ctl 0 -21
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:73" {
+       id 28685
+       port 73
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "82962:65" {
+       id 82962
+       port 65
+      }
+      ConnectionClass "79890:65" {
+       id 79890
+       port 65
+      }
+      ConnectionClass "103442:65" {
+       id 103442
+       port 65
+      }
+      ConnectionClass "109586:65" {
+       id 109586
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    50 0
+   }
+   volume_dB -6
+   outState 108555
+   outStatePort 184327
+   speedOfSoundSimulation 1
+   "static" 1
+  }
+ }
+ buses {
+  BusClass "24583" {
+   id 24583
+   name "MainBody Bus"
+   version 7
+   tl -176 48
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:56" {
+       id 28685
+       port 56
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "4100:65" {
+       id 4100
+       port 65
+      }
+      ConnectionClass "3076:65" {
+       id 3076
+       port 65
+      }
+      ConnectionClass "71684:65" {
+       id 71684
+       port 65
+      }
+      ConnectionClass "2052:65" {
+       id 2052
+       port 65
+      }
+      ConnectionClass "25607:65" {
+       id 25607
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  BusClass "25607" {
+   id 25607
+   name "Pre Sound Bus"
+   version 7
+   tl -490.631 -538.047
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "33805:1" {
+       id 33805
+       port 1
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "9220:65" {
+       id 9220
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  BusClass "98311" {
+   id 98311
+   name "AddLayer Bus"
+   version 7
+   tl -176.161 -389.578
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:57" {
+       id 28685
+       port 57
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "99335:65" {
+       id 99335
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  BusClass "99335" {
+   id 99335
+   name "AddLayerRandomChance Bus"
+   version 7
+   tl -496 -384
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "73741:1" {
+       id 73741
+       port 1
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "72708:65" {
+       id 72708
+       port 65
+      }
+      ConnectionClass "77828:65" {
+       id 77828
+       port 65
+      }
+      ConnectionClass "78852:65" {
+       id 78852
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  BusClass "100359" {
+   id 100359
+   name "IC_Body_Bus"
+   version 7
+   tl -165.714 1231.857
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:56" {
+       id 28685
+       port 56
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "94212:65" {
+       id 94212
+       port 65
+      }
+      ConnectionClass "96260:65" {
+       id 96260
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  BusClass "105479" {
+   id 105479
+   name "EL Bus"
+   version 7
+   tl -223.517 -851.64
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:56" {
+       id 28685
+       port 56
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "102404:65" {
+       id 102404
+       port 65
+      }
+      ConnectionClass "104452:65" {
+       id 104452
+       port 65
+      }
+      ConnectionClass "101380:65" {
+       id 101380
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+ }
+ mixers {
+  MixerClass "108555" {
+   id 108555
+   name "OutputState 106"
+   version 4
+   tl 572 110
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass "con:184327" {
+     id 184327
+     links {
+      ConnectionClass "5129:65" {
+       id 5129
+       port 65
+      }
+      ConnectionClass "37897:65" {
+       id 37897
+       port 65
+      }
+      ConnectionClass "81929:65" {
+       id 81929
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    524288 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb_OBSOLETE" "VON_Reverb_Small" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin" "VON_Reverb_Medium" "VON_Reverb_Large"
+   }
+  }
+ }
+ constants {
+  ConstantClass "22540" {
+   id 22540
+   name "Constant 22"
+   version 5
+   tl -1181.02 -308.969
+   "Constant values" {
+    IOPConstantsValueClass "Pre-Sound Chance" {
+     Key "Pre-Sound Chance"
+     Value 0.3
+     Port 1
+    }
+    IOPConstantsValueClass "Pre-Sound time" {
+     Key "Pre-Sound time"
+     Value 26
+     Port 2
+    }
+    IOPConstantsValueClass AddChance {
+     Key "AddChance"
+     Value 0.75
+     Port 3
+    }
+    IOPConstantsValueClass Dummy {
+     Key "Dummy"
+     Port 4
+    }
+   }
+  }
+  ConstantClass "97292" {
+   id 97292
+   name "Constant 7"
+   version 5
+   tl -1181.02 -31.167
+   "Constant values" {
+    IOPConstantsValueClass VERYCLOSE_MAX {
+     Key "VERYCLOSE_MAX"
+     Value 15
+     Port 1
+    }
+    IOPConstantsValueClass CLOSE_MAX {
+     Key "CLOSE_MAX"
+     Value 75
+     Port 2
+    }
+    IOPConstantsValueClass MID_MAX {
+     Key "MID_MAX"
+     Value 180
+     Port 3
+    }
+    IOPConstantsValueClass TAIL_BOOST_V {
+     Key "TAIL_BOOST_V"
+     Value 2.5
+     Port 6
+    }
+    IOPConstantsValueClass SPD_MIN {
+     Key "SPD_MIN"
+     Value 340
+     Port 7
+    }
+    IOPConstantsValueClass SPD_MAX {
+     Key "SPD_MAX"
+     Value 750
+     Port 8
+    }
+    IOPConstantsValueClass SPD_MIN_P {
+     Key "SPD_MIN_P"
+     Value 0.7
+     Port 9
+    }
+    IOPConstantsValueClass SPD_MAX_P {
+     Key "SPD_MAX_P"
+     Value 1.125
+     Port 10
+    }
+    IOPConstantsValueClass BD_SPD_MIN_V {
+     Key "BD_SPD_MIN_V"
+     Value 0.77
+     Port 11
+    }
+    IOPConstantsValueClass BD_SPD_MAX_V {
+     Key "BD_SPD_MAX_V"
+     Value 1
+     Port 12
+    }
+    IOPConstantsValueClass AL_SPD_MIN_V {
+     Key "AL_SPD_MIN_V"
+     Value 1
+     Port 13
+    }
+    IOPConstantsValueClass AL_SPD_MAX_V {
+     Key "AL_SPD_MAX_V"
+     Value 0.6
+     Port 14
+    }
+    IOPConstantsValueClass TL_SPD_MIN_V {
+     Key "TL_SPD_MIN_V"
+     Value 0.8
+     Port 15
+    }
+    IOPConstantsValueClass TL_SPD_MAX_V {
+     Key "TL_SPD_MAX_V"
+     Value 1
+     Port 16
+    }
+    IOPConstantsValueClass SPD_MIN_V {
+     Key "SPD_MIN_V"
+     Value 0.75
+     Port 17
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass "13330" {
+   id 13330
+   name "Tails"
+   version 5
+   tl 43.684 747.222
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "14364:65" {
+       id 14364
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "15379:65" {
+       id 15379
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "47125:65" {
+       id 47125
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "11268:65" {
+       id 11268
+       port 65
+      }
+      ConnectionClass "10244:65" {
+       id 10244
+       port 65
+      }
+      ConnectionClass "12292:65" {
+       id 12292
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "16402" {
+   id 16402
+   name "Body"
+   version 5
+   tl 43.684 58.214
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "17436:65" {
+       id 17436
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "15379:65" {
+       id 15379
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "47125:65" {
+       id 47125
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "24583:65" {
+       id 24583
+       port 65
+      }
+      ConnectionClass "98311:65" {
+       id 98311
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "79890" {
+   id 79890
+   name "ImpactCrack Body Shader"
+   version 5
+   tl 43.684 1292.913
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "17436:65" {
+       id 17436
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "80915:65" {
+       id 80915
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "47125:65" {
+       id 47125
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "100359:65" {
+       id 100359
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "82962" {
+   id 82962
+   name "ImpactCrack Tail Shader"
+   version 5
+   tl 43.684 1683.179
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "14364:65" {
+       id 14364
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "80915:65" {
+       id 80915
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "47125:65" {
+       id 47125
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "89092:65" {
+       id 89092
+       port 65
+      }
+      ConnectionClass "91140:65" {
+       id 91140
+       port 65
+      }
+      ConnectionClass "90116:65" {
+       id 90116
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "103442" {
+   id 103442
+   name "EL Shader"
+   version 5
+   tl 47.392 -789.183
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "17436:65" {
+       id 17436
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "106515:65" {
+       id 106515
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "47125:65" {
+       id 47125
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "105479:65" {
+       id 105479
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "109586" {
+   id 109586
+   name "ImpactCrack Tail Int Shader"
+   version 5
+   tl 32 1952
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "111644:65" {
+       id 111644
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "80915:65" {
+       id 80915
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "47125:65" {
+       id 47125
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "92164:65" {
+       id 92164
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "110610" {
+   id 110610
+   name "IntTail"
+   version 5
+   tl 32 992
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "111644:65" {
+       id 111644
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "15379:65" {
+       id 15379
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "47125:65" {
+       id 47125
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "30724:65" {
+       id 30724
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass "15379" {
+   id 15379
+   name "Amplitude 15"
+   version 5
+   tl 43.684 -82.381
+   curve "1/r"
+   outerRange 1150
+   slopeFactor 72
+  }
+  AmplitudeClass "80915" {
+   id 80915
+   name "IC Body Amplitude"
+   version 5
+   tl 43.684 1227.568
+   curve "1/r"
+   innerRange 2
+   outerRange 1150
+   slopeFactor 23
+  }
+  AmplitudeClass "106515" {
+   id 106515
+   name "EL Amplitude"
+   version 5
+   tl 46.281 -854.933
+   curve "1/r"
+   outerRange 90
+   slopeFactor 10
+  }
+ }
+ frequency {
+  FrequencyClass "47125" : "{CA912C59A9267045}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_Base.conf" {
+   id 47125
+   version 5
+   tl 42.573 -14.936
+   parent "{CA912C59A9267045}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_Base.conf"
+   terrainEffects 1
+  }
+ }
+ banks_local {
+  BankLocalClass "2052" {
+   id 2052
+   name "Body Close"
+   version 7
+   tl -800 -24.349
+   ctl 0 -21
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:6" {
+       id 28685
+       port 6
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 5
+   "Volume variance" 0.2
+   "Pitch variance" 1
+   Resampler FIR_4
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Las_Crack_01.wav" {
+     Filename "{F487145888100309}Sounds/Samples/Las/Las_Crack_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Las_Crack_02.wav" {
+     Filename "{F48714588810030A}Sounds/Samples/Las/Las_Crack_02.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "3076" {
+   id 3076
+   name "Body Far"
+   version 7
+   tl -800 332.472
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:8" {
+       id 28685
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 0.9
+   "Volume variance" 0.5
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_01.wav" {
+     Filename "{37F8F42B0E7FEE4C}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_02.wav" {
+     Filename "{AEE64DB21398DFDC}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_03.wav" {
+     Filename "{D9EC253AE73A30AC}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_04.wav" {
+     Filename "{DE2BDF6B81BC8A6F}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_05.wav" {
+     Filename "{A921B7E3751E651F}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_05.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_06.wav" {
+     Filename "{303F0E7A68F9548F}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_06.wav"
+     Probability 100
+     Index 5
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "4100" {
+   id 4100
+   name "Body Mid"
+   version 7
+   tl -800 206.027
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:7" {
+       id 28685
+       port 7
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 2.4
+   "Volume variance" 0.3
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_762_Mid_01.wav" {
+     Filename "{29D9A95BA13D546B}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Mid_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Mid_02.wav" {
+     Filename "{B0C710C2BCDA65FB}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Mid_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Mid_03.wav" {
+     Filename "{C7CD784A48788A8B}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Mid_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Mid_04.wav" {
+     Filename "{C00A821B2EFE3048}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Mid_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Mid_05.wav" {
+     Filename "{B700EA93DA5CDF38}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Mid_05.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Mid_06.wav" {
+     Filename "{2E1E530AC7BBEEA8}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Mid_06.wav"
+     Probability 100
+     Index 5
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Mid_07.wav" {
+     Filename "{59143B82331901D8}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Mid_07.wav"
+     Probability 100
+     Index 6
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Mid_08.wav" {
+     Filename "{2191A7A80AB69B2E}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Mid_08.wav"
+     Probability 100
+     Index 7
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "9220" {
+   id 9220
+   name "Body Pre-Sound"
+   version 7
+   tl -800 -544.15
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:37" {
+       id 28685
+       port 37
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   Volume -5
+   "Volume variance" 3
+   "Pitch variance" 1.5
+   Resampler FIR_4
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Pre_01.wav" {
+     Filename "{8699D4623A4CE66E}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Pre/Weapons_SonicCrack_Pre_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Pre_02.wav" {
+     Filename "{1F876DFB27ABD7FE}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Pre/Weapons_SonicCrack_Pre_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Pre_03.wav" {
+     Filename "{688D0573D309388E}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Pre/Weapons_SonicCrack_Pre_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "10244" {
+   id 10244
+   name "Tail Forest"
+   version 7
+   tl -800.091 744.02
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:58" {
+       id 51213
+       port 58
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "28685:65" {
+       id 28685
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    51 0
+   }
+   Volume 1.74
+   "Volume variance" 0.5
+   Pitch -0.4
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Forest_01.wav" {
+     Filename "{E21421FF990AF1AD}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Forest_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Forest_02.wav" {
+     Filename "{7B0A986684EDC03D}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Forest_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Forest_03.wav" {
+     Filename "{0C00F0EE704F2F4D}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Forest_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "11268" {
+   id 11268
+   name "Tail Houses"
+   version 7
+   tl -800 880.171
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:59" {
+       id 51213
+       port 59
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "28685:65" {
+       id 28685
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    51 0
+   }
+   Volume -2
+   "Volume variance" 0.5
+   Pitch -0.4
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Houses_01.wav" {
+     Filename "{268BFB5A1099F077}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Houses_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Houses_02.wav" {
+     Filename "{BF9542C30D7EC1E7}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Houses_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Houses_03.wav" {
+     Filename "{C89F2A4BF9DC2E97}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Houses_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "12292" {
+   id 12292
+   name "Tail Meadows+Hills"
+   version 7
+   tl -798.182 604.898
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:57" {
+       id 51213
+       port 57
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "28685:65" {
+       id 28685
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    51 0
+   }
+   Volume 1.1
+   "Volume variance" 0.5
+   Pitch -0.4
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Meadows_01.wav" {
+     Filename "{6525CE6776F994DC}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Meadows_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Meadows_02.wav" {
+     Filename "{FC3B77FE6B1EA54C}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Meadows_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Meadows_03.wav" {
+     Filename "{8B311F769FBC4A3C}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Meadows_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "30724" {
+   id 30724
+   name "Tail Interior"
+   version 7
+   tl -799.091 1019.242
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:2" {
+       id 51213
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 7
+   "Volume variance" 0.8
+   Pitch -0.4
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_interior_01.wav" {
+     Filename "{6F55CECB59146A7E}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_interior_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_interior_02.wav" {
+     Filename "{F64B775244F35BEE}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_interior_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_interior_03.wav" {
+     Filename "{81411FDAB051B49E}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_interior_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "71684" {
+   id 71684
+   name "Body VeryClose"
+   version 7
+   tl -800 -281.091
+   ctl 0 -21
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:27" {
+       id 28685
+       port 27
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 9.4
+   "Volume variance" 0.5
+   "Pitch variance" 0.6
+   Resampler FIR_4
+   "Fade in function" SCurve
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Las_Crack_01.wav" {
+     Filename "{F487145888100309}Sounds/Samples/Las/Las_Crack_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Las_Crack_02.wav" {
+     Filename "{F48714588810030A}Sounds/Samples/Las/Las_Crack_02.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "72708" {
+   id 72708
+   name "VeryCloseAdd"
+   version 7
+   tl -800 -400.139
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:27" {
+       id 28685
+       port 27
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 3
+   "Volume variance" 8
+   "Pitch variance" 2
+   Resampler FIR_4
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_01.wav" {
+     Filename "{6AACC78CFA5ABA87}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_02.wav" {
+     Filename "{F3B27E15E7BD8B17}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_03.wav" {
+     Filename "{84B8169D131F6467}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_04.wav" {
+     Filename "{837FECCC7599DEA4}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_05.wav" {
+     Filename "{F4758444813B31D4}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_05.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_06.wav" {
+     Filename "{6D6B3DDD9CDC0044}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_06.wav"
+     Probability 100
+     Index 5
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_07.wav" {
+     Filename "{1A615555687EEF34}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_07.wav"
+     Probability 100
+     Index 6
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_08.wav" {
+     Filename "{62E4C97F51D175C2}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_08.wav"
+     Probability 100
+     Index 7
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_09.wav" {
+     Filename "{15EEA1F7A5739AB2}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_09.wav"
+     Probability 100
+     Index 8
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_VeryClose_10.wav" {
+     Filename "{E9AEE89C03253D83}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_VeryClose_10.wav"
+     Probability 100
+     Index 9
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "77828" {
+   id 77828
+   name "MidAdd"
+   version 7
+   tl -800 91.25
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:7" {
+       id 28685
+       port 7
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume -19
+   "Volume variance" 5
+   Pitch -0.5
+   "Pitch variance" 2
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_01.wav" {
+     Filename "{F98BEAA999C26B37}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_02.wav" {
+     Filename "{6095533084255AA7}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_03.wav" {
+     Filename "{179F3BB87087B5D7}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_04.wav" {
+     Filename "{1058C1E916010F14}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_05.wav" {
+     Filename "{6752A961E2A3E064}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_05.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_06.wav" {
+     Filename "{FE4C10F8FF44D1F4}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_06.wav"
+     Probability 100
+     Index 5
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_07.wav" {
+     Filename "{894678700BE63E84}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_07.wav"
+     Probability 100
+     Index 6
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_08.wav" {
+     Filename "{F1C3E45A3249A472}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_08.wav"
+     Probability 100
+     Index 7
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_09.wav" {
+     Filename "{86C98CD2C6EB4B02}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_09.wav"
+     Probability 100
+     Index 8
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_10.wav" {
+     Filename "{7A89C5B960BDEC33}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_10.wav"
+     Probability 100
+     Index 9
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_11.wav" {
+     Filename "{0D83AD31941F0343}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_11.wav"
+     Probability 100
+     Index 10
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_12.wav" {
+     Filename "{949D14A889F832D3}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_12.wav"
+     Probability 100
+     Index 11
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_13.wav" {
+     Filename "{E3977C207D5ADDA3}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_13.wav"
+     Probability 100
+     Index 12
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_14.wav" {
+     Filename "{E45086711BDC6760}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_14.wav"
+     Probability 100
+     Index 13
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Mid_15.wav" {
+     Filename "{935AEEF9EF7E8810}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Mid_15.wav"
+     Probability 100
+     Index 14
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "78852" {
+   id 78852
+   name "CloseAdd"
+   version 7
+   tl -800 -145.833
+   ctl 0 -21
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:6" {
+       id 28685
+       port 6
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume -7
+   "Volume variance" 8
+   Pitch -0.5
+   "Pitch variance" 2
+   Resampler FIR_4
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_01.wav" {
+     Filename "{74A82D78F824C6FD}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_02.wav" {
+     Filename "{EDB694E1E5C3F76D}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_03.wav" {
+     Filename "{9ABCFC691161181D}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_04.wav" {
+     Filename "{9D7B063877E7A2DE}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_05.wav" {
+     Filename "{EA716EB083454DAE}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_05.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_06.wav" {
+     Filename "{736FD7299EA27C3E}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_06.wav"
+     Probability 100
+     Index 5
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_07.wav" {
+     Filename "{0465BFA16A00934E}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_07.wav"
+     Probability 100
+     Index 6
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_08.wav" {
+     Filename "{7CE0238B53AF09B8}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_08.wav"
+     Probability 100
+     Index 7
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_13.wav" {
+     Filename "{6EB4BBF11CBC7069}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_13.wav"
+     Probability 100
+     Index 8
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_14.wav" {
+     Filename "{697341A07A3ACAAA}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_14.wav"
+     Probability 100
+     Index 9
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_09.wav" {
+     Filename "{0BEA4B03A70DE6C8}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_09.wav"
+     Probability 100
+     Index 10
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_15.wav" {
+     Filename "{1E7929288E9825DA}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_15.wav"
+     Probability 100
+     Index 11
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_10.wav" {
+     Filename "{F7AA0268015B41F9}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_10.wav"
+     Probability 100
+     Index 12
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_11.wav" {
+     Filename "{80A06AE0F5F9AE89}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_11.wav"
+     Probability 100
+     Index 13
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_16.wav" {
+     Filename "{876790B1937F144A}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_16.wav"
+     Probability 100
+     Index 14
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_17.wav" {
+     Filename "{F06DF83967DDFB3A}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_17.wav"
+     Probability 100
+     Index 15
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_12.wav" {
+     Filename "{19BED379E81E9F19}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_12.wav"
+     Probability 100
+     Index 16
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_18.wav" {
+     Filename "{88E864135E7261CC}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_18.wav"
+     Probability 100
+     Index 17
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_19.wav" {
+     Filename "{FFE20C9BAAD08EBC}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_19.wav"
+     Probability 100
+     Index 18
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_20.wav" {
+     Filename "{A9422B2BBED6CFF6}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_20.wav"
+     Probability 100
+     Index 19
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_AddLayer_Default_Close_21.wav" {
+     Filename "{DE4843A34A742086}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/AddLayers/Weapons_SonicCrack_AddLayer_Default_Close_21.wav"
+     Probability 100
+     Index 20
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "89092" {
+   id 89092
+   name "Tail Houses"
+   version 7
+   tl -800 1888
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:59" {
+       id 51213
+       port 59
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "28685:67" {
+       id 28685
+       port 67
+      }
+     }
+    }
+   }
+   pi {
+    19 0
+   }
+   Volume -2
+   "Volume variance" 0.5
+   Pitch -0.8
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Houses_01.wav" {
+     Filename "{268BFB5A1099F077}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Houses_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Houses_02.wav" {
+     Filename "{BF9542C30D7EC1E7}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Houses_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Houses_03.wav" {
+     Filename "{C89F2A4BF9DC2E97}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Houses_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "90116" {
+   id 90116
+   name "Tail Meadows+Hills"
+   version 7
+   tl -800 1619.417
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:57" {
+       id 51213
+       port 57
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "28685:67" {
+       id 28685
+       port 67
+      }
+     }
+    }
+   }
+   pi {
+    19 0
+   }
+   Volume 1.1
+   "Volume variance" 0.5
+   Pitch -0.8
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Meadows_01.wav" {
+     Filename "{6525CE6776F994DC}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Meadows_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Meadows_02.wav" {
+     Filename "{FC3B77FE6B1EA54C}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Meadows_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Meadows_03.wav" {
+     Filename "{8B311F769FBC4A3C}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Meadows_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "91140" {
+   id 91140
+   name "Tail Forest"
+   version 7
+   tl -800 1760
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:58" {
+       id 51213
+       port 58
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "28685:67" {
+       id 28685
+       port 67
+      }
+     }
+    }
+   }
+   pi {
+    19 0
+   }
+   Volume 1.74
+   "Volume variance" 0.5
+   Pitch -0.8
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Forest_01.wav" {
+     Filename "{E21421FF990AF1AD}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Forest_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Forest_02.wav" {
+     Filename "{7B0A986684EDC03D}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Forest_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_Forest_03.wav" {
+     Filename "{0C00F0EE704F2F4D}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_Forest_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "92164" {
+   id 92164
+   name "Tail Interior"
+   version 7
+   tl -800 2019.417
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:2" {
+       id 51213
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   Volume 5
+   "Volume variance" 0.8
+   Pitch -0.8
+   "Pitch variance" 1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_interior_01.wav" {
+     Filename "{6F55CECB59146A7E}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_interior_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_interior_02.wav" {
+     Filename "{F64B775244F35BEE}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_interior_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_Default_Tail_interior_03.wav" {
+     Filename "{81411FDAB051B49E}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/Tails/Weapons_SonicCrack_Default_Tail_interior_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "94212" {
+   id 94212
+   name "Body Close"
+   version 7
+   tl -800 1216
+   ctl 0 -21
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "88077:4" {
+       id 88077
+       port 4
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   Volume 7.12
+   "Volume variance" 0.2
+   Pitch -0.5
+   "Pitch variance" 3
+   Resampler FIR_4
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Las_Crack_01.wav" {
+     Filename "{F487145888100309}Sounds/Samples/Las/Las_Crack_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Las_Crack_02.wav" {
+     Filename "{F48714588810030A}Sounds/Samples/Las/Las_Crack_02.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "96260" {
+   id 96260
+   name "Body Far"
+   version 7
+   tl -800 1329.75
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "88077:7" {
+       id 88077
+       port 7
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   Volume 5
+   "Volume variance" 0.5
+   Pitch -0.5
+   "Pitch variance" 1.1
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_01.wav" {
+     Filename "{37F8F42B0E7FEE4C}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_02.wav" {
+     Filename "{AEE64DB21398DFDC}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_03.wav" {
+     Filename "{D9EC253AE73A30AC}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_04.wav" {
+     Filename "{DE2BDF6B81BC8A6F}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_05.wav" {
+     Filename "{A921B7E3751E651F}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_05.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_762_Far_06.wav" {
+     Filename "{303F0E7A68F9548F}Sounds/Weapons/_SharedData/BulletSonicCracks/762/Samples/Weapons_SonicCrack_762_Far_06.wav"
+     Probability 100
+     Index 5
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "101380" {
+   id 101380
+   name "EL Meadows"
+   version 7
+   tl -803.719 -1059.933
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:57" {
+       id 51213
+       port 57
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 0.8
+   "Volume variance" 1
+   Pitch -0.75
+   "Pitch variance" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Meadows_01.wav" {
+     Filename "{E2BE4608D1DF7131}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Meadows_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Meadows_02.wav" {
+     Filename "{7BA0FF91CC3840A1}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Meadows_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Meadows_03.wav" {
+     Filename "{0CAA9719389AAFD1}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Meadows_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Meadows_04.wav" {
+     Filename "{0B6D6D485E1C1512}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Meadows_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "102404" {
+   id 102404
+   name "EL Forest"
+   version 7
+   tl -803.719 -943.878
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:58" {
+       id 51213
+       port 58
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 1.26
+   "Volume variance" 1
+   Pitch -0.75
+   "Pitch variance" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Forest_01.wav" {
+     Filename "{BBFF14207D623503}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Forest_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Forest_02.wav" {
+     Filename "{22E1ADB960850493}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Forest_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Forest_03.wav" {
+     Filename "{55EBC5319427EBE3}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Forest_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Forest_04.wav" {
+     Filename "{522C3F60F2A15120}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Forest_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "104452" {
+   id 104452
+   name "EL Houses"
+   version 7
+   tl -803.719 -823.933
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "51213:59" {
+       id 51213
+       port 59
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "28685:55" {
+       id 28685
+       port 55
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "33805:9" {
+       id 33805
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    35 0
+   }
+   Volume 6.6
+   "Volume variance" 1
+   Pitch -0.75
+   "Pitch variance" 1
+   Samples {
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Houses_01.wav" {
+     Filename "{7F60CE85F4F134D9}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Houses_01.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Houses_02.wav" {
+     Filename "{E67E771CE9160549}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Houses_02.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Houses_03.wav" {
+     Filename "{91741F941DB4EA39}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Houses_03.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Weapons_SonicCrack_EnvLayer_Houses_04.wav" {
+     Filename "{96B3E5C57B3250FA}Sounds/Weapons/_SharedData/BulletSonicCracks/_SharedData/EnvLayers/Weapons_SonicCrack_EnvLayer_Houses_04.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass "14364" : "{2D30A74802CA091F}Sounds/_SharedData/Configs/Spatiality/Weapons/Spatiality_Weapons_SuperSonicCrack_Tail.conf" {
+   id 14364
+   version 5
+   tl 43.684 603.111
+   parent "{2D30A74802CA091F}Sounds/_SharedData/Configs/Spatiality/Weapons/Spatiality_Weapons_SuperSonicCrack_Tail.conf"
+  }
+  SpatialityClass "17436" {
+   id 17436
+   name "Spatiality 17"
+   version 5
+   tl 43.684 -150.786
+   spatialFactor 1
+  }
+  SpatialityClass "111644" : "{CF208B5D47314A39}Sounds/_SharedData/Configs/Spatiality/Weapons/Spatiality_Weapons_SuperSonicCrack_Tail_Interior.conf" {
+   id 111644
+   version 5
+   tl 32 928
+   parent "{CF208B5D47314A39}Sounds/_SharedData/Configs/Spatiality/Weapons/Spatiality_Weapons_SuperSonicCrack_Tail_Interior.conf"
+  }
+ }
+ groups {
+  GroupClass {
+   id 52227
+   name "Base Signals"
+   children {
+    33805 7180 97292 29709 40972 51213 22540 38925 61452 62476 65549 70668 73741 28685
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+  GroupClass {
+   id 53251
+   name "Bodies"
+   children {
+    25607 16402 9220 2052 4100 24583 3076 15379 17436 58375 47125 57366 66564 69660 67602 71687 68612 71684 72708 74759 77828 78852 98311 99335
+   }
+   parent -1
+   Color 0.667 0 0 0.251
+  }
+  GroupClass {
+   id 54275
+   name "Tails"
+   children {
+    13330 12292 10244 14364 39943 11268 30724 31751 19475 63494 64525 110610 111644
+   }
+   parent -1
+   Color 0 0 1 0.251
+  }
+  GroupClass {
+   id 55299
+   name "Mixing and Routing"
+   children {
+    49174 37897 48141 32779 5129 81929 108555
+   }
+   parent -1
+   Color 0.333 0 0.498 0.251
+  }
+  GroupClass {
+   id 95235
+   name "Impact Cracks"
+   children {
+    93188 83975 90116 94212 84998 91140 88077 92164 79890 89092 87068 80915 82962 86035 96260 100359 109586
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+  GroupClass {
+   id 107523
+   name "EnvLayers"
+   children {
+    102404 106515 104452 105479 101380 103442
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+ }
+ version 1
+ sourcesLimit 9
+}

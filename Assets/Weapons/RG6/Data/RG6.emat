@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A95413}Assets/Weapons/RG6/Data/RG6_BCR.edds"
+ NMOMap "{5C1A77E3B0A95414}Assets/Weapons/RG6/Data/RG6_NMO.edds"
+}

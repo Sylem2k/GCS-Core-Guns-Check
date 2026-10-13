@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{A20947373D2FF8A8}Assets/Weapons/Fleet_Shotgun/Data/pump_BCR.edds"
+ NMOMap "{9AD1FCA5E458AA36}Assets/Weapons/Fleet_Shotgun/Data/pump_NMO.edds"
+}

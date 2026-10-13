@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{0F142FF726D7765E}Assets/Weapons/LasPistol/Data/laspistol_BCR.edds"
+ NMOMap "{37CC9465FFA024C0}Assets/Weapons/LasPistol/Data/laspistol_NMO.edds"
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E921C6A781329869}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_pne_mag_insert.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "SampleWeapon_04_Animations.blend"
+   SourceProfile "252_UpperbodyADD_ArmsABS"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+ }
+}

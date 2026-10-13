@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AF0453BAE782725C}Assets/Weapons/Lucius_Hellgun_Magazine/Data/magazine_hellgun_lucius.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

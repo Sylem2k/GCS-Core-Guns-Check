@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{B3BAC275B84581D2}Assets/Weapons/Bolter/Data/trigger_BCR.edds"
+ NMOMap "{8B6279E76132D34C}Assets/Weapons/Bolter/Data/trigger_NMO.edds"
+}

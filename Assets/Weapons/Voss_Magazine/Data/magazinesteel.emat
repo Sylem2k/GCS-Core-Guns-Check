@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{92CC8A2C29A973BC}Assets/Weapons/Voss_Magazine/Data/magazinesteel_BCR.edds"
+ NMOMap "{AA1431BEF0DE2122}Assets/Weapons/Voss_Magazine/Data/magazinesteel_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FF0CE1C1D0792A93}Configs/Weapons/AIBallisticTables/AIBT_Las_Standard.conf"
+ Configurations {
+  BaseResourceClass PC {
+  }
+  BaseResourceClass XBOX_ONE : PC {
+  }
+  BaseResourceClass XBOX_SERIES : PC {
+  }
+  BaseResourceClass PS4 : PC {
+  }
+  BaseResourceClass PS5 : PC {
+  }
+  BaseResourceClass HEADLESS : PC {
+  }
+ }
+}

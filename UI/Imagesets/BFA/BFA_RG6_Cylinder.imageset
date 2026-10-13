@@ -1,0 +1,77 @@
+ImageSetClass {
+ RefSize 106 70
+ Textures {
+  ImageSetTextureClass "{5C1A77E3B0A95488}" {
+   screenSize FHD
+   size 106 70
+   path "{5C1A77E3B0A95482}UI/Imagesets/BFA/BFA_RG6_Cylinder-100_atlas.edds"
+  }
+  ImageSetTextureClass "{5C1A77E3B0A95489}" {
+   screenSize FHD
+   size 159 105
+   path "{5C1A77E3B0A95483}UI/Imagesets/BFA/BFA_RG6_Cylinder-150_atlas.edds"
+  }
+  ImageSetTextureClass "{5C1A77E3B0A9548A}" {
+   screenSize FHD
+   size 318 210
+   path "{5C1A77E3B0A95484}UI/Imagesets/BFA/BFA_RG6_Cylinder-300_atlas.edds"
+  }
+  ImageSetTextureClass "{5C1A77E3B0A9548B}" {
+   screenSize FHD
+   size 477 315
+   path "{5C1A77E3B0A95485}UI/Imagesets/BFA/BFA_RG6_Cylinder-450_atlas.edds"
+  }
+  ImageSetTextureClass "{5C1A77E3B0A9548C}" {
+   screenSize FHD
+   size 636 420
+   path "{5C1A77E3B0A95486}UI/Imagesets/BFA/BFA_RG6_Cylinder-600_atlas.edds"
+  }
+  ImageSetTextureClass "{5C1A77E3B0A9548D}" {
+   screenSize FHD
+   size 795 525
+   path "{5C1A77E3B0A95487}UI/Imagesets/BFA/BFA_RG6_Cylinder-750_atlas.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass "rg6-cyl-0" {
+   Pos 2 2
+   Size 24 32
+   Flags 0
+  }
+  ImageSetDefClass "rg6-cyl-1" {
+   Pos 28 2
+   Size 24 32
+   Flags 0
+  }
+  ImageSetDefClass "rg6-cyl-2" {
+   Pos 54 2
+   Size 24 32
+   Flags 0
+  }
+  ImageSetDefClass "rg6-cyl-3" {
+   Pos 80 2
+   Size 24 32
+   Flags 0
+  }
+  ImageSetDefClass "rg6-cyl-4" {
+   Pos 2 36
+   Size 24 32
+   Flags 0
+  }
+  ImageSetDefClass "rg6-cyl-5" {
+   Pos 28 36
+   Size 24 32
+   Flags 0
+  }
+  ImageSetDefClass "rg6-cyl-6" {
+   Pos 54 36
+   Size 24 32
+   Flags 0
+  }
+  ImageSetDefClass "rg6-cyl-bg" {
+   Pos 80 36
+   Size 24 32
+   Flags 0
+  }
+ }
+}

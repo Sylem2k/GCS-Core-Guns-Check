@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{A171EF19838ECBF6}Assets/Weapons/PlushKrieg/Textures/DefaultMaterial_BCR.edds"
+ NMOMap "{99A9548B5AF99968}Assets/Weapons/PlushKrieg/Textures/DefaultMaterial_NMO.edds"
+}

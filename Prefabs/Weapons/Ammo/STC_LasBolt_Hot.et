@@ -1,0 +1,15 @@
+TracerProjectile : "{F487145888100171}Prefabs/Weapons/Ammo/STC_LasBolt_Base.et" {
+ ID "5C1A77E3B0A95310"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     ParticleEffect "{5C1A77E3B0A95302}Particles/BFA_Las/BFA_LasBolt_Hit_API.ptc"
+    }
+   }
+   PenetratorType Chemical
+   PenetrationDepth 24
+  }
+ }
+ ProjectileModel "{5C1A77E3B0A95301}Assets/Weapons/Ammo_LasRound/Lasgun_Beam_Hot.xob"
+}

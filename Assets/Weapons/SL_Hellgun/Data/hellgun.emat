@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 1 1 1 1
+ ApplyAlbedoToEmissive 1
+ EmissiveMap "{AE7A46A7ABFB0E7B}Assets/Weapons/SL_Hellgun/Data/hellgun_EM.edds"
+ BCRMap "{504E6A96CAD11BA3}Assets/Weapons/SL_Hellgun/Data/hellgun_BCR.edds"
+ NMOMap "{6896D10413A6493D}Assets/Weapons/SL_Hellgun/Data/hellgun_NMO.edds"
+}

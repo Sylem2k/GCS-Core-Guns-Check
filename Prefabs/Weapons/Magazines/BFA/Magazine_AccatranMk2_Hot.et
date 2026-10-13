@@ -1,0 +1,26 @@
+GenericEntity : "{6C83E3A52A496DED}Prefabs/Weapons/Magazines/Lasgun_Magazine_Base.et" {
+ ID "5C1A77E3B0A95315"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Accatran Mk II Hot-Shot Cell (25)"
+     Description "Overcharged las cell. Yellow-white bolt that punches light vehicle plate, at the cost of cell life."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellLasPack_Standard "{5C1A77E3B0A95331}" {
+   }
+   ItemModel "{5C1A77E3B0A95005}Assets/Weapons/AccatranMk2/accatranmk2_mag.xob"
+   MaxAmmo 25
+   AmmoConfig "{5C1A77E3B0A95313}Configs/Weapons/Ammo/Ammo_Las_Hot_Standard.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{5C1A77E3B0A95005}Assets/Weapons/AccatranMk2/accatranmk2_mag.xob"
+  }
+ }
+}

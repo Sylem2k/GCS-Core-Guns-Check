@@ -1,0 +1,11 @@
+GenericEntity {
+ ID "5C1A77E3B0A956C7"
+ components {
+  MeshObject "{5C1A77E3B0A956C8}" {
+   Object "{5C1A77E3B0A95613}Assets/Weapons/Mortar50/Shell50.xob"
+   InheritVisibility 1
+  }
+  Hierarchy "{5C1A77E3B0A956C9}" {
+  }
+ }
+}

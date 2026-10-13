@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9405AF3C91BD83B0}Assets/Weapons/Voss_Folded/Data/voss_folded.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

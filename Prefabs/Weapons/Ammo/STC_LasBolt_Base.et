@@ -1,0 +1,48 @@
+TracerProjectile : "{AC26AB660097633D}Prefabs/Weapons/Ammo/Ammo_556x45_Ball_M855.et" {
+ ID "F487145888100171"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 930
+   InitSpeedVariation 0
+   WindInfluenceMultiplier 0
+   TimeToLive 5
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 13
+    }
+    AIHitEffect "{C422E51CCDDF6BD3}" {
+    }
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     ParticleEffect "{F487145888100201}Particles/BFA_Las/BFA_LasBolt_Hit.ptc"
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Filename "{F487145888100320}Sounds/Weapons/Las/Weapons_LasHits.acp"
+    }
+    ProjectileDamage "{9E33D5F4E5F249C4}" {
+     DamageValue 13
+     DamageType Collision
+     DamageEffects {
+      SCR_CollisionDamageEffect "{7F52DBFB80203F78}" {
+      }
+     }
+    }
+   }
+   BallisticTableConfig "{FF0CE1C1D0792A93}Configs/Weapons/AIBallisticTables/AIBT_Las_Standard.conf"
+   SonicCracks "{F487145888100322}Sounds/Weapons/Las/Weapons_LasSonicCracks.acp"
+   SubsonicFlybys "{F487145888100321}Sounds/Weapons/Las/Weapons_LasFlybys.acp"
+   AirDrag 0
+   SideAirDragScale 0
+   Diameter 10
+   Length 80
+   MoveWithParent 1
+   PenetratorType Chemical
+   PenetrationDepth 6
+  }
+ }
+ SpawnAsCartridge 0
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{F487145888100210}Assets/Weapons/Ammo_LasRound/Lasgun_Beam.xob"
+ CartridgeModel ""
+ "Tracer Burn Start After" 0.02
+ "Tracer Burn Time" 2
+}

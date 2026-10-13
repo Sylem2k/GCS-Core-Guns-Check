@@ -1,0 +1,26 @@
+GenericEntity : "{5C1A77E3B0A95010}Prefabs/Weapons/Rifles/Accatran/AccatranMk2_Recon.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{5C1A77E3B0A950F4}" {
+     SourceMaterial "accatranmk2"
+     AssignedMaterial "{5C1A77E3B0A950F2}Assets/Weapons/AccatranMk2/Data/accatranmk2_red.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Accatran Mk II Recon Lasgun (Heretical)"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Accatran Mk II Recon Lasgun (Heretical)"
+    Description "Accatran pattern Mk II bullpup lasrifle in defiled red, stripped of its Imperial markings. Takes standard las power cells."
+   }
+  }
+ }
+}

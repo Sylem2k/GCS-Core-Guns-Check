@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A94D21}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_Lasgun_Bass.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,57 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 5
+   PriorityAgainstVehicles 40
+   UsedAgainst 0x7 0
+   IndirectlyUsedAgainst 0x1 0
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "RG-6 Cylinder (6x VOG-25)"
+     Description "Six-round revolving cylinder for the RG-6, loaded with VOG-25 40 mm fragmentation grenades."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5C1A77E3B0A95430}" {
+     Weight 2.2
+     SizeSetupStrategy Manual
+     ItemVolume 1200
+     RestingUP Right
+    }
+    CustomAttributes {
+     SCR_ItemOfInterestAttribute "{5556C918268A1683}" {
+     }
+     PreviewRenderAttributes "{5C1A77E3B0A95431}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 0.8
+      FOV 20
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellRG6 "{5C1A77E3B0A95432}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "RG-6 Cylinder"
+    m_sAmmoCaliber "#AR-AmmunitionID_40mm"
+    m_sAmmoType "#AR-AmmoType_VOG25"
+    m_eAmmoTypeFlags FRAG
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5866951DE2665916}" : "{5C1A77E3B0A95481}Configs/WeaponInfo/MagazineIndicators/BFA_RG6_Cylinder.conf" {
+    }
+   }
+   MaxAmmo 6
+   AmmoConfig "{5C1A77E3B0A95402}Configs/Weapons/Ammo/Ammo_RG6_VOG25.conf"
+   AmmoMapping {
+    0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{5C1A77E3B0A95411}Assets/Weapons/RG6/RG6_Magazine.xob"
+  }
+  STC_RevolverCylinderComponent "{5C1A77E3B0A95470}" {
+  }
+ }
+}

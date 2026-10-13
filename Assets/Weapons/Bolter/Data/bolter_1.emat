@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 1 1 1 1
+ ApplyAlbedoToEmissive 1
+ EmissiveMap "{2A570F1C2A9C9FF9}Assets/Weapons/Bolter/Data/bolter_EM.edds"
+ BCRMap "{C2CE5292DE3001B1}Assets/Weapons/Bolter/Data/bolter_BCR.edds"
+ NMOMap "{FA16E9000747532F}Assets/Weapons/Bolter/Data/bolter_NMO.edds"
+}

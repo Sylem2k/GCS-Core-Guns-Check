@@ -1,0 +1,44 @@
+$object "" {
+ #version 1.0
+ #tag MergeMeshes "1"
+ #tag Coords "XZY"
+ #tag Scale "1.000000"
+ #tag SrcFile_AppVendor "Blender Foundation"
+ #tag SrcFile_AppName "Blender (stable FBX IO)"
+ #tag SrcFile_AppVersion "5.1.0"
+ $materials {
+  $material "accatranmk2_display" {
+   #UVset 0
+  }
+ }
+ $lod 0 {
+  #lodFactor 0.5
+  $mesh "display" {
+   #texCoords 1
+   $faces {
+     0 4 0 1 2 3
+   }
+   $faceVerts {
+     1 0 0
+     2 0 1
+     3 0 2
+     0 0 3
+   }
+   $verts {
+     -0.036803 0.03285 0.065731 0
+     -0.049537 0.03285 0.079832 0
+     -0.049537 0.07685 0.079832 0
+     -0.036803 0.07685 0.065731 0
+   }
+   $texCoords {
+     0 0
+     1 0
+     1 1
+     0 1
+   }
+   $normals {
+     -0.7422 0 -0.6702
+   }
+  }
+ }
+}

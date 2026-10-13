@@ -1,0 +1,177 @@
+GenericEntity : "{5C1A77E3B0A95741}Prefabs/Compositions/Slotted/SlotFlatSmall/BFA/MortarPlacement50_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5C1A77E3B0A957B5}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "50mm Revolver Mortar Pit"
+    m_Image ""
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     5 90 27 28 902 280 281 913 11
+    }
+    m_aAutoLabels {
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5C1A77E3B0A957B6}" {
+      m_BudgetType CAMPAIGN
+      m_Value 300
+     }
+     SCR_EntityBudgetValue "{5C1A77E3B0A957B7}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{5C1A77E3B0A957B8}" {
+      m_BudgetType PROPS
+      m_Value 25
+     }
+     SCR_EntityBudgetValue "{5C1A77E3B0A957B9}" {
+      m_BudgetType SYSTEMS
+      m_Value 4
+     }
+    }
+   }
+   m_Flags 131395
+  }
+  SCR_EditorLinkComponent "{5C1A77E3B0A957BA}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{5C1A77E3B0A957BB}" {
+     m_Prefab "{5C1A77E3B0A95742}PrefabsEditable/Compositions/BFA/E_Foundation_Mortar50_US.et"
+     m_vPosition 0 0.2 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5C1A77E3B0A95744"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5C1A77E3B0A95745"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95746"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95747"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95748"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95749"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574A"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574B"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574C"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574D"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574E"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9574F"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95750"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95751"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95752"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95753"
+     Flags 1048576
+    }
+    Turret {
+     ID "5C1A77E3B0A95754"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95755"
+     Flags 1048576
+    }
+    GameEntity {
+     ID "5C1A77E3B0A95756"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95757"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95758"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A95759"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9575A"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5C1A77E3B0A9575B"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5C1A77E3B0A9575C"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9575D"
+     Flags 1048576
+     {
+      DecalEntity {
+       ID "56DEFDB4A9499F9B"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9575E"
+     Flags 1048576
+     {
+      DecalEntity {
+       ID "56DF08929A14FB98"
+       Flags 1048576
+      }
+     }
+    }
+    GenericEntity {
+     ID "5C1A77E3B0A9575F"
+     Flags 1048576
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A94F01}Assets/Characters/Vests/Cuirass/cuirass.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5C1A77E3B0A94F0B}" {
+     SourceMaterial "cuirass"
+     AssignedMaterial "{5C1A77E3B0A94F07}Assets/Characters/Vests/Cuirass/Data/cuirass.emat"
+    }
+    MaterialAssignClass "{5C1A77E3B0A94F0C}" {
+     SourceMaterial "Sash"
+     AssignedMaterial "{5C1A77E3B0A94F08}Assets/Characters/Vests/Cuirass/Data/sash.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "cuirass final" {
+    }
+   }
+   GeometryParams {
+    GeometryParam "UTM_cuirass final" {
+     SurfaceProperties {
+      "{EB387D1072E08951}Common/Materials/Game/Metal/metal_7mm.gamemat"
+     }
+     Mass 0
+     Margin 0.01
+    }
+   }
+   Common TXOCommonClass "{5C1A77E3B0A94F0A}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.9 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

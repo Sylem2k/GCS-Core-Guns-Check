@@ -1,0 +1,11 @@
+$grp Vehicle : "{2ADFE4B4C4D6700A}Prefabs/Vehicles/Wheeled/M998/50mm mortar truck.et" {
+ __mm_mortar_truck1 {
+  coords 4909.669 28.594 11831.026
+ }
+ __mm_mortar_truck2 {
+  coords 4909.172 28.607 11821.932
+ }
+}
+GameEntity : "{8D14DFED85660D4D}Prefabs/Characters/HeadGear/Helmet_Valk/Valk-Helmet.et" {
+ coords 4907.569 28.594 11848.97
+}

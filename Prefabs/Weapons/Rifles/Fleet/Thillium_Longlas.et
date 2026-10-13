@@ -1,0 +1,141 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{3F3E12414AFB4D53}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_Lasgun.acp" "{A6F3D0955462D8FE}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{041280ADC2FD5E94}Assets/Weapons/Thillium_Longlas/Thillium_Pattern_Long_Las_With_LODs.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{5C1A77E3B0A95363}Assets/Weapons/Thillium_Longlas/Anims/p_thillium_ik.anm"
+    }
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Thillium Long Las"
+     Description "Thillium pattern long las."
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{5C1A77E3B0A95060}Prefabs/Weapons/Attachments/Optics/STC_Scope_LongLas.et"
+      PivotID "Slot_Scope"
+      Offset 0.0007 0.003 0
+      ChildPivotID "Snap_Scope"
+      InspectionWidgetOffset 0 0.255 0.17
+     }
+     AttachmentType STC_AttachmentOpticsLongLas "{5C1A77E3B0A95062}" {
+     }
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPriority 0
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "Eye"
+      Offset 0 -0.0328 0
+     }
+     SightsPointFront PointInfo "{69F025C7B97AB6F9}" {
+      PivotID "Barrel_Muzzel"
+      Offset 0 0.0326 0
+     }
+     SightsPointRear PointInfo "{69F025C7B97AB6FB}" {
+      PivotID "Eye"
+      Offset 0 -0.0328 0.0636
+     }
+    }
+    SCR_2DPIPSightsComponent "{5C1A77E3B0A950A0}" {
+     Enabled 0
+     m_iCameraIndex 9
+     SightsPosition PointInfo "{5C1A77E3B0A950A1}" {
+      PivotID "Eye"
+      Offset 0 -0.0328 0
+     }
+     SightsRanges {
+      SightRangeInfo "{5C1A77E3B0A950A2}" {
+       Range 0 100
+      }
+      SightRangeInfo "{5C1A77E3B0A950A3}" {
+       Range 0.005 300
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5C1A77E3B0A950A4}" {
+      m_fBaseZoom 1
+      m_fZoomMax 1
+      m_fInterpolationSpeed 50
+     }
+     SightsPointFront PointInfo "{5C1A77E3B0A950A5}" {
+      PivotID "Barrel_Muzzel"
+      Offset 0 0.0326 0
+     }
+     SightsPointRear PointInfo "{5C1A77E3B0A950A6}" {
+      PivotID "Eye"
+      Offset 0 -0.0328 0.0636
+     }
+     ADSTime 0.35
+     m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
+     m_ReticleColor 1 0.1 0.05 1
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 1 0.1 0.05 1
+     m_eZeroingType EPZ_RETICLE_OFFSET
+     m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
+     m_fObjectiveFov 24
+     m_fReticleAngularSize 18.06
+     m_fReticlePortion 1
+     m_fReticleBaseZoom 0
+     m_fMagnification 1
+     m_vCameraOffset 0 0 0.253
+     m_fScopeRadius 0.0079
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineWell STC_MagazineWellLasPack_Marksman "{FFE45CE55A2E5949}" {
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "Snap_Hand_Left"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "Snap_Hand_Right"
+      Offset 0 0 0
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "Scene_Root"
+       Offset 0 0.051 0.68
+       Angles 0 0 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "Scene_Root"
+       Offset 0 0.051 0.68
+       Angles 0 0 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 180
+      }
+     }
+     MagazineTemplate "{566632444AC5B10C}Prefabs/Weapons/Magazines/BFA/Magazine_LasMarksman.et"
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "Slot_Magazine"
+      Offset 0 -0.009435 -0.064005
+      Angles 0 0 0
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Thillium Long Las"
+    Description "Thillium pattern long las."
+    Icon ""
+   }
+  }
+ }
+}

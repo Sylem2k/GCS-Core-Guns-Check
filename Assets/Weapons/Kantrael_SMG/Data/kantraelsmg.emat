@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{311C0306F6E374A6}Assets/Weapons/Kantrael_SMG/Data/kantraelsmg_BCR.edds"
+ NMOMap "{09C4B8942F942638}Assets/Weapons/Kantrael_SMG/Data/kantraelsmg_NMO.edds"
+}

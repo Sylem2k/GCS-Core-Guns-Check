@@ -1,0 +1,26 @@
+GenericEntity : "{6C83E3A52A496DED}Prefabs/Weapons/Magazines/Lasgun_Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Accatran Mk II Power Cell (45)"
+     Description "Standard las power cell in the Accatran Mk II pattern. Fits any standard-cell lasgun."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellLasPack_Standard "{5C1A77E3B0A95013}" {
+   }
+   ItemModel "{5C1A77E3B0A95005}Assets/Weapons/AccatranMk2/accatranmk2_mag.xob"
+   MaxAmmo 45
+   AmmoConfig "{118A51F8EAC0CB5D}Configs/Weapons/Ammo/Ammo_Las_Standard.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{5C1A77E3B0A95005}Assets/Weapons/AccatranMk2/accatranmk2_mag.xob"
+  }
+ }
+}

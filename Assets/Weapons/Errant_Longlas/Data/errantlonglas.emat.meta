@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C6BF636DFB113A79}Assets/Weapons/Errant_Longlas/Data/errantlonglas.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

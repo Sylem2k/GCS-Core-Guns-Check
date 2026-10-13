@@ -1,0 +1,33 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A94E80}Assets/Weapons/Hidden/hidden_mag.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A4F6E52DDA7AA9A}" {
+     SourceMaterial "hidden"
+     AssignedMaterial "{FE837C0BB033FB6F}Assets/Weapons/Hidden/Data/hidden.emat"
+    }
+   }
+   MeshParams {
+    MeshParam hidden {
+    }
+   }
+   Common TXOCommonClass "{5C1A77E3B0A94E81}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.1.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

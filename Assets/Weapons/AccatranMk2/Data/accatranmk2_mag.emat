@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A95082}Assets/Weapons/AccatranMk2/Data/accatranmk2_mag_BCR.edds"
+ NMOMap "{5C1A77E3B0A95083}Assets/Weapons/AccatranMk2/Data/accatranmk2_mag_NMO.edds"
+}

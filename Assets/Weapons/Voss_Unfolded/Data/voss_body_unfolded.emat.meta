@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DC939F1E77C537B9}Assets/Weapons/Voss_Unfolded/Data/voss_body_unfolded.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

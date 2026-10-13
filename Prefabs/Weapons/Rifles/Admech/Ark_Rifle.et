@@ -1,0 +1,57 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{91D7C2FFF9BDEF6E}Assets/Weapons/Ark_Rifle/ark rifle drizzt w LODS.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Arc Rifle"
+     Description "Admech Mars pattern arc rifle."
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset 0 0.0997 0.0493
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 300
+      }
+      BaseFireMode "{24AF05A17D91BDE0}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 245
+       UIName "Sustained"
+      }
+     }
+     MagazineWell STC_MagazineWellLasPack_Standard "{9C44CD8E102E7809}" {
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "snap_hand_left"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
+      Offset 0 0 0
+     }
+     MagazineTemplate "{0DC0788FEEFEAA05}Prefabs/Weapons/Magazines/BFA/Magazine_ArkRifle.et"
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0866 -0.011
+      Angles 0 180 0
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Arc Rifle"
+    Description "Admech Mars pattern arc rifle."
+    Icon ""
+   }
+  }
+ }
+}

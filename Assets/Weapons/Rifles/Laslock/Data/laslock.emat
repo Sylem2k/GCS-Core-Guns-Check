@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BCRMap "{F3B4FA675D32FD2D}Assets/Weapons/Rifles/Laslock/Textures/laslock_BCR.edds"
+ NMOMap "{CB6C41F58445AFB3}Assets/Weapons/Rifles/Laslock/Textures/laslock_NMO.edds"
+ EmissiveMap "{B264D4E56AEECB2D}Assets/Weapons/Rifles/Laslock/Textures/laslock_EM.edds"
+}

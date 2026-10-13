@@ -1,0 +1,22 @@
+GameProject {
+ ID "GCSCoreGunsCheck"
+ GUID "6A9A08FB49683257"
+ TITLE "GCS Core Guns Check"
+ Dependencies {
+  "5ABD0CB57F7E9EB1" "58D0FB3206B6F859" "5D0551624969C92E"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

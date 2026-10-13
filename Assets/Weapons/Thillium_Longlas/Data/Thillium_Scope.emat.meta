@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{041280ADC2FD5E9A}Assets/Weapons/Thillium_Longlas/Data/Thillium_Scope.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

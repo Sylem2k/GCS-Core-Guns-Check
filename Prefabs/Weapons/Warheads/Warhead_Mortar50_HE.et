@@ -1,0 +1,27 @@
+GenericEntity : "{D584F2FFFDC7DE49}Prefabs/Weapons/Warheads/Warhead_Shell_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5D38C8F8C6A477C7}" : "{0CE1927888BD98BA}Prefabs/Weapons/Core/Damage/ExplosionContainer_HEF.conf" {
+     ExplosionEffects {
+      BaseExplosionDamage "{61DAF5E24D9CA168}" {
+       DamageDistance 1
+      }
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" {
+       DamageFragmentCount 1100
+       GurneyConstant 2600
+       CaseWeight 1100
+      }
+     }
+     ChargeWeight 220
+     TntEquivalent 1.456
+    }
+    SpawnDecalEffect "{5D5727F06F70F2E3}" {
+     FarPlane 1.6
+     Scale 1.6
+    }
+   }
+  }
+ }
+}

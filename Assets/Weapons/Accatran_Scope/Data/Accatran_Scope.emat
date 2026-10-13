@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A95212}Assets/Weapons/Accatran_Scope/Data/Accatran_Scope_BCR.edds"
+ NMOMap "{5C1A77E3B0A95213}Assets/Weapons/Accatran_Scope/Data/Accatran_Scope_NMO.edds"
+}

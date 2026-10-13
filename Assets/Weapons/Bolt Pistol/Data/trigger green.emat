@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{2071ADB50AD891CF}Assets/Weapons/Bolt Pistol/Data/green_textures/trigger_BCR.edds"
+ NMOMap "{18A91627D3AFC351}Assets/Weapons/Bolt Pistol/Data/green_textures/trigger_NMO.edds"
+}

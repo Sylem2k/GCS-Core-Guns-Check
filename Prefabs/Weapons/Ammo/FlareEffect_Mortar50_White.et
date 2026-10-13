@@ -1,0 +1,21 @@
+Projectile : "{863D1FE82506BD56}Prefabs/Weapons/Ammo/FlareEffect_81mm_M853A1_White.et" {
+ ID "5A52CD9231D8AB66"
+ components {
+  TimerTriggerComponent "{60F2D6E8520B1C8B}" {
+   TIMER 45
+  }
+  FlareMoveComponent "{5A52CD9231D8AB6E}" {
+   TimeToLive 45
+   Diameter 50
+  }
+  SCR_FlareEffectComponent "{611868B460E2F003}" {
+   m_aLightData {
+    SCR_BaseLightData "{611868B4754ECDDD}" {
+     m_vLightColor 1 1 1
+     m_fRadius 85
+    }
+   }
+   m_iLightLifetime 50
+  }
+ }
+}

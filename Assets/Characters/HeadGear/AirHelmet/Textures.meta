@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0D8EF770DAA5CEAF}Assets/Characters/HeadGear/AirHelmet/Textures"
+ Configurations {
+  FolderResourceClass PC {
+  }
+  FolderResourceClass XBOX_ONE : PC {
+  }
+  FolderResourceClass XBOX_SERIES : PC {
+  }
+  FolderResourceClass PS4 : PC {
+  }
+  FolderResourceClass PS5 : PC {
+  }
+  FolderResourceClass HEADLESS : PC {
+  }
+ }
+}

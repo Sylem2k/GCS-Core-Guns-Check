@@ -1,0 +1,23 @@
+GenericEntity : "{08286DDBB1F33FF1}Prefabs/Weapons/Attachments/Optics/Optic_AP2k/Collim_AP2k.et" {
+ ID "5C1A77E3B0A94D23"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5C1A77E3B0A94D27}" {
+     Name "Pattern Reflex Collimator"
+     Description "Munitorum-issue reflex collimator. Fits pattern las weapon optic rails."
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsCarryHandle "{5C1A77E3B0A94D28}" {
+      }
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraPreset Right
+      FOV 20
+     }
+    }
+   }
+  }
+ }
+}

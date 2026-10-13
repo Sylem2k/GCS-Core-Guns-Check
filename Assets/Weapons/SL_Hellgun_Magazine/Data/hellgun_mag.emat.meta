@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0C4C0D9650045AB2}Assets/Weapons/SL_Hellgun_Magazine/Data/hellgun_mag.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

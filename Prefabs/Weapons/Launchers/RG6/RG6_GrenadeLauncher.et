@@ -1,0 +1,316 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "5C1A77E3B0A95400"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{39859EC13335D884}Sounds/Weapons/Attachments/Underbarrel/GP-25/Weapons_Attch_Underbarrel_GP25_Shot.acp" "{A6F3D0955462D8FE}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{5C1A77E3B0A95410}Assets/Weapons/RG6/RG6_Launcher.xob"
+  }
+  RigidBody "{5C1A77E3B0A95433}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{5C1A77E3B0A95434}" {
+   m_fDamage 25
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "RG-6 Grenade Launcher"
+     Description "Six-shot 40 mm revolver grenade launcher. Fires VOG-25 fragmentation grenades from a detachable six-round cylinder."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5C1A77E3B0A95435}" {
+     Weight 4.2
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 2000
+     RestingUP Left
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
+     AnimationIKPose "{5C1A77E3B0A95415}Assets/Weapons/RG6/Anims/p_rg6_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5C1A77E3B0A95436}" {
+        "Point info" DeploymentPointInfo dp {
+         PivotID "Scene_Root"
+         Offset 0 -0.028 0.338
+        }
+        StabilizationSize 0.045 0.108 0.333
+       }
+      }
+     }
+     ItemMovementSwayAttributes "{58B9009CD03086A9}" {
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_fRecoilTarget 0.038
+      m_vTranslationMin 0.003 0.003 0
+      m_vTranslationMax 0.005 0.005 0
+      m_vRotationImpulseMin 0 0 9
+      m_vRotationImpulseMax 0 0 11
+     }
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraDistanceToItem 1.2
+      FOV 30
+      AspectRatio 3
+     }
+     CharacterModifierAttributes "{563E0E51FE60CD4D}" {
+     }
+     ItemOneHandAnimAttributes "{5C1A77E3B0A95437}" {
+      ErectLinearOffsetUpper 0 0 0
+      ErectLinearOffset 0.018 -0.2 -0.1
+      ErectLinearOffsetLower 0.018 -0.05 0
+      CrouchLinearOffsetUpper 0 0 0
+      CrouchLinearOffset 0.018 -0.16 -0.1
+      CrouchLinearOffsetLower 0 -0.15 0
+      SpringCoefficient 2.2
+      DamperCoefficient 2.4
+     }
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{5C1A77E3B0A95438}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+      Offset 0 -0.0083 0.027
+     }
+     SightsRanges {
+      SightRangeInfo "{5C1A77E3B0A95440}" {
+       Range 0.17 50
+       WeaponPosition PointInfo "{5C1A77E3B0A95441}" {
+        Offset 0 -0.0165 0
+        Angles 2.57 0 0
+       }
+      }
+      SightRangeInfo "{5C1A77E3B0A95442}" {
+       Range 0.224 100
+       WeaponPosition PointInfo "{5C1A77E3B0A95443}" {
+        Offset 0 -0.0314 0
+        Angles 4.92 0 0
+       }
+      }
+      SightRangeInfo "{5C1A77E3B0A95444}" {
+       Range 0.277 150
+       WeaponPosition PointInfo "{5C1A77E3B0A95445}" {
+        Offset 0 -0.0467 0
+        Angles 7.35 0 0
+       }
+      }
+      SightRangeInfo "{5C1A77E3B0A95446}" {
+       Range 0.333 200
+       WeaponPosition PointInfo "{5C1A77E3B0A95447}" {
+        Offset 0 -0.0623 0
+        Angles 9.88 0 0
+       }
+      }
+      SightRangeInfo "{5C1A77E3B0A95448}" {
+       Range 0.389 250
+       WeaponPosition PointInfo "{5C1A77E3B0A95449}" {
+        Offset 0 -0.0774 0
+        Angles 12.37 0 0
+       }
+      }
+      SightRangeInfo "{5C1A77E3B0A9544A}" {
+       Range 0.45 300
+       WeaponPosition PointInfo "{5C1A77E3B0A9544B}" {
+        Offset 0 -0.0933 0
+        Angles 15.06 0 0
+       }
+      }
+      SightRangeInfo "{5C1A77E3B0A9544C}" {
+       Range 0.511 350
+       WeaponPosition PointInfo "{5C1A77E3B0A9544D}" {
+        Offset 0 -0.1116 0
+        Angles 18.215 0 0
+       }
+      }
+      SightRangeInfo "{5C1A77E3B0A9544E}" {
+       Range 0.588 400
+       WeaponPosition PointInfo "{5C1A77E3B0A9544F}" {
+        Offset 0 -0.1294 0
+        Angles 21.4 0 0
+       }
+      }
+     }
+     SightsRangesDefaultIndex 1
+     SightsPointFront PointInfo "{5C1A77E3B0A95450}" {
+      PivotID "eye"
+      Offset 0 -0.0083 0.4607
+     }
+     SightsPointRear PointInfo "{5C1A77E3B0A95451}" {
+      PivotID "eye"
+      Offset 0 -0.0083 0.18
+     }
+     ADSTime 0.45
+     m_iOpticDOFDistanceScale 30
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       Enabled 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{F93B336C002CB400}Particles/Weapon/Smoke_GP25.ptc"
+       ResetOnFire 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 120
+      }
+     }
+     MagazineWell STC_MagazineWellRG6 "{5C1A77E3B0A95452}" {
+     }
+     DispersionDiameter 1.6
+     ChamberedAmmo 0
+     DispersionRange 400
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "barrel_muzzle"
+       Offset 0 0 0
+       Angles 0 0 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "barrel_muzzle"
+       Offset 0 0 0
+       Angles 0 0 0
+      }
+     }
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+       "Lower Translation" 0.05 -0.005 -0.013
+       "Lower Rotation" -10 -8 -10
+      }
+      OnHitAimModifier "{587283866B0FF1C7}" {
+       IsEnabled 0
+      }
+      RecoilWeaponAimModifier "{5C1A77E3B0A95455}" {
+       LinearData RecoilData "{5C1A77E3B0A95456}" {
+        "Curve Y" {
+         0 0.5 0.035 1 0.55 0.65 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.018 0.65 0.043 1 0.251 0.533 0.5 0.45 0.75 0.5 1 0.5
+        }
+        "Curve Time Scale" 1.35
+        "Curve Magnitudes" 1 1 1.5
+        "Curve Mins" 0 0.02 -0.048
+        "Curve Maxs" 0 0.015 -0.042
+       }
+       AngularData RecoilData "{5C1A77E3B0A95457}" {
+        "Curve Y" {
+         0 0.5 0.035 1 0.55 0.65 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.018 0.65 0.043 1 0.251 0.533 0.5 0.45 0.75 0.5 1 0.5
+        }
+        "Curve Time Scale" 1.3
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" 0 2 -5
+        "Curve Maxs" 0 4 -4
+       }
+       TurnOffsetData RecoilData "{5C1A77E3B0A95458}" {
+        "Curve Y" {
+         0 0.5 0.101 1 0.539 0.412 0.841 0.542 1 0.5
+        }
+        "Curve Time Scale" 1.5
+        "Curve Magnitudes" 0 1 0
+        "Curve Mins" 0 0.75 0
+        "Curve Maxs" 0 0.95 0
+       }
+      }
+      ZeroingWeaponAimModifier "{5C1A77E3B0A95459}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{5C1A77E3B0A9545A}" : "{5C1A77E3B0A95481}Configs/WeaponInfo/MagazineIndicators/BFA_RG6_Cylinder.conf" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "snap_hand_left"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
+      Offset 0 0 0
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+      Offset 0 0.017 -0.2335
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "slot_magazine"
+      Offset 0 0 0
+      Angles 0 0 0
+      InspectionWidgetOffset 0 -0.045 0.0675
+     }
+     MagazineTemplate "{5C1A77E3B0A95401}Prefabs/Weapons/Magazines/BFA/Magazine_RG6_VOG25.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+     AnimInstance "{278604E4583F2647}Assets/Weapons/Rifles/workspaces/m16_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{5C1A77E3B0A9545B}" {
+      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+      AnimInstance "{5C1A77E3B0A95461}Assets/Weapons/RG6/Anims/rg6_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   obstructionTestAddedLength 0.05
+   signiObstrWeaponMaxZOffset 0.225
+   obstructionTestBBScale 0.08 0.08 0.08
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "RG-6 Grenade Launcher"
+    Description "Six-shot 40 mm revolver grenade launcher. Fires VOG-25 fragmentation grenades from a detachable six-round cylinder."
+    Icon ""
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      PivotID "barrel_chamber"
+      Offset 0 0.018 -0.054
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      Offset 0 -0.028 0.338
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{5C1A77E3B0A9545C}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.054 0.0675
+     }
+     Radius 0.12
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{5C1A77E3B0A9545D}" {
+      Offset -0.0135 0.008 -0.013
+      Angles 0 -90 0
+     }
+     Radius 0.05
+     Omnidirectional 0
+    }
+    UserActionContext "{618A84270A2BFDC0}" {
+     Position PointInfo "{618A842792A66B70}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0 -0.018
+     }
+    }
+   }
+  }
+ }
+}

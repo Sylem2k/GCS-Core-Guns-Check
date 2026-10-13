@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{90DC716BD3D30A2A}Assets/Weapons/Bolter_Thicc_Magazine/Data/magazine.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,31 @@
+GenericEntity : "{7DC0134424438B8C}Prefabs/Weapons/Magazines/Hellgun_Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Lucius Hellgun Power Pack (150)"
+     Description "Battle Group Bastion (Krieg) Lucius pattern hellgun power pack. Hot-shot charge. Fits the Lucius hellgun only."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5C1A77E3B0A94D50}" {
+     Weight 0.9
+     SizeSetupStrategy Manual
+     ItemVolume 350
+     RestingUP Right
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellLasPack_LuciusHellgun "{5C1A77E3B0A94D51}" {
+   }
+   MaxAmmo 150
+   AmmoConfig "{4F856D776141A009}Configs/Weapons/Ammo/Ammo_Las_Hellgun.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{BCEA88EFCC323CC3}Assets/Weapons/Lucius_Hellgun_Magazine/lucius hellgun mag rigged.xob"
+  }
+ }
+}

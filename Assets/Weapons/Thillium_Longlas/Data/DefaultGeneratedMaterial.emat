@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{C122F0923B383AA9}Assets/Weapons/Thillium_Longlas/Data/Thillium_LongLas_BCR.edds"
+ NMOMap "{5AB8BF29996DCED4}Assets/Weapons/Thillium_Longlas/Data/Thillium_LongLas_NMO.edds"
+}

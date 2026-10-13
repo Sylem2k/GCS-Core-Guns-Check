@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Cull none
+ BCRMap "{E8914C15C874A1E4}Assets/Weapons/Errant_Hellgun/Data/errant_hellgun_BCR.edds"
+ NMOMap "{D049F7871103F37A}Assets/Weapons/Errant_Hellgun/Data/errant_hellgun_NMO.edds"
+}

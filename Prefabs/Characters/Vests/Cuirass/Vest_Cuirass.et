@@ -1,0 +1,40 @@
+GameEntity : "{67AD477577B7BFF2}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E58B72A46DA985C}" {
+   Attributes SCR_ItemAttributeCollection "{5E58B72A42751C16}" {
+    ItemDisplayName UIInfo "{5E58B72A586BB2B3}" {
+     Name "Krieg Cuirass"
+     Description "Battle Group Bastion (Krieg) grenadier breastplate. 6.5 mm plate; protection matches the 6B3 titanium vest."
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{5C1A77E3B0A94F02}Assets/Characters/Vests/Cuirass/cuirass_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BF8395AD4F}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D967FB94D7A8}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D967FB605199}" {
+      m_AffiliatedFactionKey "US"
+      m_iOutfitFactionValue 20
+     }
+    }
+   }
+  }
+  SCR_ArmorDamageManagerComponent "{62D6849E44DF20AC}" {
+   "Additional hit zones" {
+    SCR_ArmorHitZone Armor {
+     ColliderNames {
+      "UTM_cuirass final"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{5C1A77E3B0A94F01}Assets/Characters/Vests/Cuirass/cuirass.xob"
+   ItemModel "{5C1A77E3B0A94F02}Assets/Characters/Vests/Cuirass/cuirass_item.xob"
+   DeflatedModel "{5C1A77E3B0A94F01}Assets/Characters/Vests/Cuirass/cuirass.xob"
+  }
+ }
+}

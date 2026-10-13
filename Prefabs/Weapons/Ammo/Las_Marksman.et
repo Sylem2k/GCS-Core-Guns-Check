@@ -1,0 +1,28 @@
+TracerProjectile : "{F487145888100171}Prefabs/Weapons/Ammo/STC_LasBolt_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   PenetrationDepth 10
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 30
+    }
+    AIHitEffect "{C422E51CCDDF6BD3}" {
+    }
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     ParticleEffect "{5C1A77E3B0A95302}Particles/BFA_Las/BFA_LasBolt_Hit_API.ptc"
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+    }
+    ProjectileDamage "{9E33D5F4E5F249C4}" {
+     DamageValue 30
+     DamageType Collision
+     DamageEffects {
+      SCR_CollisionDamageEffect "{7F52DBFB80203F78}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

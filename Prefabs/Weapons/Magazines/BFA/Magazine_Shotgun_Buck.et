@@ -1,0 +1,45 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Buckshot Shell Tube (8)"
+     Description "Munitorum buckshot shells. Each shell throws a spread of heavy pellets."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5C1A77E3B0A94E36}" {
+     Weight 0.6
+     SizeSetupStrategy Manual
+     ItemVolume 250
+     RestingUP Right
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5C1A77E3B0A94E37}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1
+      FOV 12
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellShotgun "{5C1A77E3B0A94E38}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoCaliber "12 Gauge"
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5C1A77E3B0A94E39}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
+    }
+   }
+   ItemModel "{720F561F8DD01046}Assets/Weapons/Voss_Magazine/Steel legion magazine final_rigged.xob"
+   MaxAmmo 8
+   AmmoConfig "{5C1A77E3B0A94E33}Configs/Weapons/Ammo/Ammo_Buckshot.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{5C1A77E3B0A94E80}Assets/Weapons/Hidden/hidden_mag.xob"
+  }
+ }
+}

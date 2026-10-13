@@ -1,0 +1,576 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 76813
+   name "Signal Reverb"
+   tl 1356 721
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 40 112 139
+   }
+   outputsport {
+    34 39 105 107 106 110
+   }
+   inputvalues {
+    40 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0
+   }
+   inputvaluesmax {
+    100 1 1 16000 16000
+   }
+   path "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+  }
+  SignalClass {
+   id 77837
+   name "Signal Occlusion"
+   tl 944 160
+   res "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+   inputsport {
+    1 6 7 23 52 56
+   }
+   outputsport {
+    5 37
+   }
+   inputvalues {
+    0 0 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 10000 10000
+   }
+   path "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 55305
+   name "SOUND_PIN_PULL"
+   version 5
+   tl 1120 352
+   ctl 0 -21
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 54290
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    48 0
+   }
+   outState 67595
+   outStatePort 6151
+  }
+  SoundClass {
+   id 70665
+   name "SOUND_PIN_JIGGLE"
+   version 5
+   tl 1120 544
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 71698
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    48 0
+   }
+   outState 67595
+   outStatePort 6151
+  }
+  SoundClass {
+   id 73737
+   name "SOUND_PIN_REPIN"
+   version 5
+   tl 1120 736
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 72722
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    50 0
+   }
+   outState 67595
+   outStatePort 6151
+  }
+ }
+ mixers {
+  MixerClass {
+   id 67595
+   name "OutputState"
+   version 4
+   tl 1744 352
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 6151
+     links {
+      ConnectionClass connection {
+       id 55305
+       port 65
+      }
+      ConnectionClass connection {
+       id 70665
+       port 65
+      }
+      ConnectionClass connection {
+       id 73737
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+    }
+    ConnectionsClass connections {
+     id 197639
+    }
+    ConnectionsClass connections {
+     id 300039
+     links {
+      ConnectionClass connection {
+       id 78877
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 301063
+     links {
+      ConnectionClass connection {
+       id 79901
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 302087
+     links {
+      ConnectionClass connection {
+       id 80925
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    947945473 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 54290
+   name "SOUND_PIN_PULL"
+   version 5
+   tl 944 352
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 59420
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 43027
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 44053
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 53252
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 71698
+   name "SOUND_PIN_JIGGLE"
+   version 5
+   tl 944 544
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 59420
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 74771
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 44053
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 58372
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 72722
+   name "SOUND_PIN_REPIN"
+   version 5
+   tl 944 736
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 59420
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 75795
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 44053
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 65540
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{011A82046959B996}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-45LUFS_to_-30LUFS_Weapons_Reload.conf" {
+   id 43027
+   version 5
+   tl 944 -224
+   ctl 2081.865 80.868
+   parent "{011A82046959B996}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-45LUFS_to_-30LUFS_Weapons_Reload.conf"
+  }
+  AmplitudeClass : "{C97DEFA6B88F6DE9}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-55LUFS_to_-50LUFS.conf" {
+   id 74771
+   version 5
+   tl 944 -80
+   ctl 2081.865 80.868
+   parent "{C97DEFA6B88F6DE9}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-55LUFS_to_-50LUFS.conf"
+  }
+  AmplitudeClass : "{011A82046959B996}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-45LUFS_to_-30LUFS_Weapons_Reload.conf" {
+   id 75795
+   version 5
+   tl 944 -160
+   ctl 2081.865 80.868
+   parent "{011A82046959B996}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-45LUFS_to_-30LUFS_Weapons_Reload.conf"
+  }
+ }
+ frequency {
+  FrequencyClass : "{65257CB7AD05C1FD}Sounds/_SharedData/Configs/Frequency/Weapons/Frequency_Weapons_Handling_Rifle.conf" {
+   id 44053
+   version 5
+   tl 944 80
+   parent "{65257CB7AD05C1FD}Sounds/_SharedData/Configs/Frequency/Weapons/Frequency_Weapons_Handling_Rifle.conf"
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 77837
+       port 37
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 53252
+   name "Pin"
+   version 7
+   tl 752 352
+   Volume -12
+   "Volume variance" 1
+   "Pitch variance" 0
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{5C1A77E3B0A95A10}Sounds/Samples/Grenades/Rat_PinPull_01.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 58372
+   name "Jiggle"
+   version 7
+   tl 752 544
+   Volume -15
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{4AF8A4A1901518A9}Sounds/Weapons/Grenades/_SharedData/Samples/Handling/Samples/Grenade_Pin_Jiggle_01.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D3E61D388DF22939}Sounds/Weapons/Grenades/_SharedData/Samples/Handling/Samples/Grenade_Pin_Jiggle_02.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{A4EC75B07950C649}Sounds/Weapons/Grenades/_SharedData/Samples/Handling/Samples/Grenade_Pin_Jiggle_03.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{A32B8FE11FD67C8A}Sounds/Weapons/Grenades/_SharedData/Samples/Handling/Samples/Grenade_Pin_Jiggle_04.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 65540
+   name "RePin"
+   version 7
+   tl 752 736
+   Volume -15
+   "Volume variance" 0.4
+   "Pitch variance" 0.7
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{344A14E5CE49ACBA}Sounds/Weapons/Grenades/_SharedData/Samples/Handling/Samples/Grenade_RePin.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass : "{CDE3B73159FC7DFD}Sounds/_SharedData/Configs/Spatiality/Character/Spatiality_Character.conf" {
+   id 59420
+   version 5
+   tl 944 0
+   parent "{CDE3B73159FC7DFD}Sounds/_SharedData/Configs/Spatiality/Character/Spatiality_Character.conf"
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 78877
+   name "AuxOut Rev Small"
+   version 5
+   tl 1568 640
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 55305
+       port 5
+      }
+      ConnectionClass connection {
+       id 70665
+       port 5
+      }
+      ConnectionClass connection {
+       id 73737
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 76813
+       port 107
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 76813
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   OSPort 300039
+  }
+  AuxOutClass {
+   id 79901
+   name "AuxOut Rev Medium"
+   version 5
+   tl 1568 752
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 55305
+       port 5
+      }
+      ConnectionClass connection {
+       id 70665
+       port 5
+      }
+      ConnectionClass connection {
+       id 73737
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 76813
+       port 106
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 76813
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   OSPort 301063
+  }
+  AuxOutClass {
+   id 80925
+   name "AuxOut Rev Large"
+   version 5
+   tl 1568 864
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 55305
+       port 5
+      }
+      ConnectionClass connection {
+       id 70665
+       port 5
+      }
+      ConnectionClass connection {
+       id 73737
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 76813
+       port 110
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 76813
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   OSPort 302087
+  }
+ }
+ version 1
+}

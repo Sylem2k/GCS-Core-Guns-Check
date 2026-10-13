@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{370C217BEEABF371}Assets/Weapons/Magazines/LasgunBat/Data/LasgunBat_BCR.edds"
+ NMOMap "{424718A7141B3659}Assets/Weapons/Magazines/LasgunBat/Data/LasgunBat_NMO.edds"
+}

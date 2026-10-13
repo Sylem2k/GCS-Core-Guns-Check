@@ -1,0 +1,23 @@
+GenericEntity : "{5C1A77E3B0A94E35}Prefabs/Weapons/Magazines/BFA/Magazine_BoltPistol40k.et" {
+ ID "73AD64065268A2A7"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Bolter Magazine (20)"
+     Description "20-round bolter box magazine."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   ItemModel "{A55414876A28C5BF}Assets/Weapons/Bolter_Thicc_Magazine/bolt pistol thiccccc mag.xob"
+   MaxAmmo 20
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{A55414876A28C5BF}Assets/Weapons/Bolter_Thicc_Magazine/bolt pistol thiccccc mag.xob"
+  }
+ }
+}

@@ -1,0 +1,97 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A95610}Assets/Weapons/Mortar50/Mortar50_Deployed.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{1A77E3B0A95610A1}" {
+     SourceMaterial "mortar50"
+     AssignedMaterial "{5C1A77E3B0A95614}Assets/Weapons/Mortar50/Data/Mortar50.emat"
+    }
+    MaterialAssignClass "{1A77E3B0A95610B1}" {
+     SourceMaterial "Optic1"
+     AssignedMaterial "{0E3ECEE014C2CFF5}Assets/Weapons/Mortars/M252/Data/Optic.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Mortar50 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_VFV_mortar50_base {
+     LayerPreset "VehicleFireView"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0.01
+    }
+    GeometryParam UCX_VFV_mortar50_body {
+     LayerPreset "VehicleFireView"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0.01
+    }
+    GeometryParam UCX_VFV_mortar50_barrel {
+     LayerPreset "VehicleFireView"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0.01
+    }
+    GeometryParam UCX_VFV_mortar50_arm {
+     LayerPreset "VehicleFireView"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0.01
+    }
+    GeometryParam UCX_VFV_mortar50_bipod {
+     LayerPreset "VehicleFireView"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0.01
+    }
+    GeometryParam UCX_VFV_mortar50_sight {
+     LayerPreset "VehicleFireView"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0.01
+    }
+   }
+   Common TXOCommonClass "{1A77E3B0A95610A2}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.1.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{1A77E3B0A95610A3}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{1A77E3B0A95610A4}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{1A77E3B0A95610A5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{1A77E3B0A95610A6}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{1A77E3B0A95610A7}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A95350}Assets/Weapons/Cadian_DMR/Anims/p_cadiandmr_ik.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

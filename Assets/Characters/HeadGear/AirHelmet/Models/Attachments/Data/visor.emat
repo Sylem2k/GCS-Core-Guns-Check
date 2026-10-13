@@ -1,0 +1,18 @@
+MatPBRBasicGlass {
+ AlphaTest 0.044
+ BlendMode AlphaBlend
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{2B1BA280B721C87C}Assets/Characters/HeadGear/AirHelmet/Textures/visor/visor_BCR.edds"
+ OpacityMap "{083BA67B8582E3DD}Assets/Characters/HeadGear/AirHelmet/Textures/visor/visor_A.edds"
+ NMOMap "{13C319126E569AE2}Assets/Characters/HeadGear/AirHelmet/Textures/visor/visor_NMO.edds"
+ DetailNormalPower 0.138
+ DetailNormalMap "{8AE673587A0D92DD}Assets/_SharedData/Glass/ST_Glass_Streaks_Dirty_01_BCR.edds"
+ DetailNormalMapUVTransform MatUVTransform "{6A7C14A8FC858045}" {
+  TilingU 4
+  TilingV 4
+ }
+ FresnelPower 0.35
+ FresnelBias 0.07
+ RefractionIntensity 0.12
+}

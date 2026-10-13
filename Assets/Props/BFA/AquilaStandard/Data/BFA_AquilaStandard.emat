@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{5C1A77E3B0A957C4}Assets/Props/BFA/AquilaStandard/Data/BFA_AquilaStandard_BCR.edds"
+ NMOMap "{5C1A77E3B0A957C5}Assets/Props/BFA/AquilaStandard/Data/BFA_AquilaStandard_NMO.edds"
+}

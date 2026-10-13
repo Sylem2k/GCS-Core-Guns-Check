@@ -1,0 +1,57 @@
+Turret : "{5C1A77E3B0A95600}Prefabs/Weapons/Mortars/BFA/Mortar50_Deployed.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "50mm Revolver Mortar (emplaced)"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     FACTION_US ENTITYTYPE_VEHICLE TRAIT_MORTAR SERVICE_MORTAR
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5C1A77E3B0A95713}" {
+      m_BudgetType CAMPAIGN
+      m_Value 150
+     }
+     SCR_EntityBudgetValue "{5C1A77E3B0A95714}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5C1A77E3B0A95715}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   InitialStorageSlots {
+    InventoryStorageSlot Cell_1 {
+     Prefab "{5C1A77E3B0A95603}Prefabs/Weapons/Magazines/BFA/Magazine_Mortar50_HE.et"
+    }
+    InventoryStorageSlot Cell_2 {
+     Prefab "{5C1A77E3B0A95683}Prefabs/Weapons/Magazines/BFA/Magazine_Mortar50_HEAT.et"
+    }
+    InventoryStorageSlot Cell_3 {
+     Prefab "{5C1A77E3B0A9560D}Prefabs/Weapons/Magazines/BFA/Magazine_Mortar50_Airburst.et"
+    }
+    InventoryStorageSlot Cell_4 {
+     Prefab "{5C1A77E3B0A95604}Prefabs/Weapons/Magazines/BFA/Magazine_Mortar50_Smoke.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   additionalActions {
+    SCR_DeployMultiPartInventoryItemAction "{5C1A77E3B0A95638}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+  SCR_MultiPartDeployableItemComponent "{5C1A77E3B0A95639}" {
+   Enabled 0
+  }
+ }
+}

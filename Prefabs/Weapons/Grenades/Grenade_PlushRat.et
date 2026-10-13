@@ -1,0 +1,13 @@
+GenericEntity : "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" {
+ ID "727FF4D9BE64DC7E"
+ components {
+  SoundComponent "{57227A5D228316FB}" {
+   Filenames {
+    "{5C1A77E3B0A95A11}Sounds/Weapons/Grenades/BFA/Weapons_RatGrenade_Pin_Unpin.acp" "{AC072A5AAF5C6923}Sounds/Weapons/Grenades/M67/Weapons_M67_Fuze.acp" "{E93E101E7ACA2172}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Grenade.acp"
+   }
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{9B43040D14FAADF1}Assets/Weapons/PlushKrieg/little_dolly_krieg.xob"
+  }
+ }
+}

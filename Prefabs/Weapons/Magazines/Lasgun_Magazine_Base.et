@@ -1,0 +1,44 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Lasgun Power Cell"
+     Description "Standard-format lasgun power cell."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F029E78038EAB4}" {
+     Weight 0.12
+     SizeSetupStrategy Manual
+     ItemVolume 200
+     RestingUP Right
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{69F029E78038E95A}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1
+      FOV 12
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellLasPack_Standard "{69F029E78038E95D}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoCaliber "#AR-AmmunitionID_556x45mm"
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5866951DE2665916}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
+    }
+   }
+   MaxAmmo 30
+   AmmoConfig "{118A51F8EAC0CB5D}Configs/Weapons/Ammo/Ammo_Las_Standard.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{720F561F8DD01046}Assets/Weapons/Voss_Magazine/Steel legion magazine final_rigged.xob"
+  }
+ }
+}

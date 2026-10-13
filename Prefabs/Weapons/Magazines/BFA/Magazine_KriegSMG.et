@@ -1,0 +1,21 @@
+GenericEntity : "{6C83E3A52A496DED}Prefabs/Weapons/Magazines/Lasgun_Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Krieg SMG Power Cell"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellKriegDrum "{516730DC6B85174A}" {
+   }
+   MaxAmmo 30
+   AmmoConfig "{182630736332C7DB}Configs/Weapons/Ammo/Ammo_Las_SMG.conf"
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{E4AB8122A7D79343}Assets/Weapons/Krieg_SMG_Magazine/kriegsmgmag_w_LODs.xob"
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{97776BD7494EB1E6}Assets/Weapons/PlushKrieg/Data/krieg_dolly.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

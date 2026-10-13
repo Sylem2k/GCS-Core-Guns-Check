@@ -1,0 +1,21 @@
+GenericEntity : "{5C1A77E3B0A95603}Prefabs/Weapons/Magazines/BFA/Magazine_Mortar50_HE.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "50mm Mortar Cell (5x Illumination)"
+     Description "Five-chamber revolving cell for the 50mm revolver mortar, loaded with white parachute illumination bombs. Each bomb pops its flare about 200 m above the target area and the flare burns down under a parachute."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "50mm Cell Illum"
+    m_sAmmoType "Illumination"
+    m_eAmmoTypeFlags ILLUMINATION
+   }
+   AmmoConfig "{5C1A77E3B0A95801}Configs/Weapons/Ammo/Ammo_Mortar50_Illum.conf"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Emissive 0.157 0.624 0.275 1
+ BlendMode AlphaBlend
+ EmissiveMap "{F51D97848BE72AB6}Assets/Weapons/Galaxy_Carbine/Data/DefaultMaterial_EM.edds"
+ BCRMap "{DED0DDEA4AC3F068}Assets/Weapons/Galaxy_Carbine/Data/DefaultMaterial_BCR.edds"
+ OpacityMap "{05FD56872C4AA148}Assets/Weapons/Galaxy_Carbine/Data/DefaultMaterial_A.edds"
+ NMOMap "{E608667893B4A2F6}Assets/Weapons/Galaxy_Carbine/Data/DefaultMaterial_NMO.edds"
+}

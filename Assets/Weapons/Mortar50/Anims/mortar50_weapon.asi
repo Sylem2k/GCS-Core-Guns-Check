@@ -1,0 +1,16 @@
+AnimSetInstanceSource "{5C1A77E3B0A95619}" {
+ Template "{5E69310B47528E10}Assets/Weapons/Mortars/workspaces/M252.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Mortar.Default.Aiming" {
+   Resource "{5C1A77E3B0A95617}Assets/Weapons/Mortar50/Anims/w_mortar50_aiming.anm"
+  }
+  AnimSetInstanceSource_Line "Mortar.Default.FiringADDLow" {
+   Resource "{C4ADB9B06449ABA4}Assets/Weapons/Mortars/M252/anims/anm/w_M252_fire_low.anm"
+  }
+  AnimSetInstanceSource_Line "Mortar.Default.FiringADDHigh" {
+   Resource "{D876F99E6D833F99}Assets/Weapons/Mortars/M252/anims/anm/w_M252_fire_high.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5C1A77E3B0A9561A}" {
+ }
+}

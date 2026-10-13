@@ -1,0 +1,131 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{5C1A77E3B0A95001}Assets/Weapons/AccatranMk2/accatranmk2_w_LODs.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Accatran Mk II Recon Lasgun (Green)"
+     Description "Accatran pattern Mk II bullpup lasrifle, recon variant. Takes standard las power cells."
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{5C1A77E3B0A950B1}Assets/Weapons/AccatranMk2/Anims/p_accatranmk2_ik.anm"
+    }
+   }
+  }
+  STC_AmmoDigitsComponent "{5C1A77E3B0A950D4}" {
+   m_bShowNumerals 0
+   m_bUseEmissive 1
+   m_vBaseFull 0.25 1 0.3
+   m_vBaseEmpty 1 0.12 0.08
+   m_vEmissiveFull 0.25 1 0.3
+   m_vEmissiveEmpty 1 0.12 0.08
+   m_iEmissiveMin 25
+   m_iEmissiveMax 45
+   m_fUpdateInterval 0.1
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset 0 0.1681 0.0259
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+      Offset 0 0 0
+     }
+     SightsPointFront PointInfo "{69F025C7B97AB6F9}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0.0995 -0.05
+     }
+     SightsPointRear PointInfo "{69F025C7B97AB6FB}" {
+      PivotID "eye"
+      Offset 0 0 0.15
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "barrel_muzzle"
+       Offset 0 0 0
+       Angles 0 0 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "barrel_muzzle"
+       Offset 0 0 0
+       Angles 0 0 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 330
+      }
+      BaseFireMode "{5C1A77E3B0A95200}" : "{B5D823125A678D73}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Burst.conf" {
+       RoundsPerMinute 480
+       UIName "Burst"
+      }
+      BaseFireMode "{5C1A77E3B0A95014}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 520
+       UIName "Automatic"
+      }
+     }
+     MagazineWell STC_MagazineWellLasPack_Standard "{5C1A77E3B0A95012}" {
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "snap_hand_left"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
+      Offset 0 0 0
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+      Offset 0 0.02 -0.3
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "slot_magazine"
+      Offset 0 0 0
+      Angles 0 0 0
+     }
+     MagazineTemplate "{5C1A77E3B0A95011}Prefabs/Weapons/Magazines/BFA/Magazine_AccatranMk2.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+     AnimInstance "{278604E4583F2647}Assets/Weapons/Rifles/workspaces/m16_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{69F025C7B97AB919}" {
+      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+      AnimInstance "{5C1A77E3B0A95030}Assets/Weapons/AccatranMk2/Anims/accatranmk2_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Accatran Mk II Recon Lasgun (Green)"
+    Description "Accatran pattern Mk II bullpup lasrifle, recon variant. Takes standard las power cells."
+    Icon ""
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5C1A77E3B0A950E5"
+   components {
+    ParametricMaterialInstanceComponent "{5C1A77E3B0A950E7}" {
+    }
+    MeshObject "{5C1A77E3B0A950E6}" {
+     Object "{5C1A77E3B0A950E0}Assets/Weapons/AccatranMk2/Digits/display.xob"
+    }
+    Hierarchy "{5C1A77E3B0A950E8}" {
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

@@ -1,0 +1,53 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "50mm Mortar Cell (5x HE)"
+     Description "Five-chamber revolving cell for the 50mm revolver mortar, loaded with high-explosive bombs."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5C1A77E3B0A95641}" {
+     Weight 6.5
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2400
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5C1A77E3B0A95642}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 0.9
+      FOV 20
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellMortar50 "{5C1A77E3B0A95643}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "50mm Cell HE"
+    m_sAmmoCaliber "50 mm"
+    m_sAmmoType "HE"
+    m_eAmmoTypeFlags HE
+   }
+   MaxAmmo 5
+   AmmoConfig "{5C1A77E3B0A95609}Configs/Weapons/Ammo/Ammo_Mortar50_HE.conf"
+   AmmoMapping {
+    0 0 0 0 0
+   }
+  }
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 0
+   UsedAgainst 0 0x3f
+   IndirectlyUsedAgainst 0 0x3f
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{5C1A77E3B0A95612}Assets/Weapons/Mortar50/Mortar50_Cell.xob"
+  }
+  STC_MortarCellVisualComponent "{5C1A77E3B0A956C4}" {
+   m_sShellPrefab "{5C1A77E3B0A956C6}Prefabs/Weapons/Mortars/BFA/Mortar50_ShellVisual.et"
+   m_sEmptyCellModel "{5C1A77E3B0A956C5}Assets/Weapons/Mortar50/Mortar50_CellEmpty.xob"
+  }
+ }
+}

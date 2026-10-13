@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{822CAD3C57FDCF05}Assets/Characters/HeadGear/AirHelmet/Textures/visor/dovetail_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{BAF416AE8E8A9D9B}Assets/Characters/HeadGear/AirHelmet/Textures/visor/dovetail_NMO.edds"
+}

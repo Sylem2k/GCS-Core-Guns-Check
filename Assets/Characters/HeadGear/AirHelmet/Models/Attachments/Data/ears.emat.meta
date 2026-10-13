@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A32438E96DF5CCB4}Assets/Characters/HeadGear/AirHelmet/Models/Attachments/Data/ears.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

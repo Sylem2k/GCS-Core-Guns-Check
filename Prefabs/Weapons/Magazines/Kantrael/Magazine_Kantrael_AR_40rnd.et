@@ -1,0 +1,27 @@
+GenericEntity : "{6C83E3A52A496DED}Prefabs/Weapons/Magazines/Lasgun_Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "Kantrael AR Power Cell (40)"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell STC_MagazineWellLasPack_Standard "{5C7A9B8F9821438A}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoCaliber "Kantrael Power Cell"
+   }
+   MaxAmmo 40
+   AmmoConfig "{1DCFF7C3D7567629}Configs/Weapons/Ammo/Ammo_Kantrael_AR.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{7573A1AA3909FBFC}Assets/Weapons/Cadian_Carbine_Magazine/magazine cadian_carbine_final.xob"
+  }
+ }
+}

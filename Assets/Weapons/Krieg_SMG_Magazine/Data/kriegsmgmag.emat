@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{F7B4773181190C50}Assets/Weapons/Krieg_SMG_Magazine/Data/kriegsmgmag_BCR.edds"
+ NMOMap "{CF6CCCA3586E5ECE}Assets/Weapons/Krieg_SMG_Magazine/Data/kriegsmgmag_NMO.edds"
+}

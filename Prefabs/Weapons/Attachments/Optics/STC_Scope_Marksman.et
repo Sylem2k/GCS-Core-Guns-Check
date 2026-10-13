@@ -1,0 +1,32 @@
+GenericEntity : "{F358F46ADA42A197}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_4x20_base.et" {
+ ID "5C1A77E3B0A95374"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5D0CC83435B5584E}" {
+     Name "Accatran Marksman Optic 2.5-12x"
+     Description "Colt pattern carry-handle telescopic sight, rebuilt with a variable 2.5-12x erector for the Accatran Mk II Marksman."
+    }
+   }
+  }
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   SightsRanges {
+    SightRangeInfo "{6A795A2ACA6228A1}" {
+     Range 0.22 600
+    }
+    SightRangeInfo "{6A795A2A34F4BBAC}" {
+     Range 0.31 700
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{58C8F99221BE26D4}" {
+    m_fBaseZoom 2.5
+    m_fZoomMax 12
+    m_fStepZoomSize 0.5
+    m_fInterpolationSpeed 50
+   }
+   SightsPriority 1
+   m_fObjectiveFov 9.5
+   m_fMagnification 2.5
+  }
+ }
+}

@@ -1,0 +1,55 @@
+MetaFileClass {
+ Name "{F2E937DFFED097BA}Assets/Weapons/Sights/galaxy lenses.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{69F029EB590E2610}" {
+     SourceMaterial "back"
+     AssignedMaterial "{10AD1FDD7A92A636}Assets/Weapons/Attachments/Optics/Shared/OpticCapMaterial.emat"
+    }
+    MaterialAssignClass "{69F029EB590E262E}" {
+     SourceMaterial "glass"
+     AssignedMaterial "{3C29D4ADAC94D19B}Assets/Weapons/Attachments/Optics/4x20/Data/Optic_4x20_Lensglass.emat"
+    }
+    MaterialAssignClass "{69F029EB590E26DD}" {
+     SourceMaterial "pip"
+     AssignedMaterial "{1C8A9AC4A0AE4921}Assets/Weapons/Attachments/Optics/Shared/SightsPIPMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam back {
+    }
+    MeshParam lense {
+    }
+    MeshParam pip {
+    }
+   }
+   Common TXOCommonClass "{69F029EFD65D8DAC}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.9 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{69F029EFD65DB303}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{69F029EFD65DB3C1}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{69F029EFD65DB3AD}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{69F029EFD65DB243}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{69F029EFD65DB26C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

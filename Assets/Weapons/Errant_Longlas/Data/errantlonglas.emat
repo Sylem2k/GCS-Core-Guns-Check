@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{F3DCA67E936123E4}Assets/Weapons/Errant_Longlas/Data/DefaultMaterial_BCR.edds"
+ NMOMap "{CB041DEC4A16717A}Assets/Weapons/Errant_Longlas/Data/DefaultMaterial_NMO.edds"
+}

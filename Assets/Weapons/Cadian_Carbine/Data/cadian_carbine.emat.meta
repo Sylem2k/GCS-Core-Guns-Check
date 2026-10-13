@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5934AC2D31C32E8D}Assets/Weapons/Cadian_Carbine/Data/cadian_carbine.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

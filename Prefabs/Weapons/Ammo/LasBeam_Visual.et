@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "3A9D71E4C58B20F6"
+ components {
+  MeshObject "{5C11D264A1B0937E}" {
+   Object "{DAD057EF20B5514A}Assets/Weapons/Ammo_LasRound/Lasgun_Projectile.xob"
+  }
+ }
+}

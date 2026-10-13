@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Emissive 1 1 1 1
+ EmissiveMap "{CAFBADDC39E24E2F}Assets/Weapons/Lucius_Hellgun/Data/luciusrifle_EM.edds"
+ BCRMap "{8EE984AB167C898D}Assets/Weapons/Lucius_Hellgun/Data/luciusrifle_BCR.edds"
+ NMOMap "{B6313F39CF0BDB13}Assets/Weapons/Lucius_Hellgun/Data/luciusrifle_NMO.edds"
+}

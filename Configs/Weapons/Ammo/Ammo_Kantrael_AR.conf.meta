@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1DCFF7C3D7567629}Configs/Weapons/Ammo/Ammo_Kantrael_AR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5C1A77E3B0A95466}Assets/Weapons/RG6/Anims/p_rg6_finger_out.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

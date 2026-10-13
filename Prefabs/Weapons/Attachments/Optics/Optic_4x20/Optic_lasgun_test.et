@@ -1,0 +1,93 @@
+GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5D0CC83435B5584E}" {
+     Name "#AR-Item_Colt4x20_Name"
+     Description "#AR-Item_Colt4x20_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5D0CC83435B55848}" {
+     Weight 0.335
+     ItemVolume 200
+     RestingUP Right
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsCarryHandle "{69F029E3C8077C68}" {
+      }
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+    m_bDraggable 0
+    m_bVisible 0
+    m_bStackable 0
+    m_bRefundable 0
+   }
+  }
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{F2E937DFFED097BA}Assets/Weapons/Sights/galaxy lenses.xob"
+  }
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   SightsPosition PointInfo "{5D0CC83435B55853}" {
+   }
+   SightsRanges {
+    SightRangeInfo "{69F029E3C8077C19}" {
+     Range -0.022 200
+    }
+    SightRangeInfo "{69F029E3C8077C1C}" {
+     Range 0.022 300
+    }
+    SightRangeInfo "{69F029E3C8077C13}" {
+     Range 0.078 400
+    }
+    SightRangeInfo "{69F029E3C8077C11}" {
+     Range 0.148 500
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{69F029E3C8077C09}" {
+    m_fBaseZoom 4
+    m_fZoomMax 4
+    m_fInterpolationSpeed 50
+   }
+   SightsPointFront PointInfo "{69F029E3C8077C03}" {
+    PivotID "front"
+   }
+   SightsPointRear PointInfo "{69F029E3C8077C01}" {
+    PivotID "back.001"
+   }
+   m_sReticleTexture "{0177116D19632FFA}UI/Textures/Sights/UK59_4x8/UK59_4x8_white_solid_UI.edds"
+   m_sReticleGlowTexture "{0177116D19632FFA}UI/Textures/Sights/UK59_4x8/UK59_4x8_white_solid_UI.edds"
+   m_bHasIllumination 1
+   m_fVignetteScale 0.8
+   m_eZeroingType EPZ_RETICLE_OFFSET
+   m_vCameraAngles -0.13 0 0
+   m_rScopeHDRMatrial "{F6F990CCEDF61E3A}Assets/Weapons/Attachments/Optics/UK59_4x8/Data/Optic_UK59_4x8_HDR.emat"
+   m_fObjectiveFov 8
+   m_fReticleAngularSize 1.2
+   m_fReticlePortion 0.10791
+   m_fReticleBaseZoom 4
+   m_fMagnification 4
+   m_fScopeRadius 0.0139
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     Position PointInfo "{5284E0EFC526E6F0}" {
+      Offset 0 0.0012 -0.0042
+     }
+    }
+   }
+   additionalActions {
+    SCR_AttachItemFromInventoryAction "{5D0CC83435B55B88}" {
+     ParentContextList {
+      "optic"
+     }
+    }
+   }
+  }
+ }
+ coords -0.217 -0.555 1.603
+}
