@@ -1200,17 +1200,33 @@ AnimSrcGraphFile {
     }
     AnimSrcNodeIK2Target SMG_LeftHandIKTarget {
      EditorPos 0.1 3.6
-     Child "Queue 1"
+     Child "SMG_FullBodyB"
      Chains {
-      AnimSrcIkTargetBinding "{89E56B8A4257E60E}" {
+      AnimSrcIkTargetBinding "{D6736F5EB2603DC7}" {
        IkTarget "SMGLeftHandTarget"
-       IkChain "LeftArm"
-       LocalSpaceOffset AnimSrcTransformOffset "{92C3B0F49A250247}" {
+       IkChain "RightArmProp"
+       LocalSpaceOffset AnimSrcTransformOffset "{6283B9856BDDEF59}" {
         Position 0 0 0
         Rotation 0 0 0
+        Pose "Reload.IKOffset"
+        FromBone "righthandprop"
+        ToBone "lefthand"
+        FromFrame 0
+        ToFrame 0
+        BonesAreInModelSpace 0
        }
       }
      }
+    }
+    AnimSrcNodeBlendT SMG_FullBodyB {
+     EditorPos 0.1 4.7
+     BlendTime "0"
+     Condition "true"
+     Child0 "Buffer Use 1"
+     Child1 "Queue 1"
+     Optimization "Always eval both"
+     SelectMainPath 1
+     PostEval 1
     }
     AnimSrcNodeBlend "Blend 37113" {
      EditorPos -16.3 -1.5
