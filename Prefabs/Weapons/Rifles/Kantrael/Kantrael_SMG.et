@@ -101,15 +101,17 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
      DispersionRange 250
      "LEFT HAND TARGET" DeploymentPointInfo lht {
       PivotID "snap_hand_left"
-      Offset 0 0 0
+      Offset 0 0 0.1232
      }
      RIGHT_HAND_TARGET DeploymentPointInfo rht {
-      PivotID "snap_hand_right"
-      Offset 0 0 0
+      PivotID "w_root"
+      Offset 0 0.0247 0.0774
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
      }
      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
       PivotID "slot_magazine"
-      Offset 0 0.0268 -0.0088
+      Offset 0 0.0744 -0.1711
       Angles 0 0 0
      }
      MagazineTemplate "{03E56CA820077EBB}Prefabs/Weapons/Magazines/BFA/Magazine_LuciusHellgun.et"
