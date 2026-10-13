@@ -1206,7 +1206,7 @@ AnimSrcGraphFile {
        IkTarget "SMGLeftHandTarget"
        IkChain "RightArmProp"
        LocalSpaceOffset AnimSrcTransformOffset "{6283B9856BDDEF59}" {
-        Position 0 -0.07 0.04
+        Position 0 -0.04 -0.07
         Rotation 0 0 0
         Pose "Reload.IKOffset"
         FromBone "righthandprop"
