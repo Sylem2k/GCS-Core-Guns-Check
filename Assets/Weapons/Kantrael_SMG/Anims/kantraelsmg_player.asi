@@ -14,10 +14,10 @@ AnimSetInstanceSource "{179087F843428E71}" {
    Resource "{9C7FBD3C08B6E86E}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_fire_last.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Idle" {
-   Resource "{AB137997016E7880}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_safety.anm"
+   Resource "{5EE025FA1E230B56}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_safety.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Idle" {
-   Resource "{AB137997016E7880}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_safety.anm"
+   Resource "{5EE025FA1E230B56}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_safety.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Reload_InsertMag" {
    Resource "{2AD29A5F8EA325B3}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_erc_mag_insert.anm"
@@ -44,10 +44,10 @@ AnimSetInstanceSource "{179087F843428E71}" {
    Resource "{323C934AEE7C2DFE}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_pne_mag_remove.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Safety" {
-   Resource "{AB137997016E7880}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_safety.anm"
+   Resource "{5EE025FA1E230B56}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_safety.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Safety" {
-   Resource "{AB137997016E7880}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_safety.anm"
+   Resource "{5EE025FA1E230B56}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_safety.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Trigger" {
    Resource "{8FA419B49E84DC1F}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_fire.anm"
@@ -80,16 +80,16 @@ AnimSetInstanceSource "{179087F843428E71}" {
    Resource "{2CFFEA5C4AFA8D56}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_finger_pose.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Off" {
-   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+   Resource "{7C83E4BF1FBF84F0}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_off.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Off" {
-   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+   Resource "{7C83E4BF1FBF84F0}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_off.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_On" {
-   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+   Resource "{30556660A961502B}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_on.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_On" {
-   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+   Resource "{30556660A961502B}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_on.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.IKOffset" {
    Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
@@ -242,16 +242,16 @@ AnimSetInstanceSource "{179087F843428E71}" {
    Resource "{C49D445C5AF4E269}Assets/Weapons/Rifles/M16A2/anims/anm/p_M16A2_weapon_inspection_cro_right_out_ras.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Dep_Off" {
-   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+   Resource "{E75CCA4D4B1FE64E}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_dep_modes_off.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Dep_Off" {
-   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+   Resource "{E75CCA4D4B1FE64E}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_dep_modes_off.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Dep_On" {
-   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+   Resource "{385CDF82D1297590}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_dep_modes_on.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Dep_On" {
-   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+   Resource "{385CDF82D1297590}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_dep_modes_on.anm"
   }
  }
  RBF AnimSetInstanceSourceRBFArray "{709391DA0A8DD636}" {
