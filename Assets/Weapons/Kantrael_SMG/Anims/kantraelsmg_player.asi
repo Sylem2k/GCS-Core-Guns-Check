@@ -92,10 +92,10 @@ AnimSetInstanceSource "{179087F843428E71}" {
    Resource "{30556660A961502B}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_on.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.IKOffset" {
-   Resource "{08B349031B34925B}Assets/Weapons/Rifles/M16A2/anims/anm/p_m16_offset.anm"
+   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.IKOffset" {
-   Resource "{08B349031B34925B}Assets/Weapons/Rifles/M16A2/anims/anm/p_m16_offset.anm"
+   Resource "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
   }
   AnimSetInstanceSource_Line "Inspection.Cro.LeftInspectionIn" {
    Resource "{E478A1BEA1812096}Assets/Weapons/Rifles/M16A2/anims/anm/p_M16A2_weapon_inspection_cro_left_in_ras.anm"
