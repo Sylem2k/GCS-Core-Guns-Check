@@ -25,11 +25,13 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
   }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
-    SightsComponent "{BB23A637957CFFF8}" {
-     Enabled 0
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "Scene_Root"
+      Offset 0.0012 -0.059 -0.0069
+     }
     }
     SCR_2DPIPSightsComponent "{5C1A77E3B0A90150}" {
-     m_iCameraIndex 9
      SightsPosition PointInfo "{5C1A77E3B0A90151}" {
       PivotID "Eye.005"
       Offset 0 -0.0194 0
@@ -58,35 +60,24 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
      ADSTime 0.35
      m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
      m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
-     m_ReticleColor 1 0.1 0.05 1
      m_bHasIllumination 1
+     m_ReticleColor 1 0.1 0.05 1
      m_cReticleTextureIllumination 1 0.1 0.05 1
      m_eZeroingType EPZ_RETICLE_OFFSET
+     m_vCameraOffset 0 0 0.045
+     m_iCameraIndex 9
      m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
      m_fObjectiveFov 24
      m_fReticleAngularSize 18.06
      m_fReticlePortion 1
      m_fReticleBaseZoom 0
      m_fMagnification 1
-     m_vCameraOffset 0 0 0.045
      m_fScopeRadius 0.0106
     }
-    AttachmentSlotComponent "{69F025C7B97B7438}" {
-     AttachmentSlot InventoryStorageSlot optics {
-      PivotID "Scene_Root"
-      Offset 0.0012 -0.0007 -0.0069
-      Prefab "{7D79321B31AE5DE1}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_lasgun_test.et"
-     }
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
-     "LEFT HAND TARGET" DeploymentPointInfo lht {
-      PivotID "Snap_Hand_Left.006"
-      Offset 0 0 0
-     }
-     RIGHT_HAND_TARGET DeploymentPointInfo rht {
-      PivotID "Snap_Hand_Right.005"
-      Offset 0 0 0
-     }
      MuzzleEndPositions {
       PointInfo "{B80A64F4B6CFB9BF}" {
        PivotID "Scene_Root"
@@ -110,9 +101,17 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
      }
      DispersionDiameter 0.15
      DispersionRange 600
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "Snap_Hand_Left.006"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "Snap_Hand_Right.005"
+      Offset 0 0 0
+     }
      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
       PivotID "Slot_Magazine.005"
-      Offset 0 -0.01 -0.15
+      Offset 0 0.0216 -0.1696
       Angles 0 180 0
      }
      MagazineTemplate "{42C895E43439ABA1}Prefabs/Weapons/Magazines/Kantrael/Magazine_Kantrael_DMR_15rnd.et"
@@ -135,4 +134,5 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
    }
   }
  }
+ coords 117.967 1.751 121.63
 }

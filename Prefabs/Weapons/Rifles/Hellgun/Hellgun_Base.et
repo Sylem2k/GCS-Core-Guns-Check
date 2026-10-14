@@ -300,11 +300,12 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      MagazineTemplate "{7DC0134424438B8C}Prefabs/Weapons/Magazines/Hellgun_Magazine_Base.et"
     }
     WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
-     AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
-     AnimInstance "{278604E4583F2647}Assets/Weapons/Rifles/workspaces/m16_weapon.asi"
+     AnimGraph "{5C41727F96285D4E}Assets/Weapons/MachineGuns/workspaces/M249.agr"
+     AnimInstance "{23E7B8806482C9FA}Assets/Weapons/MachineGuns/workspaces/M249_weapon.asi"
+     AnimIkpose "{9091BBA8DB3CDF20}Assets/Weapons/MachineGuns/M249/anims/anm/p_M249_ik.anm"
      AnimInjection AnimationAttachmentInfo "{6A08383D623C1BAB}" {
-      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
-      AnimInstance "{DCD895D5C03E42AB}Assets/Weapons/Rifles/workspaces/m16_player.asi"
+      AnimGraph "{5C41727F96285D4E}Assets/Weapons/MachineGuns/workspaces/M249.agr"
+      AnimInstance "{D8B929B1FC83AD16}Assets/Weapons/MachineGuns/workspaces/M249_player.asi"
       BindingName "Weapon"
      }
      BindWithInjection 1
@@ -373,4 +374,5 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
    }
   }
  }
+ coords 121.394 1.423 118.279
 }

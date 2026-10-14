@@ -1,0 +1,60 @@
+MetaFileClass {
+ Name "{E48B05A9F3BFD393}Assets/Weapons/Lucius_DMR/krieg_lucious_NEW_DMR_LODS.xob"
+ Configurations {
+  FBXResourceClass PC {
+   Offset 0 0 0.09
+   Rotate 0 180 0
+   MaterialAssigns {
+    MaterialAssignClass "{6A9C2DEBC10D6D60}" {
+     SourceMaterial "krieg_ar0"
+     AssignedMaterial "{7458CA2530511A95}Assets/Weapons/Lucius_DMR/Data/krieg_ar0.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GUN {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_GUN {
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_GUN {
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6A9C2DEBC2EBE1C1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.9 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A9C2DEBC2EBE35F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A9C2DEBC2EBE3EF}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A9C2DEBC2EBE3D5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A9C2DEBC2EBE212}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A9C2DEBC2EBE245}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

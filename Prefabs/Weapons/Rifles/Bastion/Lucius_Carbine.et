@@ -1,0 +1,85 @@
+GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{3F3E12414AFB4D53}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_Lasgun.acp" "{A6F3D0955462D8FE}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{2D7F8075DEAC0989}Assets/Weapons/Lucius_DMR/lucius_DMR_wLODS_Drizzt.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Lucius DMR"
+     Description "Battle Group Bastion (Krieg) Lucius pattern marksman lasrifle."
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{5C1A77E3B0A95360}Assets/Weapons/Lucius_DMR/Anims/p_luciusdmr_ik.anm"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69F025C7B97B7438}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset 0 0.1001 0.0218
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+      Offset 0 0 0
+     }
+     SightsPointFront PointInfo "{69F025C7B97AB6F9}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0.0421 -0.05
+     }
+     SightsPointRear PointInfo "{69F025C7B97AB6FB}" {
+      PivotID "eye"
+      Offset 0 0 0.15
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 180
+      }
+     }
+     MagazineWell STC_MagazineWellLasPack_Marksman "{6D2EF90B85AA45F2}" {
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "snap_hand_left"
+      Offset 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
+      Offset 0 0 0
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0135 -0.0602
+      Angles 0 0 0
+     }
+     MagazineTemplate "{566632444AC5B10C}Prefabs/Weapons/Magazines/BFA/Magazine_LasMarksman.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{9821CD00A72A31EA}Assets/Weapons/Rifles/workspaces/m21.agr"
+     AnimInstance "{4E858695D2DC5EEC}Assets/Weapons/Rifles/workspaces/m21_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{69F025C7B97AB919}" {
+      AnimGraph "{9821CD00A72A31EA}Assets/Weapons/Rifles/workspaces/m21.agr"
+      AnimInstance "{B5DB17A44ADD3A00}Assets/Weapons/Rifles/workspaces/m21_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Lucius DMR"
+    Description "Battle Group Bastion (Krieg) Lucius pattern marksman lasrifle."
+    Icon ""
+   }
+  }
+ }
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{A035AD9FC4C89B2A}Assets/Weapons/Lucius_DMR/Data/luciusrifle_BCR.edds"
+ NMOMap "{98ED160D1DBFC9B4}Assets/Weapons/Lucius_DMR/Data/luciusrifle_NMO.edds"
+}

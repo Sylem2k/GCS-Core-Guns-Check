@@ -11,12 +11,12 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
   }
   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
    Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
-    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
-     AnimationIKPose "{5C1A77E3B0A95363}Assets/Weapons/Thillium_Longlas/Anims/p_thillium_ik.anm"
-    }
     ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
      Name "Thillium Long Las"
      Description "Thillium pattern long las."
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{5C1A77E3B0A95363}Assets/Weapons/Thillium_Longlas/Anims/p_thillium_ik.anm"
     }
    }
   }
@@ -24,37 +24,21 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
    components {
     AttachmentSlotComponent "{69F025C7B97B7438}" {
      AttachmentSlot InventoryStorageSlot optics {
-      Prefab "{5C1A77E3B0A95060}Prefabs/Weapons/Attachments/Optics/STC_Scope_LongLas.et"
       PivotID "Slot_Scope"
-      Offset 0.0007 0.003 0
+      Offset -0.0112 -0.0441 0
       ChildPivotID "Snap_Scope"
+      Prefab "{304664561B760EE0}Prefabs/Weapons/Attachments/Optics/Optic_ARTII/Optic_ARTII_OliveGreen_Sand_Stripes_Wrapped.et"
       InspectionWidgetOffset 0 0.255 0.17
      }
      AttachmentType STC_AttachmentOpticsLongLas "{5C1A77E3B0A95062}" {
      }
      ShowInInspection 1
     }
-    SightsComponent "{BB23A637957CFFF8}" {
-     SightsPriority 0
-     SightsPosition PointInfo "{BB23A63796688E69}" {
-      PivotID "Eye"
-      Offset 0 -0.0328 0
-     }
-     SightsPointFront PointInfo "{69F025C7B97AB6F9}" {
-      PivotID "Barrel_Muzzel"
-      Offset 0 0.0326 0
-     }
-     SightsPointRear PointInfo "{69F025C7B97AB6FB}" {
-      PivotID "Eye"
-      Offset 0 -0.0328 0.0636
-     }
-    }
     SCR_2DPIPSightsComponent "{5C1A77E3B0A950A0}" {
      Enabled 0
-     m_iCameraIndex 9
      SightsPosition PointInfo "{5C1A77E3B0A950A1}" {
       PivotID "Eye"
-      Offset 0 -0.0328 0
+      Offset 0 0.0006 -0.0169
      }
      SightsRanges {
       SightRangeInfo "{5C1A77E3B0A950A2}" {
@@ -71,29 +55,64 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
      }
      SightsPointFront PointInfo "{5C1A77E3B0A950A5}" {
       PivotID "Barrel_Muzzel"
-      Offset 0 0.0326 0
+      Offset 0 0.0725 0
      }
      SightsPointRear PointInfo "{5C1A77E3B0A950A6}" {
       PivotID "Eye"
-      Offset 0 -0.0328 0.0636
+      Offset 0 0.0049 0.0636
      }
      ADSTime 0.35
      m_sReticleTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
      m_sReticleGlowTexture "{5C1A77E3B0A95090}Assets/Weapons/Sights/STC_LongLas/STC_RedDot1x_UI.edds"
-     m_ReticleColor 1 0.1 0.05 1
      m_bHasIllumination 1
+     m_ReticleColor 1 0.1 0.05 1
      m_cReticleTextureIllumination 1 0.1 0.05 1
      m_eZeroingType EPZ_RETICLE_OFFSET
+     m_vCameraOffset 0 0 0.253
+     m_iCameraIndex 9
      m_rScopeHDRMatrial "{958809B0DE47E9BF}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_HDR.emat"
      m_fObjectiveFov 24
      m_fReticleAngularSize 18.06
      m_fReticlePortion 1
      m_fReticleBaseZoom 0
      m_fMagnification 1
-     m_vCameraOffset 0 0 0.253
      m_fScopeRadius 0.0079
     }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "Eye"
+      Offset 0 -0.0328 0
+     }
+     SightsPointFront PointInfo "{69F025C7B97AB6F9}" {
+      PivotID "Barrel_Muzzel"
+      Offset 0 0.0326 0
+     }
+     SightsPointRear PointInfo "{69F025C7B97AB6FB}" {
+      PivotID "Eye"
+      Offset 0 -0.0328 0.0636
+     }
+     SightsPriority 0
+    }
     MuzzleComponent "{CA6BE4D6B867541F}" {
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "Scene_Root"
+       Offset 0 0.1098 1.103
+       Angles 0 0 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "Scene_Root"
+       Offset 0 0.1152 1.0886
+       Angles 0 0 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 180
+      }
+     }
      MagazineWell STC_MagazineWellLasPack_Marksman "{FFE45CE55A2E5949}" {
      }
      "LEFT HAND TARGET" DeploymentPointInfo lht {
@@ -104,31 +123,12 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
       PivotID "Snap_Hand_Right"
       Offset 0 0 0
      }
-     MuzzleEndPositions {
-      PointInfo "{B80A64F4B6CFB9BF}" {
-       PivotID "Scene_Root"
-       Offset 0 0.051 0.68
-       Angles 0 0 0
-      }
-     }
-     ProjectileSpawnPositions {
-      PointInfo "{50F64C476EC435CA}" {
-       PivotID "Scene_Root"
-       Offset 0 0.051 0.68
-       Angles 0 0 0
-      }
-     }
-     FireModes {
-      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
-       RoundsPerMinute 180
-      }
-     }
-     MagazineTemplate "{566632444AC5B10C}Prefabs/Weapons/Magazines/BFA/Magazine_LasMarksman.et"
      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
       PivotID "Slot_Magazine"
-      Offset 0 -0.009435 -0.064005
+      Offset 0 -0.00943 -0.06401
       Angles 0 0 0
      }
+     MagazineTemplate "{566632444AC5B10C}Prefabs/Weapons/Magazines/BFA/Magazine_LasMarksman.et"
     }
    }
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
@@ -138,4 +138,5 @@ GenericEntity : "{C6B1C7E1C8851E80}Prefabs/Weapons/Rifles/Lasgun/LasCarbine_Base
    }
   }
  }
+ coords 122.043 1.713 122.485
 }
