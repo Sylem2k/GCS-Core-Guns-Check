@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8325234A9E0F2F40}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_offset.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "kantraelsmg_pose.blend"
+   SourceProfile "EBT-ArmaReforger-Data/anims/export_profiles/101_FullBodyABS"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

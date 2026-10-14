@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AB137997016E7880}Assets/Weapons/Kantrael_SMG/Anims/p_kantraelsmg_safety.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "kantraelsmg_pose.blend"
+   SourceProfile "EBT-ArmaReforger-Data/anims/export_profiles/502_IK_RightHand"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}
